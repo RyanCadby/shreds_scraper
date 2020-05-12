@@ -5,12 +5,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException as ex
-import time
+# import time
 from bs4 import BeautifulSoup
 
-import pandas as pd
-import re
-import os
+# import pandas as pd
+# import re
+# import os
 #website urls
 base_url = 'http://www.worldsnowboarding.org/'
 athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'
