@@ -40,7 +40,7 @@ for link in page_count:
     pages.append(link)
 page_total = pages[-2].text.strip()
 page_total = int(page_total)
-print(page_total)
+print("page total: " + page_total)
 
 for i in range(page_total):
 
@@ -64,7 +64,7 @@ for i in range(page_total):
             driver.execute_script("location.reload()")
 
         # navigate to link
-        WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "ttr-logo")))
+        # WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "ttr-logo")))
         profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
         profile_link.click()
 
