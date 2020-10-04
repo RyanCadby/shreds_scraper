@@ -15,7 +15,7 @@ base_url = 'http://www.worldsnowboarding.org/'
 athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'
 
 # Chrome session
-driver = webdriver.Chrome(executable_path='/Users/rcadby/Sites/scraper_/chromedriver')
+driver = webdriver.Chrome(executable_path='/Users/rcadby/Sites/shreds_scraper/chromedriver')
 driver.get(athletes_url)
 driver.implicitly_wait(100)
 
@@ -169,6 +169,7 @@ for i in range(page_total):
      # navigate to link
     page_next = driver.find_element_by_class_name('next')
     page_next.click()
+
 
 
 f.close()  # Close the file

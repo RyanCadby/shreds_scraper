@@ -64,11 +64,12 @@ for i in range(page_total):
             driver.execute_script("location.reload()")
 
         # navigate to link
+        WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "ttr-logo")))
         profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
         profile_link.click()
 
         try:
-            rider_wait = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "rider-label")))
+            rider_wait = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "rider-label")))
             print('SUCCESS: found rider name on rider profile page')
         except ex:
             not_found = profile_soup.find('div', attrs={'class': 'content-container-t'})
