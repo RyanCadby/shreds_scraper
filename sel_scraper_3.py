@@ -16,7 +16,7 @@ base_url = 'http://www.worldsnowboarding.org/'
 athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'
 
 # Chrome session
-driver = webdriver.Chrome(executable_path='/Users/rcadby/Sites/scraper_/chromedriver')
+driver = webdriver.Chrome(executable_path='/Users/rcadby/Sites/shreds_scraper/chromedriver')
 driver.get(athletes_url)
 driver.implicitly_wait(100)
 
@@ -32,6 +32,13 @@ f.write(headers)
 # get initial page soup
 page_soup = BeautifulSoup(driver.page_source, 'html.parser')
 
+# get links for each page
+# def getLinks(url)
+    
+
+
+
+
 
 # count number of pages
 page_count = page_soup.find('div', attrs={'class': 'pagination-links'}).find_all('a')
@@ -40,17 +47,21 @@ for link in page_count:
     pages.append(link)
 page_total = pages[-2].text.strip()
 page_total = int(page_total)
-print("page total: " + page_total)
+print("page total: " + str(page_total))
 
-for i in range(page_total):
+for i in range(page_total): # for each page of 50 riders
 
     # count profiles per page
     profile_count = len(driver.find_elements_by_class_name('ranking'))
     print(profile_count)
     athlete_profiles = []
 
-    for i in range(profile_count):
+    # get initial page soup
+    each_page_soup = BeautifulSoup(driver.page_source, 'html.parser')
+    profile_links = each_page_soup.find_all(class_="ranking-table-link")
+    print(profile_links)
 
+    for i in range(profile_count):
         # initiate list for rider stats
         profile = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
 
@@ -59,24 +70,56 @@ for i in range(page_total):
 
         try:
             element = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'table')))
+            print('table loaded')
         except ex:
             print('could not find the table holding rider stats.... Refreshing Now')
             driver.execute_script("location.reload()")
 
         # navigate to link
         # WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "ttr-logo")))
-        profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
-        profile_link.click()
+        try: 
+            profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
+            print(profile_link.tag_name)
+            profile_link.click()
+        except ex:
+            print('could not find rider link')
+            driver.execute_script("location.reload()")
+            profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
+            profile_link.click()
+        except IndexError:
+            # get html and parse
+            profile_soup = BeautifulSoup(driver.page_source, 'html.parser')
+            not_found = profile_soup.find('ul', attrs={'class': 'plain-list'})
+            if not_found is not None:
+                print('on rider page found')
+                
+                profile[0] = profile_soup.find_all('.ranking-table-link')[i].text.strip()
+                profile[5] = profile_soup.find_all('icon-flag-medium')[i].attrs.get('oldtitle')
+                profile[5] = profile_soup.find_all('ranking')[i].td.text.strip()
+
+                profile_str = ', '.join(str(x) for x in profile)
+                print('PROFILE STRING: ' + profile_str)
+                f.write(profile_str)
+                f.write("\n")
+                driver.execute_script("window.history.go(-1)")
+                i += 1
+                # navigate to link
+                profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
+                profile_link.click()
+            else:
+                print('Not on rider profile page... clicking now')
+                profile_link.click()
 
         try:
-            rider_wait = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "rider-label")))
-            print('SUCCESS: found rider name on rider profile page')
+            rider_wait = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "rider-label")))
+            print('SUCCESS: found rider name on rider profile page')            
         except ex:
-            not_found = profile_soup.find('div', attrs={'class': 'content-container-t'})
-            if not_found is None:
-                print('page not found')
-                # get html and parse
-                profile_soup = BeautifulSoup(driver.page_source, 'html.parser')
+            # get html and parse
+            profile_soup = BeautifulSoup(driver.page_source, 'html.parser')
+            not_found = profile_soup.find('ul', attrs={'class': 'plain-list'})
+            if not_found is not None:
+                print('on rider page found')
+                
                 profile[0] = profile_soup.find_all('.ranking-table-link')[i].text.strip()
                 profile[5] = profile_soup.find_all('icon-flag-medium')[i].attrs.get('oldtitle')
                 profile[5] = profile_soup.find_all('ranking')[i].td.text.strip()
