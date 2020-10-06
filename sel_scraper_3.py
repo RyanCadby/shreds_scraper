@@ -92,11 +92,12 @@ for i in range(page_total): # for each page of 50 riders
             if fourhundo == 'Page Not Found':
                 # go back to initial page
                 driver.execute_script("window.history.go(-1)")
-                print('FAIL: 404 page not found')
+                print('FAIL: 404 page not found - go back to table')
                 #start new line for new rider profile
                 f.write("\n")
                 print('EXIT: write new line in csv')
-                profile_link = driver.find_elements_by_class_name('ranking-table-link')[i+1]
+                i += 1
+                profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
                 print('EXIT: find new rider')
                 profile_link.click()
             else:
@@ -106,14 +107,6 @@ for i in range(page_total): # for each page of 50 riders
         except IndexError:
             rider_wait = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "rider-label")))
             print('SUCCESS: found rider name on rider profile page')   
-        # except:
-        #     profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
-        #     rider_wait = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "rider-label")))
-        #     if profile_link is None and rider_wait.tag_name != 'h1' :
-        #         driver.execute_script("location.reload()")
-        #         profile_link.click()
-        #     else:
-        #         print('on rider page')
 
         # try:
         #     rider_wait = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "rider-label")))
