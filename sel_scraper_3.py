@@ -21,7 +21,7 @@ driver.get(athletes_url)
 driver.implicitly_wait(100)
 
 # name the output file to write to local disk
-out_filename = "snowboard-profiles.csv"
+out_filename = "./csv/snowboard-profiles.csv"
 # header of csv file to be written
 headers = "riderName, position, points, sponsors, age, nationality, stance, height, residence, resort, website, facebook, twitter  \n"
 
