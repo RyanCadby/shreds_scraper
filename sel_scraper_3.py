@@ -32,8 +32,6 @@ f.write(headers)
 # get initial page soup
 page_soup = BeautifulSoup(driver.page_source, 'html.parser')
 
-# check rider num 294
-
 # count number of pages
 page_count = page_soup.find('div', attrs={'class': 'pagination-links'}).find_all('a')
 pages = []
@@ -47,67 +45,72 @@ for i in range(page_total): # for each page of 50 riders
 
     # count profiles per page
     profile_count = len(driver.find_elements_by_class_name('ranking'))
-    print(profile_count)
+    print('number of riders' + str(profile_count))
 
-    # get initial page soup
-    each_page_soup = BeautifulSoup(driver.page_source, 'html.parser')
-    profile_links = each_page_soup.find_all(class_="ranking-table-link")
+    
+    # create list of rider links per page
+    rank_page_soup = BeautifulSoup(driver.page_source, 'html.parser')
+    profile_links = rank_page_soup.find_all(class_="ranking-table-link")
+    rider_link_array = []
+    for profile_link in profile_links:
+        rider_link_input = 'http://www.worldsnowboarding.org/' + profile_link.get('href')
+        rider_link_array.append(rider_link_input)
+
+    print(rider_link_array)
     print(profile_links)
 
-    for i in range(profile_count):
+    for rider_link in rider_link_array:
         # initiate list for rider stats
         profile = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+        driver.get(rider_link)
 
-
-        # driver.implicitly_wait(5) # seconds
-
-        try:
-            element = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'table')))
-            print('SUCESS: table loaded')
-        except ex:
-            print('FAIL: could not find the table holding rider stats.... Refreshing Now')
-            driver.execute_script("location.reload()")
+            # try:
+            #     element = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.ID, 'table')))
+            #     print('SUCESS: table loaded')
+            # except ex:
+            #     print('FAIL: could not find the table holding rider stats.... Refreshing Now')
+            #     driver.execute_script("location.reload()")
 
         # navigate to link
         # WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "ttr-logo")))
-        try: 
-            profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
-            profile_link.click()
-            print('SUCCESS: clicked on rider link')
-            unknown_page_soup = BeautifulSoup(driver.page_source, 'html.parser')
-            rider_title = unknown_page_soup.find('div', attrs={'class': 'rider-label'})
-            if profile_link is None and rider_title is None:
-                print('FAIL: could not find rider link or rider title')
-                driver.execute_script("location.reload()")
-                print('FAIL: reloaded page')
-                profile_link.click()
-            else:
-                print('SUCCESS: on rider page')
-        except ex:
-            print('FAIL: could not find rider link - timeout exception')
-            # check for page not found
-            profile_soup_test = BeautifulSoup(driver.page_source, 'html.parser')
-            fourhundo = profile_soup_test.find('div', attrs={'class': 'content-container-t'})
-            if fourhundo is not None:
-                page_not_found = profile_soup_test.find('div', attrs={'class': 'content-container-t'}).h1.get_text()
-                if page_not_found == 'Page Not Found':
-                    # go back to initial page
-                    driver.execute_script("window.history.go(-1)")
-                    print('FAIL: 404 page not found - go back to table')
-                    #start new line for new rider profile
-                    f.write("\n")
-                    print('EXIT: write new line in csv')
-                    i += 1
-                    profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
-                    print('EXIT: find new rider')
-                    profile_link.click()
-            else:
-                driver.execute_script("location.reload()")
-                profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
-                profile_link.click()
-        except IndexError:
-            rider_wait = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "rider-label")))
-            print('SUCCESS: found rider name on rider profile page')   
+            # try: 
+            #     profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
+            #     profile_link.click()
+            #     print('SUCCESS: clicked on rider link')
+            #     unknown_page_soup = BeautifulSoup(driver.page_source, 'html.parser')
+            #     rider_title = unknown_page_soup.find('div', attrs={'class': 'rider-label'})
+            #     if profile_link is None and rider_title is None:
+            #         print('FAIL: could not find rider link or rider title')
+            #         driver.execute_script("location.reload()")
+            #         print('FAIL: reloaded page')
+            #         profile_link.click()
+            #     else:
+            #         print('SUCCESS: on rider page')
+            # except ex:
+            #     print('FAIL: could not find rider link - timeout exception')
+            #     # check for page not found
+            #     profile_soup_test = BeautifulSoup(driver.page_source, 'html.parser')
+            #     fourhundo = profile_soup_test.find('div', attrs={'class': 'content-container-t'})
+            #     if fourhundo is not None:
+            #         page_not_found = profile_soup_test.find('div', attrs={'class': 'content-container-t'}).h1.get_text()
+            #         if page_not_found == 'Page Not Found':
+            #             # go back to initial page
+            #             driver.execute_script("window.history.go(-1)")
+            #             print('FAIL: 404 page not found - go back to table')
+            #             #start new line for new rider profile
+            #             f.write("\n")
+            #             print('EXIT: write new line in csv')
+            #             i += 1
+            #             profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
+            #             print('EXIT: find new rider')
+            #             profile_link.click()
+            #     else:
+            #         driver.execute_script("location.reload()")
+            #         profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
+            #         profile_link.click()
+            # except IndexError:
+            #     rider_wait = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "rider-label")))
+            #     print('SUCCESS: found rider name on rider profile page')   
 
         # try:
         #     rider_wait = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "rider-label")))
@@ -136,8 +139,37 @@ for i in range(page_total): # for each page of 50 riders
         #         print('Not on rider profile page... clicking now')
         #         profile_link.click()
 
-        rider_wait = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "rider-label")))
-        print('SUCCESS: found rider name on rider profile page')  
+
+        ###################################
+        # might have to enumerate this
+        ###################################
+        # check rider num 294
+        # try:
+        #     rider_wait = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "rider-label")))
+        #     print('SUCCESS: found rider name on rider profile page')  
+        # except ex:
+        #     print('FAIL: could not find rider link - timeout exception')
+        #     # check for page not found
+        #     profile_soup_test = BeautifulSoup(driver.page_source, 'html.parser')
+        #     fourhundo = profile_soup_test.find('div', attrs={'class': 'content-container-t'})
+        #     if fourhundo is not None:
+        #         page_not_found = profile_soup_test.find('div', attrs={'class': 'content-container-t'}).h1.get_text()
+        #         if page_not_found == 'Page Not Found':
+        #             # go back to initial page
+        #             driver.execute_script("window.history.go(-1)")
+        #             print('FAIL: 404 page not found - go back to table')
+        #             #start new line for new rider profile
+        #             f.write("\n")
+        #             print('EXIT: write new line in csv')
+        #             print('EXIT: find new rider')
+        #             profile_link.click()
+        #     else:
+        #         driver.execute_script("location.reload()")
+        #         profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
+        #         profile_link.click()
+
+
+
         # get html and parse
         profile_soup = BeautifulSoup(driver.page_source, 'html.parser')
         # get rider name
