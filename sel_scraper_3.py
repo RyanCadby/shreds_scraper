@@ -54,7 +54,8 @@ for i in range(page_total): # for each page of 50 riders
     profile_links = rank_page_soup.find_all(class_="ranking-table-link")
     rider_link_array = []
     for profile_link in profile_links:
-        rider_link_input = 'http://www.worldsnowboarding.org/' + profile_link.get('href')
+        # rider_link_input = 'http://www.worldsnowboarding.org/' + profile_link.get('href')
+        rider_link_input = profile_link.get('href')
         rider_link_array.append(rider_link_input)
 
     print(rider_link_array)
@@ -246,7 +247,6 @@ for i in range(page_total): # for each page of 50 riders
                         pass
 
             profile_str = ', '.join(str(x) for x in profile)
-
             print('PROFILE STRING: ' + profile_str)
             f.write(profile_str)
 
@@ -259,6 +259,25 @@ for i in range(page_total): # for each page of 50 riders
             print('FAIL: 404 go back')
             # go back to initial page
             driver.execute_script("window.history.go(-1)")
+
+            table_soup = BeautifulSoup(driver.page_source, 'html.parser')
+            # find_link = table_soup.find('a', attrs={'class': 'ranking-table-link'})
+            find_link = table_sup.select_one("a[href*='" + rider_link + "']")
+            parent = find_link.find_parent('tr', attrs={'class': 'ranking'})
+            stat_array = parent.find_all('td')
+
+            profile[1] = stat_array[0].span.text       #position
+            name = stat_array[3].a.text.split(',')
+            first_name = name[1]
+            last_name = name[0]
+            profile[0] = str(first_name + last_name)   #name
+            profile[5] = stat_array[4].span.text       #nationality
+            profile[4] = int(stat_array[5].text)       #age
+            profile[2] = float(stat_array[8].text)     #points
+
+            profile_str = ', '.join(str(x) for x in profile)
+            print('PROFILE STRING (FROM TABLE): ' + profile_str)
+            f.write(profile_str)
 
             #start new line for new rider profile
             f.write("\n")
