@@ -15,6 +15,7 @@ from bs4 import BeautifulSoup
 #website urls
 base_url = 'http://www.worldsnowboarding.org/'
 athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'
+# athletes_url = 'http://www.worldsnowboarding.org/points-lists/6/?type=SS&gender=M'
 
 # Chrome session
 driver = webdriver.Chrome(executable_path='/Users/rcadby/Sites/shreds_scraper/chromedriver')
@@ -54,8 +55,8 @@ for i in range(page_total): # for each page of 50 riders
     profile_links = rank_page_soup.find_all(class_="ranking-table-link")
     rider_link_array = []
     for profile_link in profile_links:
-        # rider_link_input = 'http://www.worldsnowboarding.org/' + profile_link.get('href')
-        rider_link_input = profile_link.get('href')
+        rider_link_input = 'http://www.worldsnowboarding.org/' + profile_link.get('href')
+        # rider_link_input = profile_link.get('href')
         rider_link_array.append(rider_link_input)
 
     print(rider_link_array)
@@ -139,35 +140,6 @@ for i in range(page_total): # for each page of 50 riders
         #         profile_link.click()
         #     else:
         #         print('Not on rider profile page... clicking now')
-        #         profile_link.click()
-
-
-        ###################################
-        # might have to enumerate this
-        ###################################
-        # check rider num 294
-        # try:
-        #     rider_wait = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CLASS_NAME, "rider-label")))
-        #     print('SUCCESS: found rider name on rider profile page')  
-        # except ex:
-        #     print('FAIL: could not find rider link - timeout exception')
-        #     # check for page not found
-        #     profile_soup_test = BeautifulSoup(driver.page_source, 'html.parser')
-        #     fourhundo = profile_soup_test.find('div', attrs={'class': 'content-container-t'})
-        #     if fourhundo is not None:
-        #         page_not_found = profile_soup_test.find('div', attrs={'class': 'content-container-t'}).h1.get_text()
-        #         if page_not_found == 'Page Not Found':
-        #             # go back to initial page
-        #             driver.execute_script("window.history.go(-1)")
-        #             print('FAIL: 404 page not found - go back to table')
-        #             #start new line for new rider profile
-        #             f.write("\n")
-        #             print('EXIT: write new line in csv')
-        #             print('EXIT: find new rider')
-        #             profile_link.click()
-        #     else:
-        #         driver.execute_script("location.reload()")
-        #         profile_link = driver.find_elements_by_class_name('ranking-table-link')[i]
         #         profile_link.click()
 
 
@@ -262,17 +234,19 @@ for i in range(page_total): # for each page of 50 riders
 
             table_soup = BeautifulSoup(driver.page_source, 'html.parser')
             # find_link = table_soup.find('a', attrs={'class': 'ranking-table-link'})
-            find_link = table_sup.select_one("a[href*='" + rider_link + "']")
+            url = rider_link.strip('http://www.worldsnowboarding.org/')
+            find_link = table_soup.select_one("a[href*='" + url + "']")
             parent = find_link.find_parent('tr', attrs={'class': 'ranking'})
             stat_array = parent.find_all('td')
 
-            profile[1] = stat_array[0].span.text       #position
+            profile[1] = int(stat_array[0].span.text.strip('.'))       #position
             name = stat_array[3].a.text.split(',')
             first_name = name[1]
             last_name = name[0]
             profile[0] = str(first_name + last_name)   #name
             profile[5] = stat_array[4].span.text       #nationality
-            profile[4] = int(stat_array[5].text)       #age
+            if stat_array[5] is not None or len(stat_array[5]) > 0:
+                profile[4] = stat_array[5].text     #age
             profile[2] = float(stat_array[8].text)     #points
 
             profile_str = ', '.join(str(x) for x in profile)
