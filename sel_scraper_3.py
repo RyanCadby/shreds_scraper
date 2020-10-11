@@ -40,7 +40,7 @@ pages = []
 for link in page_count:
     pages.append(link)
 page_total = pages[-2].text.strip()
-page_total = int(page_total)
+page_total = int(page_total + 1)
 print("page total: " + str(page_total))
 
 for i in range(page_total): # for each page of 50 riders
