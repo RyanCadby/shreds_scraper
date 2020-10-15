@@ -14,7 +14,8 @@ from bs4 import BeautifulSoup
 # import os
 #website urls
 base_url = 'http://www.worldsnowboarding.org/'
-athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'
+# athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'
+athletes_url = 'http://www.worldsnowboarding.org/points-lists/27/?type=SS&gender=M'
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/6/?type=SS&gender=M'
 
 # Chrome session
