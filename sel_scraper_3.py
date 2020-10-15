@@ -15,8 +15,8 @@ from bs4 import BeautifulSoup
 #website urls
 base_url = 'http://www.worldsnowboarding.org/'
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'
-athletes_url = 'http://www.worldsnowboarding.org/points-lists/27/?type=SS&gender=M'
-# athletes_url = 'http://www.worldsnowboarding.org/points-lists/6/?type=SS&gender=M'
+# athletes_url = 'http://www.worldsnowboarding.org/points-lists/27/?type=SS&gender=M'
+athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=W#table'
 
 # Chrome session
 driver = webdriver.Chrome(executable_path='/Users/rcadby/Sites/shreds_scraper/chromedriver')
@@ -188,3 +188,18 @@ for i in range(page_total): # for each page
 
 f.close()  # Close the file
 driver.quit()
+
+# WHEN IT IS DONE!!
+# Traceback (most recent call last):
+#   File "sel_scraper_3.py", line 185, in <module>
+#     page_next = driver.find_element_by_class_name('next')
+#   File "/usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 564, in find_element_by_class_name
+#     return self.find_element(by=By.CLASS_NAME, value=name)
+#   File "/usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+#     return self.execute(Command.FIND_ELEMENT, {
+#   File "/usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+#     self.error_handler.check_response(response)
+#   File "/usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+#     raise exception_class(message, screen, stacktrace)
+# selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".next"}
+#   (Session info: chrome=86.0.4240.80)
