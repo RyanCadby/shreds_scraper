@@ -65,7 +65,10 @@ for i in range(page_total): # for each page
     profile_data = rank_page_soup.findAll("tr", {"class":"ranking"})
     country_array = []
     for region in profile_data:
-        country = region.find("span", {"class": "icon-flag-medium"})['oldtitle']
+        try:
+            country = region.find("span", {"class": "icon-flag-medium"})['oldtitle']
+        except:
+            country = ''
         country_array.append(country)
 
     print(profile_links)     # print all a tags to profiles
