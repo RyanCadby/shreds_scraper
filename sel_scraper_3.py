@@ -26,7 +26,7 @@ driver.implicitly_wait(100)
 # name the output file to write to local disk
 out_filename = "./csv/snowboard-profiles.csv"
 # header of csv file to be written
-headers = "riderName, position, points, sponsors, age, nationality, stance, height, residence, resort, website, facebook, twitter  \n"
+headers = "riderName, position, points, sponsors, age, nationality, stance, height, residence, resort, website, facebook, twitter, nationality_full  \n"
 
 # opens file, and writes headers
 f = open(out_filename, "w")
@@ -53,22 +53,34 @@ for i in range(page_total): # for each page
     
     # create list of rider links per page
     rank_page_soup = BeautifulSoup(driver.page_source, 'html.parser')
+    # profile a tags
     profile_links = rank_page_soup.find_all(class_="ranking-table-link")
+    # get urls from a tags
     rider_link_array = []
     for profile_link in profile_links:
         rider_link_input = 'http://www.worldsnowboarding.org/' + profile_link.get('href')
         # rider_link_input = profile_link.get('href')
         rider_link_array.append(rider_link_input)
+    # get whole rank row
+    profile_data = rank_page_soup.findAll("tr", {"class":"ranking"})
+    country_array = []
+    for region in profile_data:
+        country = region.find("span", {"class": "icon-flag-medium"})['oldtitle']
+        country_array.append(country)
 
-    print(rider_link_array)
-    print(profile_links)
-
+    print(profile_links)     # print all a tags to profiles
+    print(rider_link_array)  # print all urls to profiles
+    print(country_array)
+    
+    loop_counter = 0
     for rider_link in rider_link_array:
         # initiate list for rider stats
-        profile = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+        profile = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+        # assign full country name to profile
+        profile[13] = country_array[loop_counter]
+        # click on rider profile
         driver.get(rider_link)
-
-        # get html and parse
+        # get html on rider page and parse
         profile_soup = BeautifulSoup(driver.page_source, 'html.parser')
         # get rider name
         try:
@@ -172,7 +184,7 @@ for i in range(page_total): # for each page
             profile[5] = stat_array[4].span.text       #nationality
             if stat_array[5] is not None or len(stat_array[5]) > 0:
                 profile[4] = stat_array[5].text     #age
-            profile[2] = float(stat_array[8].text)     #points
+            profile[2] = float(stat_array[8].text)  #points
 
             profile_str = ', '.join(str(x) for x in profile)
             print('PROFILE STRING (FROM TABLE): ' + profile_str)
@@ -181,6 +193,7 @@ for i in range(page_total): # for each page
             #start new line for new rider profile
             f.write("\n")
 
+        loop_counter += 1
      # navigate to link
     page_next = driver.find_element_by_class_name('next')
     page_next.click()
