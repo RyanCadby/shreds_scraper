@@ -1,567 +1,567 @@
-position,lastname,firstname,nationality,age,"date of birth","WST Rider ID","fis code","number of results",points
-1,Anderson,Jamie,USA,30,"1990-09-13 00:00:00",17575,9535078,"3 / (4)",833.33
-2,Marino,Julia,USA,23,"1997-09-11 00:00:00",83195,9535365,"3 / (3)",794.70
-3,Blouin,Laurie,CAN,24,"1996-04-07 00:00:00",84387,9105246,"3 / (7)",760.91
-4,Ormerod,Katie,GBR,23,"1997-08-25 00:00:00",72369,1229991,"3 / (6)",667.22
-5,Derungs,Isabel,SUI,33,"1987-07-17 00:00:00",82450,9515143,"3 / (4)",612.27
-6,Baird,Jasmine,CAN,21,"1999-06-29 00:00:00",91659,9105409,"3 / (3)",591.58
-7,Peperkamp,Melissa,NED,,,91750,9405050,"3 / (9)",554.27
-8,Eilertsen,Hanne,NOR,21,"1999-03-23 00:00:00",89004,9425037,"3 / (7)",538.92
-9,Gendron,Sommer,CAN,19,"2001-03-27 00:00:00",88255,9105426,"3 / (7)",522.78
-10,Voigt,Brooke,CAN,26,"1993-11-17 00:00:00",78472,9105100,"3 / (6)",521.85
-11,Poppe,Evy,BEL,16,"2004-03-02 00:00:00",92484,1069925,"3 / (10)",516.45
-12,Morgan,Annika,GER,18,"2002-02-12 00:00:00",88774,9205078,"3 / (6)",511.78
-13,Langland,Hailey,USA,20,"2000-08-02 00:00:00",94228,9535409,"3 / (4)",504.68
-14,"Sadowski Synnott",Zoi,NZL,19,"2001-03-06 00:00:00",94322,9415033,"3 / (4)",501.78
-15,Norendal,Silje,NOR,27,"1993-09-01 00:00:00",72637,9425008,"2 / (2)",501.56
-16,Yoshika,Rina,JPN,21,"1999-04-09 00:00:00",83851,9305311,"3 / (6)",500.00
-17,Lefevre,Lucile,FRA,24,"1995-11-10 00:00:00",75864,9195093,"3 / (6)",499.59
-18,Asanuma,Hinari,JPN,,,83838,9305386,"3 / (7)",499.25
-19,Murase,Kokomo,JPN,15,"2004-11-07 00:00:00",91154,9305415,"3 / (4)",490.43
-20,Schnorrbusch,Ty,USA,,,94561,9535467,"3 / (11)",482.88
-21,Gasser,Anna,AUT,28,"1992-08-16 00:00:00",81369,9055068,"3 / (3)",482.23
-22,Rukajarvi,Enni,FIN,30,"1990-05-13 00:00:00",75256,9185019,"3 / (5)",469.08
-23,Steffensen,Tina,NOR,19,"2001-02-01 00:00:00",92491,9425046,"3 / (5)",446.85
-24,Edamatsu,Chihiro,JPN,,,96738,,"3 / (4)",441.40
-25,Smans,Loranne,BEL,22,"1997-10-30 00:00:00",81104,1069919,"3 / (7)",438.54
-26,Pelchat,Juliette,CAN,,,94718,9105462,"3 / (11)",429.50
-27,Gisler,Bianca,SUI,17,"2003-02-15 00:00:00",93678,9515199,"3 / (6)",415.37
-28,Gardner,Addison,USA,,,96259,,"3 / (5)",403.47
-29,McDonald,Baily,CAN,22,"1998-06-05 00:00:00",91584,9105344,"3 / (8)",402.50
-30,Taka,Eveliina,FIN,,,93436,9185078,"3 / (4)",400.97
-31,Fujimori,Yuka,JPN,34,"1986-06-11 00:00:00",92069,9305001,"2 / (2)",399.57
-32,Okuyama,Kanami,JPN,,,93685,9305367,"3 / (6)",374.33
-33,Gomez,Isabella,USA,,,93346,9535452,"3 / (11)",372.95
-34,Yoshizawa,Hikari,JPN,17,"2003-06-15 00:00:00",97636,9305384,"3 / (4)",372.33
-35,Rummel,Courtney,USA,,,96267,,"3 / (10)",347.07
-36,Vatne-Larsen,"Thea Cassandra",NOR,19,"2000-12-06 00:00:00",93231,,"3 / (4)",338.15
-37,Pancochova,Sarka,CZE,29,"1990-11-01 00:00:00",74989,1159968,"3 / (5)",338.06
-38,Mueller,Lena,SUI,17,"2003-01-21 00:00:00",90856,9515207,"3 / (4)",333.67
-39,Lantos,Emma,AUT,,,94643,9055092,"3 / (11)",333.33
-40,Carlson,Jackie,CAN,,,93334,9105425,"3 / (5)",329.90
-41,Kosova,Ekaterina,RUS,24,"1996-04-25 00:00:00",92144,9485164,"3 / (4)",327.47
-42,Niemelae,Carola,FIN,21,"1999-02-11 00:00:00",93235,9185071,"3 / (7)",324.79
-43,Boesch,Lia-Mara,SUI,26,"1994-09-03 00:00:00",86595,9515157,"3 / (5)",323.23
-44,Danuser,Mona,SUI,,,93677,9515205,"3 / (4)",322.08
-45,Silvestre,Lucie,FRA,,,84726,9195196,"3 / (9)",320.52
-46,Kotani,Yui,JPN,,,99481,,"3 / (3)",315.12
-47,Wuorivirta,Karoliina,FIN,,,93968,9185077,"3 / (7)",313.03
-48,Onitsuka,Miyabi,JPN,22,"1998-10-12 00:00:00",86188,9305286,"3 / (3)",311.79
-49,"Espeli Olsen",Stine,NOR,,,92492,9425055,"3 / (11)",308.08
-50,Stalker,Meila,AUS,,,97604,,"3 / (6)",303.45
-51,Larochaix,Thalie,FRA,21,"1999-01-14 00:00:00",81637,9195178,"3 / (5)",303.40
-52,Fennell,Amber,GBR,13,"2007-02-23 00:00:00",95816,,"3 / (8)",301.37
-53,Smith,Hollie,GBR,,,98128,9225022,"3 / (9)",300.21
-54,Crompton,Maggie,CAN,,,94719,9105461,"3 / (10)",296.57
-55,Maas,Cheryl,NED,36,"1984-09-28 00:00:00",17515,1409999,"3 / (4)",294.32
-56,Rong,Ge,CHN,,,100177,9125121,"3 / (8)",293.42
-57,Candrian,Sina,SUI,31,"1988-11-21 00:00:00",52643,9515010,"3 / (3)",292.96
-58,Iwabuchi,Reira,JPN,18,"2001-12-14 00:00:00",81781,9305338,"2 / (2)",290.01
-59,Thurgood,Jade,USA,,,95866,9535487,"3 / (4)",288.61
-60,Flemming,Nadja,GER,24,"1995-12-07 00:00:00",90909,9205073,"3 / (6)",284.61
-61,Adams,Kaitlyn,USA,15,"2005-09-16 00:00:00",90636,9535573,"3 / (6)",280.94
-62,Kreisingerova,Marie,CZE,,,87889,9155054,"3 / (6)",278.36
-63,Kozuback,Kamilla,CAN,16,"2004-05-05 00:00:00",93492,9105435,"3 / (9)",275.90
-64,Immonen,Veera,FIN,,,95738,9185079,"3 / (4)",272.32
-65,Roll,Bettina,NOR,,,92495,9425056,"3 / (6)",269.05
-66,Traub,Terra,TPE,,,100993,,"3 / (4)",266.32
-67,Gendron,Andie,CAN,17,"2003-09-03 00:00:00",88253,9105441,"3 / (7)",263.60
-68,Wakushima,Cool,NZL,,,97576,9415037,"3 / (3)",259.18
-69,Bischof,Babet,SUI,20,"2000-04-22 00:00:00",92594,9515178,"3 / (5)",258.06
-70,Bockhorni,Heli,GER,,,93814,,"3 / (6)",257.60
-71,Hahnl,Marie,GER,,,95335,9205088,"3 / (7)",256.28
-72,Zaveska,Laura,CZE,13,"2006-10-30 00:00:00",99223,,"3 / (4)",255.57
-73,Weiler,Danielle,USA,,,96933,,"3 / (3)",254.01
-74,Volopichova,Vanessa,CZE,,,99076,,"3 / (3)",252.03
-75,Sorensen,Ella,USA,,,98868,,"3 / (8)",248.57
-76,Medlova,Klaudia,SVK,26,"1993-10-26 00:00:00",81727,1709938,"3 / (3)",248.20
-77,Mittermueller,Silvia,GER,37,"1983-08-08 00:00:00",32669,1708267,"3 / (4)",245.63
-78,Rose,Acacia,NOR,,,94573,9425058,"3 / (6)",243.94
-79,Brookes,Mia,GBR,,,97672,,"3 / (3)",238.29
-80,Tanno,Livia,SUI,18,"2002-07-27 00:00:00",92535,9515187,"3 / (4)",237.62
-81,Romanova,Varvara,RUS,,,97654,,"3 / (7)",237.53
-82,Moroco,Alyssa,USA,,,96934,,"3 / (7)",234.57
-83,Coady,Tess,AUS,19,"2000-11-02 00:00:00",90557,9045103,"1 / (1)",233.33
-84,Yoshika,Yuri,JPN,24,"1996-02-22 00:00:00",84863,9305266,"3 / (3)",233.15
-85,Kampesaether,Live,NOR,,,100428,,"3 / (3)",232.53
-86,Avelar,Rori,USA,,,98723,9535546,"3 / (5)",232.25
-87,Somaini,Carla,SUI,29,"1991-10-13 00:00:00",80734,9515153,"2 / (2)",232.05
-88,Hahnl,Laura,GER,,,95336,,"3 / (7)",230.24
-89,Mylius,Maria,NOR,,,92494,9425054,"3 / (8)",228.76
-90,Hanicova,Eva,SVK,,,97628,1709950,"3 / (7)",225.99
-91,Dhondt,Brooke,CAN,15,"2005-03-09 00:00:00",93624,,"3 / (5)",217.68
-92,Engholm,Novalie,SWE,,,100426,,"3 / (4)",214.25
-93,"Plur De La Rosa",Manola,GER,14,"2006-08-03 00:00:00",96340,,"3 / (6)",211.15
-94,Sakakibara,Kokona,JPN,,,99510,,"3 / (4)",210.64
-95,Kellogg,Makayla,USA,18,"2002-03-06 00:00:00",94174,,"3 / (4)",208.24
-96,Saarela,Enni,FIN,,,96441,,"3 / (5)",204.93
-97,Marguerite,Sweeney,CAN,,,95650,9105386,"3 / (7)",202.04
-98,Nakagawa,Ayano,JPN,,,97902,,"3 / (6)",199.87
-99,"O Brien",Spencer,CAN,32,"1988-02-02 00:00:00",20671,7105013,"3 / (3)",198.14
-100,Hallen,Veda,USA,,,98864,,"3 / (6)",197.38
-101,Ren,Ziyan,CHN,,,96056,9125012,"3 / (4)",197.23
-102,Fukada,Mari,JPN,,,100741,,"3 / (4)",195.30
-103,Hyatt,Kianah,CAN,18,"2002-08-28 00:00:00",92616,9105404,"3 / (6)",195.05
-104,Hendrix,Barrett,USA,,,96988,,"3 / (9)",194.53
-105,Guo,Junyan,CHN,,,96919,9125071,"3 / (4)",194.11
-106,Equy,Noemie,FRA,,,92072,9195205,"3 / (10)",192.98
-107,"Williams ",Darcy-Jane,GBR,,,99215,,"3 / (5)",192.13
-108,Cowan,Lola,USA,,,98229,,"3 / (6)",191.29
-109,Tomanova,Anna,CZE,,,99077,,"3 / (5)",190.93
-110,Suitiala,Ella,FIN,31,"1989-10-01 00:00:00",85514,9185036,"2 / (2)",188.85
-111,Steeg,Philippa,GER,,,98609,,"3 / (5)",187.25
-112,Yoshida,Remi,JPN,,,99482,,"3 / (5)",187.01
-113,Colsters,Shania,NED,,,99298,,"3 / (4)",186.69
-114,"Lane Hopkins","Luca Mai",GBR,17,"2002-11-13 00:00:00",96140,9225011,"3 / (5)",185.99
-115,Poluzzi,Marilu,ITA,,,86549,9295175,"3 / (5)",184.41
-116,Kolodziej,Shirly,SUI,,,94140,,"3 / (3)",182.85
-117,Raisanen,Ida,FIN,,,93268,9185070,"3 / (4)",182.75
-118,Yanez,Antonia,CHI,21,"1999-10-05 00:00:00",96053,1119982,"3 / (3)",179.81
-119,Lehtinen,Sini,FIN,20,"2000-05-25 00:00:00",93267,9185075,"3 / (4)",179.33
-120,Zvadova,Viktorie,CZE,,,99225,,"3 / (5)",178.28
-121,"Van Vreden",Romy,NED,,,94927,9405053,"3 / (5)",173.89
-122,"Espeli Olsen",Kamilla,NOR,,,96132,,"3 / (6)",172.12
-123,Napess,Lounah,CAN,,,96609,9105474,"3 / (5)",169.35
-124,Bogdanova,Elizaveta,RUS,,,91094,9485287,"3 / (3)",169.24
-125,Pribosic,Urska,SLO,30,"1990-07-26 00:00:00",79937,1569959,"2 / (2)",167.80
-126,Kashevnik,Nika,RUS,,,94714,9485307,"3 / (3)",166.85
-127,Derminio,Lauren,USA,,,99121,,"3 / (5)",166.37
-129,Stepanova,Eseniya,RUS,,,97655,,"3 / (4)",161.89
-130,Morii,Kiara,JPN,,,96870,,"2 / (2)",161.07
-131,Norman,Hahna,USA,,,98869,,"3 / (5)",161.06
-132,Stroh,Karolina,GER,,,94810,,"3 / (4)",159.45
-133,Luurila,Maija,FIN,,,95658,,"3 / (4)",159.11
-134,Sano,Kokomi,JPN,,,100742,,"3 / (4)",157.84
-135,Holzfeind,Kristina,AUT,,,99217,,"3 / (6)",157.02
-136,Duchow,Ellie,USA,,,97817,9535539,"3 / (4)",154.32
-137,Li,Dongyu,CHN,,,93917,9125005,"3 / (3)",152.95
-138,Salgueira,Luan,FRA,19,"2001-01-01 00:00:00",81655,9190442,"3 / (4)",152.14
-139,Fillion,Oceane,CAN,22,"1998-09-02 00:00:00",91853,9105340,"3 / (3)",151.99
-140,Flynn,Rebecca,USA,,,98765,,"3 / (4)",149.83
-141,Salis,Andrina,SUI,,,93064,,"3 / (3)",149.63
-142,Jaakkola,Milja,FIN,,,95667,,"3 / (4)",149.38
-143,Kvamme,Jenny,NOR,,,98269,,"3 / (4)",149.07
-144,Kostenko,Elena,RUS,25,"1995-08-29 00:00:00",89882,9485178,"3 / (5)",146.73
-145,Suzuki,Momo,JPN,,,100744,,"3 / (4)",146.55
-146,Loginova,Anastasiia,RUS,,,94603,9485339,"3 / (5)",144.62
-147,Zung,Kiara,AUT,,,92700,9055102,"3 / (3)",144.07
-148,Kimura,Ryo,JPN,,,91139,9305360,"3 / (4)",142.75
-149,Kulik,"Kristyna Leony",CZE,,,96147,9155039,"3 / (3)",140.80
-150,Maeda,Suzuha,JPN,,,98211,9305453,"1 / (1)",140.72
-151,Sarkipaju,Telma,FIN,,,97426,9185080,"3 / (3)",140.49
-152,Dowley,Eve,AUS,,,96015,9045123,"3 / (5)",138.45
-153,Birkkjaer,Bailey,CAN,23,"1996-12-14 00:00:00",91463,9105343,"3 / (3)",137.84
-154,Jugovac,Lea,CRO,25,"1994-11-07 00:00:00",86375,1389930,"3 / (6)",135.26
-155,Gale,Madison,CAN,18,"2002-03-19 00:00:00",95604,9105430,"3 / (9)",134.42
-156,Tmusic,Katarina,SRB,,,95753,9315001,"3 / (7)",133.33
-157,Zvadova,Sara,CZE,,,99224,,"3 / (3)",130.63
-158,Araya,Rino,JPN,,,95790,9305377,"3 / (6)",128.48
-159,Zhai,Yue,CHN,,,92445,1129993,"2 / (2)",127.53
-160,Komuro,Yuna,JPN,19,"2000-11-19 00:00:00",81776,,"2 / (2)",125.95
-161,Harinen,Ada,FIN,,,100611,,"3 / (3)",125.47
-162,Cook,Ava,CAN,,,97943,,"3 / (7)",125.18
-163,Ignjatov,Jelena,SRB,25,"1995-05-22 00:00:00",95314,1319997,"3 / (7)",124.70
-164,Grempel,Mia,GER,,,93576,9205089,"2 / (2)",122.66
-165,Aizawa,Mao,JPN,,,90219,9305334,"2 / (2)",121.61
-166,Cospolich,Alina,USA,,,96935,,"3 / (6)",121.50
-167,Evensen,Emilie,NOR,33,"1987-07-14 00:00:00",70621,,"2 / (2)",121.08
-168,"Plur De La Rosa",Lucia,GER,,,97275,,"3 / (6)",120.94
-169,Zhang,Tong,CHN,,,96059,9125011,"2 / (2)",120.89
-170,Hjalland,Tina,NOR,,,99331,,"3 / (3)",119.26
-171,Phillips,Molly,FRA,,,94632,9195252,"2 / (2)",116.70
-172,Bakke,Emma,NOR,,,95307,,"3 / (4)",115.79
-173,Maheux,Emeraude,CAN,,,97928,,"3 / (6)",115.16
-174,Burri,Ariane,SUI,20,"2000-04-14 00:00:00",88779,9515168,"3 / (3)",114.63
-175,Walker,Jenna,CAN,,,98468,,"3 / (4)",113.76
-176,Rue,"Thea Christine",NOR,,,99333,,"3 / (4)",112.96
-177,Chen,Alexandra,AUS,,,92293,9045098,"3 / (4)",111.50
-178,Loetscher,Isabelle,SUI,,,88803,9515197,"3 / (3)",108.51
-179,Lora,Anna,AUT,26,"1994-08-18 00:00:00",93604,,"3 / (5)",105.75
-180,"Kristiansen Rue",Andrea,NOR,,,99339,,"1 / (1)",105.52
-181,Mauro,Bella,USA,,,96936,,"3 / (5)",105.03
-182,Kato,Imari,JPN,,,100743,,"2 / (2)",104.26
-183,Nastic,Nicole,CRO,,,98192,,"3 / (7)",102.33
-184,Zaradna,Paulina,POL,,,99563,,"3 / (3)",101.67
-185,MacIejewska,Martyna,POL,,,97670,9435081,"3 / (4)",100.92
-186,Johansen,Hege,NOR,,,97101,,"3 / (4)",100.77
-187,Klacar,Asja,BIH,,,97369,1719915,"3 / (7)",100.00
-187,Cornell,Nora,ESP,,,100531,,"3 / (3)",100.00
-189,Geremia,Felicity,CAN,,,96569,,"3 / (5)",99.60
-190,Benneker,Olivia,SUI,,,94955,,"3 / (3)",97.27
-191,Elvy,Sascha,AUS,,,99422,,"3 / (6)",96.65
-192,Sakakibara,Niina,JPN,,,99507,,"3 / (4)",95.85
-193,McCaffrey,Angelina,CAN,,,98488,,"3 / (3)",93.83
-194,Pizzutto,Matilde,ITA,,,99006,9295192,"3 / (3)",91.54
-195,"Poggi Silveira",Morena,ARG,,,97540,1039981,"3 / (6)",90.97
-196,Li,Rongrong,CHN,,,100226,,"2 / (2)",89.94
-197,Locatin,Giorgia,ITA,,,80688,9295119,"2 / (2)",87.96
-198,Walz,Janina,GER,12,"2008-01-01 00:00:00",100769,,"3 / (3)",87.62
-199,Leenderts,Anine,NOR,18,"2001-11-05 00:00:00",93207,,"1 / (1)",87.59
-200,Scheidegger,Yuna,SUI,,,96744,,"3 / (3)",87.45
-201,"Chavez Martinez","Maria Azul",ARG,,,96050,1039974,"3 / (7)",86.96
-202,Mueller,Paulina,GER,,,99291,,"3 / (6)",86.42
-203,Takizawa,Futaba,JPN,,,100597,,"3 / (3)",85.97
-204,Allen,Cerys,GBR,20,"2000-04-20 00:00:00",82326,9225010,"2 / (2)",85.70
-205,Jin,Rongxi,CHN,,,100219,,"3 / (4)",84.98
-206,Hlynsdottir,"Anna Kamilla",ISL,,,97436,1259947,"3 / (5)",84.33
-207,Desjardins,Rose,CAN,,,96236,,"3 / (4)",82.56
-208,Gennero,Emma,ITA,,,87512,9295171,"2 / (2)",82.04
-209,Tsuchiya,Hanon,JPN,,,100767,,"3 / (4)",81.94
-210,Collins,Kaiya,NZL,,,97605,,"2 / (2)",81.60
-211,Haensel,Ronja,AUT,,,96457,9055105,"3 / (3)",81.28
-212,Osther,Cornelia,NOR,,,97645,,"2 / (2)",80.71
-213,Heinonen,Heta,FIN,,,100164,,"3 / (3)",80.66
-214,Remans,Sky,BEL,,,99807,,"2 / (2)",80.23
-215,Kaikuranta,Jasmin,FIN,,,96551,,"3 / (3)",79.21
-216,"Da Silva",Aroa,ESP,,,100532,,"3 / (3)",78.89
-217,Hill,Maisie,GBR,19,"2001-02-12 00:00:00",92534,9225000,"3 / (3)",78.58
-218,Martinelli,Olga,ITA,,,97277,9295173,"1 / (1)",77.98
-219,Schipani,Elena,USA,,,98861,,"2 / (2)",77.74
-220,Peck,Dana,USA,,,98027,,"2 / (2)",77.52
-221,Steinthorsdottir,Bergdis,ISL,,,99035,,"3 / (3)",77.03
-222,Sebkova,Tereza,CZE,,,94190,9155035,"2 / (2)",76.03
-223,Hasler,Leonie,SUI,,,99622,,"1 / (1)",75.90
-224,Paul,Ilvy,AUT,,,96749,,"3 / (3)",75.87
-225,Maekawa,Saya,JPN,,,99506,,"3 / (3)",75.66
-226,Chymcakova,Anna,CZE,,,100443,,"3 / (3)",75.26
-227,Boland,Riley,CAN,,,99948,,"3 / (3)",74.97
-228,"Seijas Fidalgo",Andrea,ESP,,,100851,,"3 / (3)",73.98
-229,Healey,Nora,USA,22,"1998-06-16 00:00:00",84507,9535374,"3 / (3)",73.73
-230,Coumont,Summer,CAN,,,96589,,"3 / (3)",73.61
-231,Ikola,Henna,FIN,22,"1998-04-26 00:00:00",84790,9185051,"3 / (3)",73.03
-232,Oram,Viviana,USA,,,98764,,"3 / (4)",73.01
-233,Utsumi,Kirari,JPN,,,98177,,"3 / (3)",72.85
-234,Petkovska,Marija,MKD,,,99797,,"3 / (3)",71.71
-235,Wright,Emily,CAN,,,100143,,"2 / (2)",70.08
-236,Paul,Ronja,AUT,,,96750,,"2 / (2)",69.89
-237,Kato,Hinoka,JPN,,,99512,,"2 / (2)",69.89
-238,Herleiksplass,Karoline,NOR,22,"1997-10-21 00:00:00",74162,9425039,"1 / (1)",69.51
-239,Valcl,"Tinkara Tanja",SLO,,,95193,9565009,"2 / (2)",68.82
-240,Tan,Chu,CHN,,,100220,,"3 / (4)",68.60
-241,"Dahle Stavanes",Eira,NOR,,,100429,,"3 / (3)",68.31
-242,Merickova,Eliska,CZE,,,99073,,"3 / (3)",68.04
-243,Overland,Ashyln,USA,,,100710,,"3 / (3)",67.00
-244,Murase,Yura,JPN,,,93686,,"1 / (1)",66.67
-245,Ren,Zizheng,CHN,,,96060,9125013,"2 / (2)",66.32
-246,Murawskaia,Darina,BLR,,,92426,1669960,"3 / (3)",65.74
-247,Watanabe,Nami,JPN,,,98164,,"2 / (2)",64.82
-248,Kokushkina,Maria,RUS,,,100234,,"3 / (3)",64.43
-249,Hlynsdottir,"Unnur Solveig",ISL,,,97439,1259948,"3 / (3)",63.83
-250,Petrig,Celia,SUI,25,"1995-02-28 00:00:00",80756,9515142,"1 / (1)",63.36
-251,"Van Lieshout",Sam,NED,,,94630,,"1 / (1)",63.03
-252,"Jong De",Jacquelina,NED,14,"2006-03-08 00:00:00",88775,,"1 / (1)",62.49
-253,Roegenaes,"Caroline Amalie",NOR,,,100435,,"1 / (1)",62.33
-254,Moffat,Krystina,CAN,,,99401,,"2 / (2)",61.84
-255,Ito,Kureha,JPN,,,99509,,"3 / (3)",61.38
-256,Bruck,Sophia,USA,,,100654,,"3 / (3)",61.14
-257,Starblanket,Ava,CAN,,,98467,,"3 / (3)",60.23
-258,"Van Griensven",Demi,NED,,,99818,,"1 / (1)",60.16
-259,Bogart,Kailey,USA,,,98061,,"1 / (1)",59.94
-260,Oswald,Ronja,SUI,,,98603,,"1 / (1)",59.54
-261,Kunitake,Maki,JPN,,,95000,9305336,"1 / (1)",58.94
-262,Arvanitidou,Eleni,GRE,,,100629,,"3 / (4)",58.77
-263,Pouch,Olivie,CZE,,,99294,,"2 / (2)",58.39
-264,Banados,"Maria Teresa",CHI,,,96048,1119984,"3 / (5)",58.35
-265,Spalding,Avery,CAN,,,93332,,"1 / (1)",58.08
-266,Gregori,Jennifer,ITA,23,"1997-04-10 00:00:00",81850,9295189,"1 / (1)",57.13
-266,Klacar,Adna,BIH,,,97368,1719914,"3 / (6)",57.13
-268,Cook,Kaeleigh,CAN,,,98481,,"3 / (7)",56.86
-269,Olejniczak,Emma,FRA,,,99923,,"2 / (2)",56.82
-270,Gerry,Isabella,USA,,,100989,,"3 / (3)",56.78
-271,Okado,Rion,JPN,,,99505,,"2 / (2)",55.49
-272,Raun,Lissel,EST,,,100098,1399913,"2 / (2)",55.38
-273,Sanchez,Selenata,ESP,,,100509,,"1 / (1)",55.31
-274,Jekel,Lily,AUS,,,97547,,"3 / (4)",54.49
-275,Kuoppala,Khaila,FIN,,,100163,,"2 / (2)",54.23
-276,Saijo,Karen,JPN,,,99504,,"3 / (4)",54.15
-277,Puustinen,Reetta,FIN,,,100162,,"1 / (1)",53.76
-278,Kono,Kanna,JPN,,,99652,,"2 / (2)",52.79
-279,Forno,"Anna Maria",ITA,,,97115,,"1 / (1)",52.32
-280,Suzuki,Tokuko,JPN,,,76161,9305308,"1 / (1)",51.99
-281,Pecanin,Uma,BIH,,,99364,,"2 / (2)",51.99
-282,Gorshenina,Anastasiya,RUS,,,101082,,"1 / (1)",51.89
-283,Meier,Julia,SUI,,,94951,,"1 / (1)",51.37
-284,Springinsfeld,Camila,ARG,,,94358,1039970,"2 / (2)",50.63
-285,Klemm,"Lua Marie",GER,,,99064,,"2 / (2)",49.79
-286,Good,Natalie,NZL,30,"1990-01-09 00:00:00",84755,9415023,"1 / (1)",49.78
-287,Misund,"Ine Marie",NOR,,,92496,9425053,"2 / (2)",49.67
-288,Wada,Rein,JPN,,,95427,9305375,"2 / (2)",49.03
-289,Thomassen,Ziggy,NED,,,99229,,"1 / (1)",48.75
-290,"Hekne Herskedal",Aliya,NOR,,,100719,,"1 / (1)",48.59
-291,Meersteiner,Madeleine,GER,,,92987,,"1 / (1)",48.40
-292,Heimoz,Anina,SUI,,,99958,,"1 / (1)",47.88
-293,Dobreska,Neda,MKD,,,99203,,"3 / (5)",47.80
-294,Fuchs,Joanna,GER,,,100439,,"3 / (3)",47.77
-295,Karrer,Sophia,AUT,,,100508,,"2 / (2)",46.97
-296,Smirnova,Maria,RUS,,,100233,,"1 / (1)",46.69
-296,Proydina,Juliya,RUS,,,94583,9485309,"1 / (1)",46.69
-298,"Van Griensven",Daniek,NED,,,99234,,"1 / (1)",46.39
-299,Kvaale,Mette,NOR,,,95876,,"1 / (1)",45.76
-300,Hara,Yukino,JPN,,,95185,9305433,"1 / (1)",45.71
-301,Milutinovic,"Angelina Gina",SRB,,,92997,9315000,"2 / (2)",45.48
-302,Cardone,Amanda,CHI,,,99124,,"2 / (2)",45.04
-303,Grangila,Elena,ITA,,,99184,,"1 / (1)",44.73
-304,Okado,Riria,JPN,,,100762,,"3 / (3)",44.53
-305,Gorcsosova,Ella,SVK,,,101011,,"1 / (1)",44.52
-306,Schindler,Jule,GER,,,100963,,"1 / (1)",43.77
-307,Nakamori,Hanna,JPN,,,100830,,"1 / (1)",43.56
-308,Nerandzic,Nadja,SRB,,,99205,,"3 / (3)",42.83
-309,Noskova,Denisa,CZE,,,99864,,"2 / (2)",42.45
-310,Arellano,Josefa,CHI,,,100201,,"3 / (3)",42.43
-311,Mikuni,Momoka,JPN,,,99552,9305446,"2 / (2)",42.22
-312,Scott,Penelope,USA,,,100253,,"3 / (4)",41.91
-313,Reinalter,Anna-Selina,SUI,,,99959,,"1 / (1)",41.76
-314,Wilson,Beth,CAN,19,"2001-09-28 00:00:00",91609,9105393,"2 / (2)",41.53
-315,Marzinotto,Laura,CAN,,,100144,,"1 / (1)",41.35
-316,Merkhoffer,Melina,GER,26,"1994-01-09 00:00:00",82929,9205071,"2 / (2)",40.84
-317,Larkiala,Stella,FIN,,,96552,,"2 / (2)",40.40
-318,Tanaka,Yuna,JPN,,,89378,,"1 / (1)",40.00
-319,Karrer,Hanna,AUT,,,100507,,"2 / (2)",39.39
-320,Coffey,Peighton,USA,,,98726,,"2 / (2)",39.32
-321,Wick,Lura,SUI,,,98256,,"1 / (1)",39.06
-322,Olsen,Gabby,CAN,,,100601,,"3 / (3)",38.92
-323,Ewoldt,Django,USA,,,95849,9535584,"2 / (2)",38.75
-324,Hipp,Helene,GER,,,100964,,"1 / (1)",38.27
-325,Antyasova,Tianina,RUS,,,100236,,"2 / (2)",37.97
-326,Belikova,Dariya,RUS,,,94713,9485308,"1 / (1)",37.75
-327,Black,Margie,USA,,,96505,9535502,"1 / (1)",37.75
-327,Willemsen,Zoë,NED,,,99742,,"1 / (1)",37.75
-329,Ghostkeeper,Mya,CAN,,,97859,,"2 / (2)",36.81
-330,Janett,Soha,SUI,,,99519,,"1 / (1)",36.54
-331,Naudi,Aixa,AND,,,100525,,"3 / (3)",36.54
-332,Johnsen,Pia,NOR,,,100430,,"2 / (2)",36.29
-333,Bachmann,Johanna,GER,,,99290,,"2 / (2)",35.98
-334,Charlec,Maelis,FRA,,,98664,9195263,"1 / (1)",35.80
-335,Krasneva,Varvara,CAN,23,"1997-09-08 00:00:00",95439,9105403,"1 / (1)",35.56
-336,Solomon,Charley,CAN,,,100664,,"3 / (3)",35.51
-337,Djogic,Andjela,SRB,,,100624,,"3 / (4)",35.46
-338,Kokko,Anna-Sofia,FIN,,,97149,,"3 / (3)",34.83
-339,Ogawa,Hikaru,JPN,,,84345,9305287,"1 / (1)",34.76
-340,Fernandez,Nerea,AND,,,100521,,"3 / (3)",34.52
-341,Bietenholz,Anouk,SUI,,,98365,,"1 / (1)",34.19
-342,Johnsen,Emilie,NOR,,,99330,,"2 / (2)",34.12
-343,Yanow,Chloe,CAN,,,97858,,"2 / (2)",33.65
-344,Makela,Maaru,FIN,,,100161,,"2 / (2)",33.61
-345,Simanaviciute,Goda,LTU,,,98193,,"1 / (1)",33.33
-345,Weinberg,Rochelle,USA,,,97789,,"1 / (1)",33.33
-345,Shute,Samantha,CAN,,,97384,,"1 / (1)",33.33
-348,Peetz,Emma,GER,,,100965,,"1 / (1)",33.13
-349,Huang,Zhixin,CHN,,,100227,9125128,"1 / (1)",32.73
-350,Hanson,MacKenzie,CAN,,,99350,,"2 / (2)",32.71
-351,Alba,Sonora,USA,,,96995,,"1 / (1)",32.23
-352,Schrott,Tina,GER,,,95274,,"1 / (1)",32.05
-353,Steinsdottir,"Lilja Ros",ISL,,,97462,1259940,"2 / (2)",32.03
-354,Corti,Tosca,SUI,,,98364,,"1 / (1)",31.97
-355,Klaussen,Emilie,NOR,,,96486,,"2 / (2)",31.95
-356,Lundberg,Julia,SWE,,,89239,9505041,"3 / (3)",31.73
-357,Eising,Dakoda,CAN,,,99351,,"2 / (2)",31.57
-358,Hisaoka,Karin,JPN,,,101025,,"2 / (2)",31.47
-359,Jovanovic,Jana,SRB,,,101013,,"3 / (3)",31.37
-360,Edwinsdottir,Vildis,ISL,,,97463,1259944,"3 / (3)",30.78
-361,Nymoen,Ingvild,NOR,,,88934,9425050,"1 / (1)",30.48
-362,Honda,Nanami,JPN,,,100766,,"3 / (3)",30.33
-363,Handa,Saara,JPN,,,95184,,"1 / (1)",29.93
-364,Wyss,Merlin,SUI,,,98613,,"1 / (1)",29.86
-365,Vachet,Gaia,ITA,,,92585,,"3 / (3)",29.82
-366,Dhawornvej,Lily,USA,,,97785,,"1 / (1)",29.66
-367,Rix,Lela,USA,,,98863,,"2 / (2)",29.52
-368,Irhina,Elizaveta,RUS,,,100235,,"2 / (2)",29.15
-369,Kroell,Elisa,AUT,,,97868,,"1 / (1)",28.89
-370,Hyry,Eevastiina,FIN,,,100689,,"1 / (1)",28.79
-371,Viererbe,Leila,GER,,,100966,,"1 / (1)",28.30
-372,Ivanovaite,Patricija,LTU,,,100859,,"1 / (1)",28.14
-372,Osmond,Andi,CAN,,,101090,,"1 / (1)",28.14
-374,Tanaka,Kaede,JPN,,,99503,,"2 / (2)",28.07
-375,Dürr,"Anna Lena",SUI,,,98616,,"1 / (1)",27.85
-376,White,Kinsley,USA,,,86544,9535485,"1 / (1)",27.62
-377,Poulat,Camille,FRA,,,100079,,"1 / (1)",26.88
-378,Snorradottir,Sol,ISL,,,99037,,"2 / (2)",26.86
-379,Bauer,Rosalie,GER,,,100795,,"1 / (1)",26.67
-380,Moreau,Clara,FRA,,,97376,,"1 / (1)",26.53
-381,Valkenborgh,Elle,BEL,,,101000,,"1 / (1)",26.43
-382,Gordon,Paige,CAN,,,97984,,"1 / (1)",25.99
-383,Demke,Lisa,SUI,,,99981,,"1 / (1)",25.93
-384,Kitano,Hiroka,JPN,,,97898,9305381,"1 / (1)",25.43
-385,Wolf,Tanja,AUT,,,101107,,"1 / (1)",25.09
-386,Saarela,Iina,FIN,,,100690,,"1 / (1)",24.65
-387,Yen-Linn,Mak,AUT,,,101097,,"1 / (1)",24.47
-388,Nakashima,Risa,JPN,2,"2018-10-14 00:00:00",79015,9305321,"1 / (1)",24.38
-389,Firnesz,Eva,CAN,,,97981,,"1 / (1)",24.08
-390,Graf,Lynne,SUI,,,99982,,"1 / (1)",24.07
-391,Langer,Caitlyn,USA,,,100657,,"2 / (2)",24.01
-392,MacGeorge,Zoe,SUI,,,100248,,"1 / (1)",23.96
-393,"Topp Oye","Nora Synnove",NOR,,,99332,,"2 / (2)",23.93
-394,Milenkovic,Neda,SRB,,,99546,,"3 / (4)",23.73
-395,Holden,Gabriella,USA,,,100252,,"3 / (3)",23.60
-396,Bogart,Ashley,USA,,,98060,,"1 / (1)",23.43
-397,McCarthy,Amy,CAN,,,97923,,"1 / (1)",23.34
-397,Kalinovska,Tina,LAT,,,100028,,"1 / (1)",23.34
-399,Picchedda,Stella,FRA,,,100080,,"1 / (1)",22.88
-400,Nyvelt,Mila,AUT,,,97869,,"1 / (1)",22.58
-401,Sprenger,Samira,SUI,,,98369,,"1 / (1)",22.27
-402,Gabriele,Katie,USA,,,98866,,"1 / (1)",22.04
-403,Maeda,Saaya,JPN,,,99647,,"1 / (1)",21.85
-403,Brearley,Emma,CAN,,,93331,,"1 / (1)",21.85
-405,Fedchenko,Diana,RUS,,,96422,,"1 / (1)",21.49
-406,Kato,Yuki,JPN,,,95429,9305358,"1 / (1)",21.23
-407,Vollelv,Frida,NOR,,,79594,,"1 / (1)",21.01
-407,Hankova,Stepanka,CZE,,,99367,,"1 / (1)",21.01
-407,Nordeen,"Aj - Alexandra",USA,,,101069,,"1 / (1)",21.01
-410,Joenvaara,Janni,FIN,,,100691,,"1 / (1)",20.83
-411,Meyer,"Binia Lia",SUI,,,99978,,"1 / (1)",20.52
-412,Okada,Riri,JPN,,,95002,,"1 / (1)",20.51
-413,Arakawa,Yui,JPN,,,100764,,"2 / (2)",20.38
-414,Peyachew,Mia,CAN,,,96663,,"1 / (1)",19.98
-415,Ootjers,Britt,NED,,,100446,,"1 / (1)",19.95
-416,Bowater-Antrim,Amelia,USA,,,98722,,"2 / (2)",19.28
-417,Bourdais,Marine,FRA,,,100081,,"1 / (1)",19.13
-418,Klim,Mathilde,DEN,,,99236,,"1 / (1)",19.04
-418,Hrychuck,Jayden,CAN,,,100580,,"1 / (1)",19.04
-420,Chisholm,Mary,CAN,,,101083,,"1 / (1)",18.88
-421,Lukaschek,Ida,GER,,,98608,,"1 / (1)",18.81
-422,Pascuet,Elia,AND,,,100522,,"1 / (1)",18.72
-423,Uzicanin,Alaia,BIH,,,100987,,"2 / (2)",18.53
-423,Becirevic,Tea,BIH,,,100988,,"2 / (2)",18.53
-423,Bertetic,Aurora,CRO,,,97681,,"2 / (2)",18.53
-423,Kasper,Katharina,GER,,,94807,,"2 / (2)",18.53
-427,Georgalli,Lucia,NZL,,,101134,,"1 / (1)",18.29
-428,Markelji,Vita,AUT,,,101108,,"1 / (1)",18.19
-429,Gill,Olivia,USA,,,98254,,"1 / (1)",18.00
-430,Oram,Malena,USA,,,98860,,"1 / (1)",17.35
-431,Aalto,Renee,FIN,,,100692,,"1 / (1)",17.30
-431,Martin,"Monika Ros",ISL,,,97438,1259946,"1 / (1)",17.30
-433,Kato,Manae,JPN,,,98178,9305357,"1 / (1)",17.27
-434,Parkkisenniemi,Emmi,FIN,21,"1999-07-21 00:00:00",92530,9185065,"1 / (1)",17.17
-435,Imper,"Niah Johanna",SUI,,,98367,,"1 / (1)",17.14
-436,Loibl,Nina,GER,,,100796,,"1 / (1)",16.89
-437,Trtnik,Lana,SLO,,,100506,,"1 / (1)",16.59
-438,Pelchat,Amalia,CAN,,,99600,,"1 / (1)",16.58
-439,Cedillo,Noa,ESP,,,100534,,"1 / (1)",16.57
-440,Storgard,Sofia,CAN,,,99851,,"1 / (1)",16.16
-441,Scott,Pippa,USA,,,90043,,"1 / (1)",16.11
-442,Doty,Cailin,USA,,,96557,,"2 / (2)",16.03
-443,Vojvodic,Marta,SRB,,,99206,,"2 / (2)",15.97
-444,Leyval,Mailys,FRA,,,100082,,"1 / (1)",15.58
-445,Klebeck,Kiana,AUT,,,99970,,"1 / (1)",15.50
-446,"Fasola Demingue",Issa,ARG,,,100199,,"2 / (2)",15.48
-447,Pollock,Margaux,USA,,,98788,,"1 / (1)",15.38
-448,Nishioka,Ayuko,JPN,,,95173,,"2 / (2)",15.15
-449,"Palomeque Serrao",Joaquina,ARG,,,100196,,"1 / (1)",15.12
-449,Vötsch,Andrea,AUT,,,101109,,"1 / (1)",15.12
-451,Boyano,Valentina,ARG,,,100198,,"2 / (2)",14.99
-452,MacDonald,Kylie,CAN,,,101084,,"1 / (1)",14.69
-452,Stefansdottir,"Adalheidur Dis",ISL,,,101057,,"1 / (1)",14.69
-452,Malinauskaite,"Guoda Saule",LTU,,,89874,,"1 / (1)",14.69
-455,Gallardo,Elisenda,AND,,,100523,,"1 / (1)",14.59
-456,Vanaernam,Jessie,USA,,,100978,,"1 / (1)",14.06
-457,Dadadottir,"Alis Helga",ISL,,,100168,,"1 / (1)",14.00
-457,Welling,Ronja,FIN,,,97148,,"1 / (1)",14.00
-459,Dzon,Antoaneta,MKD,,,101012,,"1 / (1)",14.00
-460,Ranzoni,Ladina,SUI,,,99979,,"1 / (1)",13.88
-461,Magrufova,Kamila,RUS,,,97496,9485331,"2 / (2)",13.72
-462,Bowler,"Margaret Grace",USA,,,97790,9535581,"1 / (1)",13.51
-462,Nagoshi,Misaki,JPN,,,89285,9305330,"1 / (1)",13.51
-464,Rotegaard,Hedda,NOR,,,100618,,"1 / (1)",13.48
-465,Gomariz,Laia,ESP,,,100535,,"1 / (1)",12.76
-466,Firnesz,Eryn,CAN,,,97979,,"1 / (1)",12.58
-467,Veitch,Maya,CAN,,,99380,,"1 / (1)",12.43
-468,Boesl,Magdalena,GER,,,100797,,"1 / (1)",12.39
-469,Bontognali,Marisol,SUI,,,98614,,"1 / (1)",12.29
-470,Scotti,Clara,ARG,,,100197,,"1 / (1)",12.25
-470,Perko,Sabrina,AUT,,,101126,,"1 / (1)",12.25
-472,Castillo,Victoria,FRA,,,100083,,"1 / (1)",12.21
-473,Kegode,Zahra-Kadi,USA,,,100912,,"1 / (1)",12.15
-474,"Salinas Sanchis",Sofia,AND,,,100849,,"2 / (2)",11.91
-475,Deputter,Lynn,BEL,,,99808,,"1 / (1)",11.80
-476,Ozahata,Riko,JPN,,,99508,,"2 / (2)",11.73
-477,Delago,Mia,GER,,,100960,,"1 / (1)",11.25
-478,Oefner,Lea,AUT,,,100803,,"1 / (1)",11.24
-478,Sasaki,Hiyori,JPN,,,97889,,"1 / (1)",11.24
-480,Diaz,Azahara,ESP,,,100536,,"1 / (1)",11.04
-481,Jarvela,Neea,FIN,,,100693,,"1 / (1)",10.91
-481,Tomasdottir,"Julietta Idunn",ISL,,,100109,,"1 / (1)",10.91
-483,Secord,Rachel,CAN,,,97363,,"1 / (1)",10.76
-484,Helgadottir,Lif,ISL,,,99038,,"1 / (1)",10.75
-484,Bugden,Ella,CAN,,,101085,,"1 / (1)",10.75
-484,Abou,Lola,FRA,22,"1998-07-13 00:00:00",92086,9195175,"1 / (1)",10.75
-487,Harko,Dalma,HUN,,,99972,,"1 / (1)",10.71
-488,Isaacs,Annika,USA,,,100914,,"1 / (1)",10.36
-489,"Pedersen Rektorli",Julie,NOR,,,100817,,"1 / (1)",10.29
-489,Caslavska,Stepanka,CZE,,,100020,9155089,"1 / (1)",10.29
-491,Choi,Elle,CAN,,,97962,,"2 / (2)",10.02
-492,Smigel,Sophia,CAN,,,99423,,"1 / (1)",9.93
-493,Vötsch,Emma,AUT,,,101127,,"1 / (1)",9.55
-494,Dominguez,Maiatane,AND,,,100524,,"1 / (1)",9.43
-495,Yoshidomi,Megumi,JPN,,,101026,,"1 / (1)",9.35
-496,McCaffrey,Emmica,CAN,,,99352,,"1 / (1)",9.21
-497,Lounis,"Lénnie Camille",SUI,,,99980,,"1 / (1)",9.15
-498,Bosanac,Mia,CRO,,,101014,,"1 / (1)",9.14
-499,Hensley,Kay,USA,,,99559,,"1 / (1)",9.09
-500,Coulais,Louise,FRA,,,100076,,"1 / (1)",8.99
-501,Matsuoka,Anju,JPN,,,98185,,"1 / (1)",8.88
-502,"Van De Vlekkert",Alicia,NED,,,100836,,"1 / (1)",8.82
-503,McCafferty,Brecken,USA,,,100897,,"1 / (1)",8.67
-504,Buckley,Katy,USA,,,98713,9535566,"1 / (1)",8.45
-505,Suzuki,Hikari,JPN,,,100829,,"1 / (1)",8.34
-506,Predpelski,Hazel,USA,,,100874,,"1 / (1)",8.19
-507,Polke,Maja,GER,,,100798,,"1 / (1)",8.09
-508,Korhonen,Saana,FIN,,,100694,,"1 / (1)",7.99
-509,Jung,Clea,FRA,,,100529,,"1 / (1)",7.91
-510,Bechter,Enya,SUI,,,100948,,"1 / (1)",7.86
-510,"Francesia Borai",Lisa,ITA,,,99907,,"1 / (1)",7.86
-510,Meyer,Deva,AUT,,,96796,,"1 / (1)",7.86
-513,Pei,Lian,CHN,,,100228,,"1 / (1)",7.66
-514,Skinner,Liliana,SUI,,,99975,,"1 / (1)",7.60
-515,"Van Domselaar",Wanda,ARG,,,100200,,"2 / (2)",7.45
-516,Delago,Emmy,GER,,,100961,,"1 / (1)",7.39
-517,Borders,Chloe,USA,,,99542,,"1 / (1)",7.08
-518,Katayama,Haruka,JPN,,,96930,,"1 / (1)",7.02
-519,Kettaneh,Zeina,LIB,,,100861,,"1 / (1)",7.00
-519,Osmond,Sadie,CAN,,,101086,,"1 / (1)",7.00
-521,Rehscgützer,Nina,AUT,,,101128,,"1 / (1)",7.00
-522,Kittilae,Emmi,FIN,,,100612,,"1 / (1)",6.86
-523,Inoe,Chika,JPN,,,95171,,"1 / (1)",6.50
-524,Berger,Elise,CAN,,,100581,,"1 / (1)",6.10
-525,Golland,Ella,SUI,,,99976,,"1 / (1)",6.07
-526,Rogalski,Erin,CAN,,,97214,,"1 / (1)",6.00
-527,Aure,Julia,NOR,,,100217,,"1 / (1)",5.96
-528,Fontaine,Suzanne,FRA,,,100077,,"1 / (1)",5.89
-529,Sun,Lianxin,CHN,,,96920,9125070,"1 / (1)",5.87
-530,Vainionpaeae,Wilma,FIN,,,95741,,"1 / (1)",5.80
-530,Teksle,Guro,NOR,,,100431,,"1 / (1)",5.80
-532,Pilloud,Anja,USA,,,100913,,"1 / (1)",5.55
-533,Krauerova,Maja,CZE,,,100806,,"2 / (2)",5.49
-534,Steen-Oehme,"Celine Amalie",NOR,,,100718,,"1 / (1)",5.29
-535,Raty,Pinja,FIN,,,100695,,"1 / (1)",5.21
-535,Olafsdottir,Valgerdur,ISL,,,100111,,"1 / (1)",5.21
-537,Guerrero,Lia,AND,,,100526,,"1 / (1)",5.08
-538,Stankovikj,Ema,MKD,,,100619,,"1 / (1)",4.91
-538,Nelson,Kjersten,USA,,,98728,,"1 / (1)",4.91
-540,Uno,Hanoka,JPN,,,100763,,"1 / (1)",4.64
-541,Kesselring,Lisa,SUI,,,98265,,"1 / (1)",4.54
-542,Stephenson,Nona,USA,,,100977,,"1 / (1)",4.09
-543,Flowers,Charlotte,USA,,,100720,,"1 / (1)",4.05
-544,Hurter,Helena,GER,,,100799,,"1 / (1)",3.97
-545,Steiner,Gretchen,AUT,,,100441,,"1 / (1)",3.89
-546,Louerau,Romy,FRA,,,100530,,"1 / (1)",3.75
-547,Durand,Toni,GER,,,100962,,"1 / (1)",3.65
-548,Boylan,Name,CAN,,,101087,,"1 / (1)",3.43
-548,Thormodsdottir,Freydis,ISL,,,101066,,"1 / (1)",3.43
-548,Fakhry,Huguette,LIB,,,98197,,"1 / (1)",3.43
-551,Rule,Peyton,CAN,,,99421,,"1 / (1)",3.37
-552,Morton,Alexandra,USA,,,97819,,"1 / (1)",3.20
-553,Sigg,"Lani Tara",SUI,,,99977,,"1 / (1)",3.02
-554,Smirl,Avlyn,CAN,,,99360,,"1 / (1)",2.94
-554,Rogalski,Elsie,CAN,,,97205,,"1 / (1)",2.94
-556,Legrand,Maya,FRA,,,100078,,"1 / (1)",2.90
-557,Polatty,Alana,USA,,,99538,,"1 / (1)",2.69
-558,Lamer,Kennedy,USA,,,100875,,"1 / (1)",2.65
-559,Hamalainen,Aada,FIN,,,100696,,"1 / (1)",2.55
-559,Brynjarsdottir,"Karen Lif",ISL,,,100116,,"1 / (1)",2.55
-559,"Stocchetti Najda",Juana,ARG,,,100209,,"1 / (1)",2.55
-562,Wallet,Ella,FRA,,,100527,,"1 / (1)",2.46
-563,Yokoyama,Yuna,JPN,,,101027,,"1 / (1)",2.25
-565,Hlynsdottir,"Birna Ida",ISL,,,100447,,"1 / (1)",1.95
-566,Nomura,Akari,JPN,,,100765,,"1 / (1)",1.53
-567,Büchi,Nina,SUI,,,98617,,"1 / (1)",1.51
-568,Cajelot,Romane,FRA,,,100528,,"1 / (1)",1.22
+position,lastname,firstname,nationality,age,date of birth,WST Rider ID,fis code,points
+1,Anderson,Jamie,USA,30,1990-09-13,17575,9535078,833.33
+2,Marino,Julia,USA,23,1997-09-11,83195,9535365,794.7
+3,Blouin,Laurie,CAN,24,1996-04-07,84387,9105246,760.91
+4,Ormerod,Katie,GBR,23,1997-08-25,72369,1229991,667.22
+5,Derungs,Isabel,SUI,33,1987-07-17,82450,9515143,612.27
+6,Baird,Jasmine,CAN,21,1999-06-29,91659,9105409,591.58
+7,Peperkamp,Melissa,NED,,,91750,9405050,554.27
+8,Eilertsen,Hanne,NOR,21,1999-03-23,89004,9425037,538.92
+9,Gendron,Sommer,CAN,19,2001-03-27,88255,9105426,522.78
+10,Voigt,Brooke,CAN,26,1993-11-17,78472,9105100,521.85
+11,Poppe,Evy,BEL,16,2004-03-02,92484,1069925,516.45
+12,Morgan,Annika,GER,18,2002-02-12,88774,9205078,511.78
+13,Langland,Hailey,USA,20,2000-08-02,94228,9535409,504.68
+14,Sadowski Synnott,Zoi,NZL,19,2001-03-06,94322,9415033,501.78
+15,Norendal,Silje,NOR,27,1993-09-01,72637,9425008,501.56
+16,Yoshika,Rina,JPN,21,1999-04-09,83851,9305311,500
+17,Lefevre,Lucile,FRA,24,1995-11-10,75864,9195093,499.59
+18,Asanuma,Hinari,JPN,,,83838,9305386,499.25
+19,Murase,Kokomo,JPN,15,2004-11-07,91154,9305415,490.43
+20,Schnorrbusch,Ty,USA,,,94561,9535467,482.88
+21,Gasser,Anna,AUT,28,1992-08-16,81369,9055068,482.23
+22,Rukajarvi,Enni,FIN,30,1990-05-13,75256,9185019,469.08
+23,Steffensen,Tina,NOR,19,2001-02-01,92491,9425046,446.85
+24,Edamatsu,Chihiro,JPN,,,96738,null,441.4
+25,Smans,Loranne,BEL,22,1997-10-30,81104,1069919,438.54
+26,Pelchat,Juliette,CAN,,,94718,9105462,429.5
+27,Gisler,Bianca,SUI,17,2003-02-15,93678,9515199,415.37
+28,Gardner,Addison,USA,,,96259,null,403.47
+29,McDonald,Baily,CAN,22,1998-06-05,91584,9105344,402.5
+30,Taka,Eveliina,FIN,,,93436,9185078,400.97
+31,Fujimori,Yuka,JPN,34,1986-06-11,92069,9305001,399.57
+32,Okuyama,Kanami,JPN,,,93685,9305367,374.33
+33,Gomez,Isabella,USA,,,93346,9535452,372.95
+34,Yoshizawa,Hikari,JPN,17,2003-06-15,97636,9305384,372.33
+35,Rummel,Courtney,USA,,,96267,null,347.07
+36,Vatne-Larsen,Thea Cassandra,NOR,19,2000-12-06,93231,null,338.15
+37,Pancochova,Sarka,CZE,29,1990-11-01,74989,1159968,338.06
+38,Mueller,Lena,SUI,17,2003-01-21,90856,9515207,333.67
+39,Lantos,Emma,AUT,,,94643,9055092,333.33
+40,Carlson,Jackie,CAN,,,93334,9105425,329.9
+41,Kosova,Ekaterina,RUS,24,1996-04-25,92144,9485164,327.47
+42,Niemelae,Carola,FIN,21,1999-02-11,93235,9185071,324.79
+43,Boesch,Lia-Mara,SUI,26,1994-09-03,86595,9515157,323.23
+44,Danuser,Mona,SUI,,,93677,9515205,322.08
+45,Silvestre,Lucie,FRA,,,84726,9195196,320.52
+46,Kotani,Yui,JPN,,,99481,null,315.12
+47,Wuorivirta,Karoliina,FIN,,,93968,9185077,313.03
+48,Onitsuka,Miyabi,JPN,22,1998-10-12,86188,9305286,311.79
+49,Espeli Olsen,Stine,NOR,,,92492,9425055,308.08
+50,Stalker,Meila,AUS,,,97604,null,303.45
+51,Larochaix,Thalie,FRA,21,1999-01-14,81637,9195178,303.4
+52,Fennell,Amber,GBR,13,2007-02-23,95816,null,301.37
+53,Smith,Hollie,GBR,,,98128,9225022,300.21
+54,Crompton,Maggie,CAN,,,94719,9105461,296.57
+55,Maas,Cheryl,NED,36,1984-09-28,17515,1409999,294.32
+56,Rong,Ge,CHN,,,100177,9125121,293.42
+57,Candrian,Sina,SUI,31,1988-11-21,52643,9515010,292.96
+58,Iwabuchi,Reira,JPN,18,2001-12-14,81781,9305338,290.01
+59,Thurgood,Jade,USA,,,95866,9535487,288.61
+60,Flemming,Nadja,GER,24,1995-12-07,90909,9205073,284.61
+61,Adams,Kaitlyn,USA,15,2005-09-16,90636,9535573,280.94
+62,Kreisingerova,Marie,CZE,,,87889,9155054,278.36
+63,Kozuback,Kamilla,CAN,16,2004-05-05,93492,9105435,275.9
+64,Immonen,Veera,FIN,,,95738,9185079,272.32
+65,Roll,Bettina,NOR,,,92495,9425056,269.05
+66,Traub,Terra,TPE,,,100993,null,266.32
+67,Gendron,Andie,CAN,17,2003-09-03,88253,9105441,263.6
+68,Wakushima,Cool,NZL,,,97576,9415037,259.18
+69,Bischof,Babet,SUI,20,2000-04-22,92594,9515178,258.06
+70,Bockhorni,Heli,GER,,,93814,null,257.6
+71,Hahnl,Marie,GER,,,95335,9205088,256.28
+72,Zaveska,Laura,CZE,13,2006-10-30,99223,null,255.57
+73,Weiler,Danielle,USA,,,96933,null,254.01
+74,Volopichova,Vanessa,CZE,,,99076,null,252.03
+75,Sorensen,Ella,USA,,,98868,null,248.57
+76,Medlova,Klaudia,SVK,26,1993-10-26,81727,1709938,248.2
+77,Mittermueller,Silvia,GER,37,1983-08-08,32669,1708267,245.63
+78,Rose,Acacia,NOR,,,94573,9425058,243.94
+79,Brookes,Mia,GBR,,,97672,null,238.29
+80,Tanno,Livia,SUI,18,2002-07-27,92535,9515187,237.62
+81,Romanova,Varvara,RUS,,,97654,null,237.53
+82,Moroco,Alyssa,USA,,,96934,null,234.57
+83,Coady,Tess,AUS,19,2000-11-02,90557,9045103,233.33
+84,Yoshika,Yuri,JPN,24,1996-02-22,84863,9305266,233.15
+85,Kampesaether,Live,NOR,,,100428,null,232.53
+86,Avelar,Rori,USA,,,98723,9535546,232.25
+87,Somaini,Carla,SUI,29,1991-10-13,80734,9515153,232.05
+88,Hahnl,Laura,GER,,,95336,null,230.24
+89,Mylius,Maria,NOR,,,92494,9425054,228.76
+90,Hanicova,Eva,SVK,,,97628,1709950,225.99
+91,Dhondt,Brooke,CAN,15,2005-03-09,93624,null,217.68
+92,Engholm,Novalie,SWE,,,100426,null,214.25
+93,Plur De La Rosa,Manola,GER,14,2006-08-03,96340,null,211.15
+94,Sakakibara,Kokona,JPN,,,99510,null,210.64
+95,Kellogg,Makayla,USA,18,2002-03-06,94174,null,208.24
+96,Saarela,Enni,FIN,,,96441,null,204.93
+97,Marguerite,Sweeney,CAN,,,95650,9105386,202.04
+98,Nakagawa,Ayano,JPN,,,97902,null,199.87
+99,O Brien,Spencer,CAN,32,1988-02-02,20671,7105013,198.14
+100,Hallen,Veda,USA,,,98864,null,197.38
+101,Ren,Ziyan,CHN,,,96056,9125012,197.23
+102,Fukada,Mari,JPN,,,100741,null,195.3
+103,Hyatt,Kianah,CAN,18,2002-08-28,92616,9105404,195.05
+104,Hendrix,Barrett,USA,,,96988,null,194.53
+105,Guo,Junyan,CHN,,,96919,9125071,194.11
+106,Equy,Noemie,FRA,,,92072,9195205,192.98
+107,Williams ,Darcy-Jane,GBR,,,99215,null,192.13
+108,Cowan,Lola,USA,,,98229,null,191.29
+109,Tomanova,Anna,CZE,,,99077,null,190.93
+110,Suitiala,Ella,FIN,31,1989-10-01,85514,9185036,188.85
+111,Steeg,Philippa,GER,,,98609,null,187.25
+112,Yoshida,Remi,JPN,,,99482,null,187.01
+113,Colsters,Shania,NED,,,99298,null,186.69
+114,Lane Hopkins,Luca Mai,GBR,17,2002-11-13,96140,9225011,185.99
+115,Poluzzi,Marilu,ITA,,,86549,9295175,184.41
+116,Kolodziej,Shirly,SUI,,,94140,null,182.85
+117,Raisanen,Ida,FIN,,,93268,9185070,182.75
+118,Yanez,Antonia,CHI,21,1999-10-05,96053,1119982,179.81
+119,Lehtinen,Sini,FIN,20,2000-05-25,93267,9185075,179.33
+120,Zvadova,Viktorie,CZE,,,99225,null,178.28
+121,Van Vreden,Romy,NED,,,94927,9405053,173.89
+122,Espeli Olsen,Kamilla,NOR,,,96132,null,172.12
+123,Napess,Lounah,CAN,,,96609,9105474,169.35
+124,Bogdanova,Elizaveta,RUS,,,91094,9485287,169.24
+125,Pribosic,Urska,SLO,30,1990-07-26,79937,1569959,167.8
+126,Kashevnik,Nika,RUS,,,94714,9485307,166.85
+127,Derminio,Lauren,USA,,,99121,null,166.37
+129,Stepanova,Eseniya,RUS,,,97655,null,161.89
+130,Morii,Kiara,JPN,,,96870,null,161.07
+131,Norman,Hahna,USA,,,98869,null,161.06
+132,Stroh,Karolina,GER,,,94810,null,159.45
+133,Luurila,Maija,FIN,,,95658,null,159.11
+134,Sano,Kokomi,JPN,,,100742,null,157.84
+135,Holzfeind,Kristina,AUT,,,99217,null,157.02
+136,Duchow,Ellie,USA,,,97817,9535539,154.32
+137,Li,Dongyu,CHN,,,93917,9125005,152.95
+138,Salgueira,Luan,FRA,19,2001-01-01,81655,9190442,152.14
+139,Fillion,Oceane,CAN,22,1998-09-02,91853,9105340,151.99
+140,Flynn,Rebecca,USA,,,98765,null,149.83
+141,Salis,Andrina,SUI,,,93064,null,149.63
+142,Jaakkola,Milja,FIN,,,95667,null,149.38
+143,Kvamme,Jenny,NOR,,,98269,null,149.07
+144,Kostenko,Elena,RUS,25,1995-08-29,89882,9485178,146.73
+145,Suzuki,Momo,JPN,,,100744,null,146.55
+146,Loginova,Anastasiia,RUS,,,94603,9485339,144.62
+147,Zung,Kiara,AUT,,,92700,9055102,144.07
+148,Kimura,Ryo,JPN,,,91139,9305360,142.75
+149,Kulik,Kristyna Leony,CZE,,,96147,9155039,140.8
+150,Maeda,Suzuha,JPN,,,98211,9305453,140.72
+151,Sarkipaju,Telma,FIN,,,97426,9185080,140.49
+152,Dowley,Eve,AUS,,,96015,9045123,138.45
+153,Birkkjaer,Bailey,CAN,23,1996-12-14,91463,9105343,137.84
+154,Jugovac,Lea,CRO,25,1994-11-07,86375,1389930,135.26
+155,Gale,Madison,CAN,18,2002-03-19,95604,9105430,134.42
+156,Tmusic,Katarina,SRB,,,95753,9315001,133.33
+157,Zvadova,Sara,CZE,,,99224,null,130.63
+158,Araya,Rino,JPN,,,95790,9305377,128.48
+159,Zhai,Yue,CHN,,,92445,1129993,127.53
+160,Komuro,Yuna,JPN,19,2000-11-19,81776,null,125.95
+161,Harinen,Ada,FIN,,,100611,null,125.47
+162,Cook,Ava,CAN,,,97943,null,125.18
+163,Ignjatov,Jelena,SRB,25,1995-05-22,95314,1319997,124.7
+164,Grempel,Mia,GER,,,93576,9205089,122.66
+165,Aizawa,Mao,JPN,,,90219,9305334,121.61
+166,Cospolich,Alina,USA,,,96935,null,121.5
+167,Evensen,Emilie,NOR,33,1987-07-14,70621,null,121.08
+168,Plur De La Rosa,Lucia,GER,,,97275,null,120.94
+169,Zhang,Tong,CHN,,,96059,9125011,120.89
+170,Hjalland,Tina,NOR,,,99331,null,119.26
+171,Phillips,Molly,FRA,,,94632,9195252,116.7
+172,Bakke,Emma,NOR,,,95307,null,115.79
+173,Maheux,Emeraude,CAN,,,97928,null,115.16
+174,Burri,Ariane,SUI,20,2000-04-14,88779,9515168,114.63
+175,Walker,Jenna,CAN,,,98468,null,113.76
+176,Rue,Thea Christine,NOR,,,99333,null,112.96
+177,Chen,Alexandra,AUS,,,92293,9045098,111.5
+178,Loetscher,Isabelle,SUI,,,88803,9515197,108.51
+179,Lora,Anna,AUT,26,1994-08-18,93604,null,105.75
+180,Kristiansen Rue,Andrea,NOR,,,99339,null,105.52
+181,Mauro,Bella,USA,,,96936,null,105.03
+182,Kato,Imari,JPN,,,100743,null,104.26
+183,Nastic,Nicole,CRO,,,98192,null,102.33
+184,Zaradna,Paulina,POL,,,99563,null,101.67
+185,MacIejewska,Martyna,POL,,,97670,9435081,100.92
+186,Johansen,Hege,NOR,,,97101,null,100.77
+187,Klacar,Asja,BIH,,,97369,1719915,100
+187,Cornell,Nora,ESP,,,100531,null,100
+189,Geremia,Felicity,CAN,,,96569,null,99.6
+190,Benneker,Olivia,SUI,,,94955,null,97.27
+191,Elvy,Sascha,AUS,,,99422,null,96.65
+192,Sakakibara,Niina,JPN,,,99507,null,95.85
+193,McCaffrey,Angelina,CAN,,,98488,null,93.83
+194,Pizzutto,Matilde,ITA,,,99006,9295192,91.54
+195,Poggi Silveira,Morena,ARG,,,97540,1039981,90.97
+196,Li,Rongrong,CHN,,,100226,null,89.94
+197,Locatin,Giorgia,ITA,,,80688,9295119,87.96
+198,Walz,Janina,GER,12,2008-01-01,100769,null,87.62
+199,Leenderts,Anine,NOR,18,2001-11-05,93207,null,87.59
+200,Scheidegger,Yuna,SUI,,,96744,null,87.45
+201,Chavez Martinez,Maria Azul,ARG,,,96050,1039974,86.96
+202,Mueller,Paulina,GER,,,99291,null,86.42
+203,Takizawa,Futaba,JPN,,,100597,null,85.97
+204,Allen,Cerys,GBR,20,2000-04-20,82326,9225010,85.7
+205,Jin,Rongxi,CHN,,,100219,null,84.98
+206,Hlynsdottir,Anna Kamilla,ISL,,,97436,1259947,84.33
+207,Desjardins,Rose,CAN,,,96236,null,82.56
+208,Gennero,Emma,ITA,,,87512,9295171,82.04
+209,Tsuchiya,Hanon,JPN,,,100767,null,81.94
+210,Collins,Kaiya,NZL,,,97605,null,81.6
+211,Haensel,Ronja,AUT,,,96457,9055105,81.28
+212,Osther,Cornelia,NOR,,,97645,null,80.71
+213,Heinonen,Heta,FIN,,,100164,null,80.66
+214,Remans,Sky,BEL,,,99807,null,80.23
+215,Kaikuranta,Jasmin,FIN,,,96551,null,79.21
+216,Da Silva,Aroa,ESP,,,100532,null,78.89
+217,Hill,Maisie,GBR,19,2001-02-12,92534,9225000,78.58
+218,Martinelli,Olga,ITA,,,97277,9295173,77.98
+219,Schipani,Elena,USA,,,98861,null,77.74
+220,Peck,Dana,USA,,,98027,null,77.52
+221,Steinthorsdottir,Bergdis,ISL,,,99035,null,77.03
+222,Sebkova,Tereza,CZE,,,94190,9155035,76.03
+223,Hasler,Leonie,SUI,,,99622,null,75.9
+224,Paul,Ilvy,AUT,,,96749,null,75.87
+225,Maekawa,Saya,JPN,,,99506,null,75.66
+226,Chymcakova,Anna,CZE,,,100443,null,75.26
+227,Boland,Riley,CAN,,,99948,null,74.97
+228,Seijas Fidalgo,Andrea,ESP,,,100851,null,73.98
+229,Healey,Nora,USA,22,1998-06-16,84507,9535374,73.73
+230,Coumont,Summer,CAN,,,96589,null,73.61
+231,Ikola,Henna,FIN,22,1998-04-26,84790,9185051,73.03
+232,Oram,Viviana,USA,,,98764,null,73.01
+233,Utsumi,Kirari,JPN,,,98177,null,72.85
+234,Petkovska,Marija,MKD,,,99797,null,71.71
+235,Wright,Emily,CAN,,,100143,null,70.08
+236,Paul,Ronja,AUT,,,96750,null,69.89
+237,Kato,Hinoka,JPN,,,99512,null,69.89
+238,Herleiksplass,Karoline,NOR,22,1997-10-21,74162,9425039,69.51
+239,Valcl,Tinkara Tanja,SLO,,,95193,9565009,68.82
+240,Tan,Chu,CHN,,,100220,null,68.6
+241,Dahle Stavanes,Eira,NOR,,,100429,null,68.31
+242,Merickova,Eliska,CZE,,,99073,null,68.04
+243,Overland,Ashyln,USA,,,100710,null,67
+244,Murase,Yura,JPN,,,93686,null,66.67
+245,Ren,Zizheng,CHN,,,96060,9125013,66.32
+246,Murawskaia,Darina,BLR,,,92426,1669960,65.74
+247,Watanabe,Nami,JPN,,,98164,null,64.82
+248,Kokushkina,Maria,RUS,,,100234,null,64.43
+249,Hlynsdottir,Unnur Solveig,ISL,,,97439,1259948,63.83
+250,Petrig,Celia,SUI,25,1995-02-28,80756,9515142,63.36
+251,Van Lieshout,Sam,NED,,,94630,null,63.03
+252,Jong De,Jacquelina,NED,14,2006-03-08,88775,null,62.49
+253,Roegenaes,Caroline Amalie,NOR,,,100435,null,62.33
+254,Moffat,Krystina,CAN,,,99401,null,61.84
+255,Ito,Kureha,JPN,,,99509,null,61.38
+256,Bruck,Sophia,USA,,,100654,null,61.14
+257,Starblanket,Ava,CAN,,,98467,null,60.23
+258,Van Griensven,Demi,NED,,,99818,null,60.16
+259,Bogart,Kailey,USA,,,98061,null,59.94
+260,Oswald,Ronja,SUI,,,98603,null,59.54
+261,Kunitake,Maki,JPN,,,95000,9305336,58.94
+262,Arvanitidou,Eleni,GRE,,,100629,null,58.77
+263,Pouch,Olivie,CZE,,,99294,null,58.39
+264,Banados,Maria Teresa,CHI,,,96048,1119984,58.35
+265,Spalding,Avery,CAN,,,93332,null,58.08
+266,Gregori,Jennifer,ITA,23,1997-04-10,81850,9295189,57.13
+266,Klacar,Adna,BIH,,,97368,1719914,57.13
+268,Cook,Kaeleigh,CAN,,,98481,null,56.86
+269,Olejniczak,Emma,FRA,,,99923,null,56.82
+270,Gerry,Isabella,USA,,,100989,null,56.78
+271,Okado,Rion,JPN,,,99505,null,55.49
+272,Raun,Lissel,EST,,,100098,1399913,55.38
+273,Sanchez,Selenata,ESP,,,100509,null,55.31
+274,Jekel,Lily,AUS,,,97547,null,54.49
+275,Kuoppala,Khaila,FIN,,,100163,null,54.23
+276,Saijo,Karen,JPN,,,99504,null,54.15
+277,Puustinen,Reetta,FIN,,,100162,null,53.76
+278,Kono,Kanna,JPN,,,99652,null,52.79
+279,Forno,Anna Maria,ITA,,,97115,null,52.32
+280,Suzuki,Tokuko,JPN,,,76161,9305308,51.99
+281,Pecanin,Uma,BIH,,,99364,null,51.99
+282,Gorshenina,Anastasiya,RUS,,,101082,null,51.89
+283,Meier,Julia,SUI,,,94951,null,51.37
+284,Springinsfeld,Camila,ARG,,,94358,1039970,50.63
+285,Klemm,Lua Marie,GER,,,99064,null,49.79
+286,Good,Natalie,NZL,30,1990-01-09,84755,9415023,49.78
+287,Misund,Ine Marie,NOR,,,92496,9425053,49.67
+288,Wada,Rein,JPN,,,95427,9305375,49.03
+289,Thomassen,Ziggy,NED,,,99229,null,48.75
+290,Hekne Herskedal,Aliya,NOR,,,100719,null,48.59
+291,Meersteiner,Madeleine,GER,,,92987,null,48.4
+292,Heimoz,Anina,SUI,,,99958,null,47.88
+293,Dobreska,Neda,MKD,,,99203,null,47.8
+294,Fuchs,Joanna,GER,,,100439,null,47.77
+295,Karrer,Sophia,AUT,,,100508,null,46.97
+296,Smirnova,Maria,RUS,,,100233,null,46.69
+296,Proydina,Juliya,RUS,,,94583,9485309,46.69
+298,Van Griensven,Daniek,NED,,,99234,null,46.39
+299,Kvaale,Mette,NOR,,,95876,null,45.76
+300,Hara,Yukino,JPN,,,95185,9305433,45.71
+301,Milutinovic,Angelina Gina,SRB,,,92997,9315000,45.48
+302,Cardone,Amanda,CHI,,,99124,null,45.04
+303,Grangila,Elena,ITA,,,99184,null,44.73
+304,Okado,Riria,JPN,,,100762,null,44.53
+305,Gorcsosova,Ella,SVK,,,101011,null,44.52
+306,Schindler,Jule,GER,,,100963,null,43.77
+307,Nakamori,Hanna,JPN,,,100830,null,43.56
+308,Nerandzic,Nadja,SRB,,,99205,null,42.83
+309,Noskova,Denisa,CZE,,,99864,null,42.45
+310,Arellano,Josefa,CHI,,,100201,null,42.43
+311,Mikuni,Momoka,JPN,,,99552,9305446,42.22
+312,Scott,Penelope,USA,,,100253,null,41.91
+313,Reinalter,Anna-Selina,SUI,,,99959,null,41.76
+314,Wilson,Beth,CAN,19,2001-09-28,91609,9105393,41.53
+315,Marzinotto,Laura,CAN,,,100144,null,41.35
+316,Merkhoffer,Melina,GER,26,1994-01-09,82929,9205071,40.84
+317,Larkiala,Stella,FIN,,,96552,null,40.4
+318,Tanaka,Yuna,JPN,,,89378,null,40
+319,Karrer,Hanna,AUT,,,100507,null,39.39
+320,Coffey,Peighton,USA,,,98726,null,39.32
+321,Wick,Lura,SUI,,,98256,null,39.06
+322,Olsen,Gabby,CAN,,,100601,null,38.92
+323,Ewoldt,Django,USA,,,95849,9535584,38.75
+324,Hipp,Helene,GER,,,100964,null,38.27
+325,Antyasova,Tianina,RUS,,,100236,null,37.97
+326,Belikova,Dariya,RUS,,,94713,9485308,37.75
+327,Black,Margie,USA,,,96505,9535502,37.75
+327,Willemsen,Zoï¿½,NED,,,99742,null,37.75
+329,Ghostkeeper,Mya,CAN,,,97859,null,36.81
+330,Janett,Soha,SUI,,,99519,null,36.54
+331,Naudi,Aixa,AND,,,100525,null,36.54
+332,Johnsen,Pia,NOR,,,100430,null,36.29
+333,Bachmann,Johanna,GER,,,99290,null,35.98
+334,Charlec,Maelis,FRA,,,98664,9195263,35.8
+335,Krasneva,Varvara,CAN,23,1997-09-08,95439,9105403,35.56
+336,Solomon,Charley,CAN,,,100664,null,35.51
+337,Djogic,Andjela,SRB,,,100624,null,35.46
+338,Kokko,Anna-Sofia,FIN,,,97149,null,34.83
+339,Ogawa,Hikaru,JPN,,,84345,9305287,34.76
+340,Fernandez,Nerea,AND,,,100521,null,34.52
+341,Bietenholz,Anouk,SUI,,,98365,null,34.19
+342,Johnsen,Emilie,NOR,,,99330,null,34.12
+343,Yanow,Chloe,CAN,,,97858,null,33.65
+344,Makela,Maaru,FIN,,,100161,null,33.61
+345,Simanaviciute,Goda,LTU,,,98193,null,33.33
+345,Weinberg,Rochelle,USA,,,97789,null,33.33
+345,Shute,Samantha,CAN,,,97384,null,33.33
+348,Peetz,Emma,GER,,,100965,null,33.13
+349,Huang,Zhixin,CHN,,,100227,9125128,32.73
+350,Hanson,MacKenzie,CAN,,,99350,null,32.71
+351,Alba,Sonora,USA,,,96995,null,32.23
+352,Schrott,Tina,GER,,,95274,null,32.05
+353,Steinsdottir,Lilja Ros,ISL,,,97462,1259940,32.03
+354,Corti,Tosca,SUI,,,98364,null,31.97
+355,Klaussen,Emilie,NOR,,,96486,null,31.95
+356,Lundberg,Julia,SWE,,,89239,9505041,31.73
+357,Eising,Dakoda,CAN,,,99351,null,31.57
+358,Hisaoka,Karin,JPN,,,101025,null,31.47
+359,Jovanovic,Jana,SRB,,,101013,null,31.37
+360,Edwinsdottir,Vildis,ISL,,,97463,1259944,30.78
+361,Nymoen,Ingvild,NOR,,,88934,9425050,30.48
+362,Honda,Nanami,JPN,,,100766,null,30.33
+363,Handa,Saara,JPN,,,95184,null,29.93
+364,Wyss,Merlin,SUI,,,98613,null,29.86
+365,Vachet,Gaia,ITA,,,92585,null,29.82
+366,Dhawornvej,Lily,USA,,,97785,null,29.66
+367,Rix,Lela,USA,,,98863,null,29.52
+368,Irhina,Elizaveta,RUS,,,100235,null,29.15
+369,Kroell,Elisa,AUT,,,97868,null,28.89
+370,Hyry,Eevastiina,FIN,,,100689,null,28.79
+371,Viererbe,Leila,GER,,,100966,null,28.3
+372,Ivanovaite,Patricija,LTU,,,100859,null,28.14
+372,Osmond,Andi,CAN,,,101090,null,28.14
+374,Tanaka,Kaede,JPN,,,99503,null,28.07
+375,Dï¿½rr,Anna Lena,SUI,,,98616,null,27.85
+376,White,Kinsley,USA,,,86544,9535485,27.62
+377,Poulat,Camille,FRA,,,100079,null,26.88
+378,Snorradottir,Sol,ISL,,,99037,null,26.86
+379,Bauer,Rosalie,GER,,,100795,null,26.67
+380,Moreau,Clara,FRA,,,97376,null,26.53
+381,Valkenborgh,Elle,BEL,,,101000,null,26.43
+382,Gordon,Paige,CAN,,,97984,null,25.99
+383,Demke,Lisa,SUI,,,99981,null,25.93
+384,Kitano,Hiroka,JPN,,,97898,9305381,25.43
+385,Wolf,Tanja,AUT,,,101107,null,25.09
+386,Saarela,Iina,FIN,,,100690,null,24.65
+387,Yen-Linn,Mak,AUT,,,101097,null,24.47
+388,Nakashima,Risa,JPN,2,2018-10-14,79015,9305321,24.38
+389,Firnesz,Eva,CAN,,,97981,null,24.08
+390,Graf,Lynne,SUI,,,99982,null,24.07
+391,Langer,Caitlyn,USA,,,100657,null,24.01
+392,MacGeorge,Zoe,SUI,,,100248,null,23.96
+393,Topp Oye,Nora Synnove,NOR,,,99332,null,23.93
+394,Milenkovic,Neda,SRB,,,99546,null,23.73
+395,Holden,Gabriella,USA,,,100252,null,23.6
+396,Bogart,Ashley,USA,,,98060,null,23.43
+397,McCarthy,Amy,CAN,,,97923,null,23.34
+397,Kalinovska,Tina,LAT,,,100028,null,23.34
+399,Picchedda,Stella,FRA,,,100080,null,22.88
+400,Nyvelt,Mila,AUT,,,97869,null,22.58
+401,Sprenger,Samira,SUI,,,98369,null,22.27
+402,Gabriele,Katie,USA,,,98866,null,22.04
+403,Maeda,Saaya,JPN,,,99647,null,21.85
+403,Brearley,Emma,CAN,,,93331,null,21.85
+405,Fedchenko,Diana,RUS,,,96422,null,21.49
+406,Kato,Yuki,JPN,,,95429,9305358,21.23
+407,Vollelv,Frida,NOR,,,79594,null,21.01
+407,Hankova,Stepanka,CZE,,,99367,null,21.01
+407,Nordeen,Aj - Alexandra,USA,,,101069,null,21.01
+410,Joenvaara,Janni,FIN,,,100691,null,20.83
+411,Meyer,Binia Lia,SUI,,,99978,null,20.52
+412,Okada,Riri,JPN,,,95002,null,20.51
+413,Arakawa,Yui,JPN,,,100764,null,20.38
+414,Peyachew,Mia,CAN,,,96663,null,19.98
+415,Ootjers,Britt,NED,,,100446,null,19.95
+416,Bowater-Antrim,Amelia,USA,,,98722,null,19.28
+417,Bourdais,Marine,FRA,,,100081,null,19.13
+418,Klim,Mathilde,DEN,,,99236,null,19.04
+418,Hrychuck,Jayden,CAN,,,100580,null,19.04
+420,Chisholm,Mary,CAN,,,101083,null,18.88
+421,Lukaschek,Ida,GER,,,98608,null,18.81
+422,Pascuet,Elia,AND,,,100522,null,18.72
+423,Uzicanin,Alaia,BIH,,,100987,null,18.53
+423,Becirevic,Tea,BIH,,,100988,null,18.53
+423,Bertetic,Aurora,CRO,,,97681,null,18.53
+423,Kasper,Katharina,GER,,,94807,null,18.53
+427,Georgalli,Lucia,NZL,,,101134,null,18.29
+428,Markelji,Vita,AUT,,,101108,null,18.19
+429,Gill,Olivia,USA,,,98254,null,18
+430,Oram,Malena,USA,,,98860,null,17.35
+431,Aalto,Renee,FIN,,,100692,null,17.3
+431,Martin,Monika Ros,ISL,,,97438,1259946,17.3
+433,Kato,Manae,JPN,,,98178,9305357,17.27
+434,Parkkisenniemi,Emmi,FIN,21,1999-07-21,92530,9185065,17.17
+435,Imper,Niah Johanna,SUI,,,98367,null,17.14
+436,Loibl,Nina,GER,,,100796,null,16.89
+437,Trtnik,Lana,SLO,,,100506,null,16.59
+438,Pelchat,Amalia,CAN,,,99600,null,16.58
+439,Cedillo,Noa,ESP,,,100534,null,16.57
+440,Storgard,Sofia,CAN,,,99851,null,16.16
+441,Scott,Pippa,USA,,,90043,null,16.11
+442,Doty,Cailin,USA,,,96557,null,16.03
+443,Vojvodic,Marta,SRB,,,99206,null,15.97
+444,Leyval,Mailys,FRA,,,100082,null,15.58
+445,Klebeck,Kiana,AUT,,,99970,null,15.5
+446,Fasola Demingue,Issa,ARG,,,100199,null,15.48
+447,Pollock,Margaux,USA,,,98788,null,15.38
+448,Nishioka,Ayuko,JPN,,,95173,null,15.15
+449,Palomeque Serrao,Joaquina,ARG,,,100196,null,15.12
+449,Vï¿½tsch,Andrea,AUT,,,101109,null,15.12
+451,Boyano,Valentina,ARG,,,100198,null,14.99
+452,MacDonald,Kylie,CAN,,,101084,null,14.69
+452,Stefansdottir,Adalheidur Dis,ISL,,,101057,null,14.69
+452,Malinauskaite,Guoda Saule,LTU,,,89874,null,14.69
+455,Gallardo,Elisenda,AND,,,100523,null,14.59
+456,Vanaernam,Jessie,USA,,,100978,null,14.06
+457,Dadadottir,Alis Helga,ISL,,,100168,null,14
+457,Welling,Ronja,FIN,,,97148,null,14
+459,Dzon,Antoaneta,MKD,,,101012,null,14
+460,Ranzoni,Ladina,SUI,,,99979,null,13.88
+461,Magrufova,Kamila,RUS,,,97496,9485331,13.72
+462,Bowler,Margaret Grace,USA,,,97790,9535581,13.51
+462,Nagoshi,Misaki,JPN,,,89285,9305330,13.51
+464,Rotegaard,Hedda,NOR,,,100618,null,13.48
+465,Gomariz,Laia,ESP,,,100535,null,12.76
+466,Firnesz,Eryn,CAN,,,97979,null,12.58
+467,Veitch,Maya,CAN,,,99380,null,12.43
+468,Boesl,Magdalena,GER,,,100797,null,12.39
+469,Bontognali,Marisol,SUI,,,98614,null,12.29
+470,Scotti,Clara,ARG,,,100197,null,12.25
+470,Perko,Sabrina,AUT,,,101126,null,12.25
+472,Castillo,Victoria,FRA,,,100083,null,12.21
+473,Kegode,Zahra-Kadi,USA,,,100912,null,12.15
+474,Salinas Sanchis,Sofia,AND,,,100849,null,11.91
+475,Deputter,Lynn,BEL,,,99808,null,11.8
+476,Ozahata,Riko,JPN,,,99508,null,11.73
+477,Delago,Mia,GER,,,100960,null,11.25
+478,Oefner,Lea,AUT,,,100803,null,11.24
+478,Sasaki,Hiyori,JPN,,,97889,null,11.24
+480,Diaz,Azahara,ESP,,,100536,null,11.04
+481,Jarvela,Neea,FIN,,,100693,null,10.91
+481,Tomasdottir,Julietta Idunn,ISL,,,100109,null,10.91
+483,Secord,Rachel,CAN,,,97363,null,10.76
+484,Helgadottir,Lif,ISL,,,99038,null,10.75
+484,Bugden,Ella,CAN,,,101085,null,10.75
+484,Abou,Lola,FRA,22,1998-07-13,92086,9195175,10.75
+487,Harko,Dalma,HUN,,,99972,null,10.71
+488,Isaacs,Annika,USA,,,100914,null,10.36
+489,Pedersen Rektorli,Julie,NOR,,,100817,null,10.29
+489,Caslavska,Stepanka,CZE,,,100020,9155089,10.29
+491,Choi,Elle,CAN,,,97962,null,10.02
+492,Smigel,Sophia,CAN,,,99423,null,9.93
+493,Vï¿½tsch,Emma,AUT,,,101127,null,9.55
+494,Dominguez,Maiatane,AND,,,100524,null,9.43
+495,Yoshidomi,Megumi,JPN,,,101026,null,9.35
+496,McCaffrey,Emmica,CAN,,,99352,null,9.21
+497,Lounis,Lï¿½nnie Camille,SUI,,,99980,null,9.15
+498,Bosanac,Mia,CRO,,,101014,null,9.14
+499,Hensley,Kay,USA,,,99559,null,9.09
+500,Coulais,Louise,FRA,,,100076,null,8.99
+501,Matsuoka,Anju,JPN,,,98185,null,8.88
+502,Van De Vlekkert,Alicia,NED,,,100836,null,8.82
+503,McCafferty,Brecken,USA,,,100897,null,8.67
+504,Buckley,Katy,USA,,,98713,9535566,8.45
+505,Suzuki,Hikari,JPN,,,100829,null,8.34
+506,Predpelski,Hazel,USA,,,100874,null,8.19
+507,Polke,Maja,GER,,,100798,null,8.09
+508,Korhonen,Saana,FIN,,,100694,null,7.99
+509,Jung,Clea,FRA,,,100529,null,7.91
+510,Bechter,Enya,SUI,,,100948,null,7.86
+510,Francesia Borai,Lisa,ITA,,,99907,null,7.86
+510,Meyer,Deva,AUT,,,96796,null,7.86
+513,Pei,Lian,CHN,,,100228,null,7.66
+514,Skinner,Liliana,SUI,,,99975,null,7.6
+515,Van Domselaar,Wanda,ARG,,,100200,null,7.45
+516,Delago,Emmy,GER,,,100961,null,7.39
+517,Borders,Chloe,USA,,,99542,null,7.08
+518,Katayama,Haruka,JPN,,,96930,null,7.02
+519,Kettaneh,Zeina,LIB,,,100861,null,7
+519,Osmond,Sadie,CAN,,,101086,null,7
+521,Rehscgï¿½tzer,Nina,AUT,,,101128,null,7
+522,Kittilae,Emmi,FIN,,,100612,null,6.86
+523,Inoe,Chika,JPN,,,95171,null,6.5
+524,Berger,Elise,CAN,,,100581,null,6.1
+525,Golland,Ella,SUI,,,99976,null,6.07
+526,Rogalski,Erin,CAN,,,97214,null,6
+527,Aure,Julia,NOR,,,100217,null,5.96
+528,Fontaine,Suzanne,FRA,,,100077,null,5.89
+529,Sun,Lianxin,CHN,,,96920,9125070,5.87
+530,Vainionpaeae,Wilma,FIN,,,95741,null,5.8
+530,Teksle,Guro,NOR,,,100431,null,5.8
+532,Pilloud,Anja,USA,,,100913,null,5.55
+533,Krauerova,Maja,CZE,,,100806,null,5.49
+534,Steen-Oehme,Celine Amalie,NOR,,,100718,null,5.29
+535,Raty,Pinja,FIN,,,100695,null,5.21
+535,Olafsdottir,Valgerdur,ISL,,,100111,null,5.21
+537,Guerrero,Lia,AND,,,100526,null,5.08
+538,Stankovikj,Ema,MKD,,,100619,null,4.91
+538,Nelson,Kjersten,USA,,,98728,null,4.91
+540,Uno,Hanoka,JPN,,,100763,null,4.64
+541,Kesselring,Lisa,SUI,,,98265,null,4.54
+542,Stephenson,Nona,USA,,,100977,null,4.09
+543,Flowers,Charlotte,USA,,,100720,null,4.05
+544,Hurter,Helena,GER,,,100799,null,3.97
+545,Steiner,Gretchen,AUT,,,100441,null,3.89
+546,Louerau,Romy,FRA,,,100530,null,3.75
+547,Durand,Toni,GER,,,100962,null,3.65
+548,Boylan,Name,CAN,,,101087,null,3.43
+548,Thormodsdottir,Freydis,ISL,,,101066,null,3.43
+548,Fakhry,Huguette,LIB,,,98197,null,3.43
+551,Rule,Peyton,CAN,,,99421,null,3.37
+552,Morton,Alexandra,USA,,,97819,null,3.2
+553,Sigg,Lani Tara,SUI,,,99977,null,3.02
+554,Smirl,Avlyn,CAN,,,99360,null,2.94
+554,Rogalski,Elsie,CAN,,,97205,null,2.94
+556,Legrand,Maya,FRA,,,100078,null,2.9
+557,Polatty,Alana,USA,,,99538,null,2.69
+558,Lamer,Kennedy,USA,,,100875,null,2.65
+559,Hamalainen,Aada,FIN,,,100696,null,2.55
+559,Brynjarsdottir,Karen Lif,ISL,,,100116,null,2.55
+559,Stocchetti Najda,Juana,ARG,,,100209,null,2.55
+562,Wallet,Ella,FRA,,,100527,null,2.46
+563,Yokoyama,Yuna,JPN,,,101027,null,2.25
+565,Hlynsdottir,Birna Ida,ISL,,,100447,null,1.95
+566,Nomura,Akari,JPN,,,100765,null,1.53
+567,Bï¿½chi,Nina,SUI,,,98617,null,1.51
+568,Cajelot,Romane,FRA,,,100528,null,1.22
