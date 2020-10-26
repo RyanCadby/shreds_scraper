@@ -8,14 +8,13 @@ from selenium.common.exceptions import TimeoutException as ex
 # import time
 from bs4 import BeautifulSoup
 # source venv/bin/activate
-
 # import pandas as pd
 # import re
 # import os
 #website urls
 base_url = 'http://www.worldsnowboarding.org/'
-# athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'
-athletes_url = 'http://www.worldsnowboarding.org/points-lists/27/?type=SS&gender=M'
+athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'
+# athletes_url = 'http://www.worldsnowboarding.org/points-lists/27/?type=SS&gender=M'
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=W#table'
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/9/?type=SS&gender=M'
 
@@ -42,7 +41,7 @@ pages = []
 for link in page_count:
     pages.append(link)
 page_total = pages[-2].text.strip()
-page_total = int(page_total) + 1 # add to page count becuase it is skipping the last page
+page_total = int(page_total)
 print("page total: " + str(page_total))
 
 for i in range(page_total): # for each page
@@ -62,19 +61,38 @@ for i in range(page_total): # for each page
         rider_link_input = 'http://www.worldsnowboarding.org/' + profile_link.get('href')
         # rider_link_input = profile_link.get('href')
         rider_link_array.append(rider_link_input)
-    # get whole rank row
-    profile_data = rank_page_soup.findAll("tr", {"class":"ranking"})
-    country_array = []
-    for region in profile_data:
-        try:
-            country = region.find("span", {"class": "icon-flag-medium"})['oldtitle']
-        except:
-            country = ''
-        country_array.append(country)
 
+
+    # get whole rank row
+    profile_data = rank_page_soup.find_all("tr", {"class":"ranking"})
+    print(profile_data)
+    country_array = []
+    score_array = []
+    position_array = []
+    # get array of full country names
+    for row in profile_data:
+        try:
+            country_array.append(row.find("span", {"class": "icon-flag-medium"})['oldtitle'])
+            score_array.append(float(row.find("td", {"class": "last"}).text))
+            position_str = row.findChildren()[0].span.text
+            position = int(position_str[:-1])
+            position_array.append(position)
+        except:
+            score_array.append('')
+            country_array.append('')
+            position_array.append(0)
+
+
+    print('profile links:')
     print(profile_links)     # print all a tags to profiles
+    print('rider links:')
     print(rider_link_array)  # print all urls to profiles
+    print('full countries:')
     print(country_array)
+    print('scores:')
+    print(score_array)
+    print('positions:')
+    print(position_array)
     
     loop_counter = 0
     for rider_link in rider_link_array:
@@ -82,6 +100,8 @@ for i in range(page_total): # for each page
         profile = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
         # assign full country name to profile
         profile[13] = country_array[loop_counter]
+        profile[1] = position_array[loop_counter]
+        profile[2] = score_array[loop_counter]
         # click on rider profile
         driver.get(rider_link)
         # get html on rider page and parse
@@ -91,19 +111,19 @@ for i in range(page_total): # for each page
             rider_name = profile_soup.select('h1.rider-label')[0].text.strip()
             profile[0] = rider_name
 
-            #get rider points
-            rider_point_soup = profile_soup.find('div', attrs={'id': 'result-table-points-list-ss'})
-            if rider_point_soup is not None:
-                rider_point_cont = rider_point_soup.ul.find_all('li')
-                point_counter = 1
-                for litag in rider_point_cont:
-                    rider_point_data = litag.getText()
-                    rider_point_info = rider_point_data.split(':', 1)
-                    profile[point_counter] = rider_point_info[1]
-                    point_counter += 1
-            else:
-                profile[1] = ''
-                print('FAIL: no slopestyle score')
+            # #get rider points
+            # rider_point_soup = profile_soup.find('div', attrs={'id': 'result-table-points-list-ss'})
+            # if rider_point_soup is not None:
+            #     rider_point_cont = rider_point_soup.ul.find_all('li')
+            #     point_counter = 1
+            #     for litag in rider_point_cont:
+            #         rider_point_data = litag.getText()
+            #         rider_point_info = rider_point_data.split(':', 1)
+            #         profile[point_counter] = rider_point_info[1]
+            #         point_counter += 1
+            # else:
+            #     profile[1] = ''
+            #     print('FAIL: no slopestyle score')
                 
             # get rider sponsors
             rider_sponsor_soup = profile_soup.find('div', attrs={'class': 'sponsor-list'})
