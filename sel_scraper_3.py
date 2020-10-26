@@ -13,8 +13,8 @@ from bs4 import BeautifulSoup
 # import os
 #website urls
 base_url = 'http://www.worldsnowboarding.org/'
-athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'
-# athletes_url = 'http://www.worldsnowboarding.org/points-lists/27/?type=SS&gender=M'
+# athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'
+athletes_url = 'http://www.worldsnowboarding.org/points-lists/27/?type=SS&gender=M'
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=W#table'
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/9/?type=SS&gender=M'
 
@@ -51,7 +51,10 @@ for i in range(page_total): # for each page
     print('number of riders ' + str(profile_count))
 
     
-    # create list of rider links per page
+    # wait for table to appear
+    element = WebDriverWait(driver, 10).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, ".block-table"))
+    )
     rank_page_soup = BeautifulSoup(driver.page_source, 'html.parser')
     # profile a tags
     profile_links = rank_page_soup.find_all(class_="ranking-table-link")
@@ -65,23 +68,39 @@ for i in range(page_total): # for each page
 
     # get whole rank row
     profile_data = rank_page_soup.find_all("tr", {"class":"ranking"})
-    print(profile_data)
     country_array = []
     score_array = []
     position_array = []
+    lastname_array = []
     # get array of full country names
     for row in profile_data:
+        # get full country name from table and add to array
         try:
             country_array.append(row.find("span", {"class": "icon-flag-medium"})['oldtitle'])
+        except:
+            country_array.append('')
+        # get rider score from table and add to array
+        try:
             score_array.append(float(row.find("td", {"class": "last"}).text))
+        except:
+            score_array.append('')
+        # get position from table and add to array
+        try:
             position_str = row.findChildren()[0].span.text
             position = int(position_str[:-1])
             position_array.append(position)
         except:
-            score_array.append('')
-            country_array.append('')
             position_array.append(0)
-
+        # get rider last name
+        try:
+            lastname_array.append(row.find("a", {"class": "ranking-table-link"}).text.split(',')[0])
+        except:
+            lastname_array.append('')
+        # get rider first name
+        try:
+            lastname_array.append(row.find("a", {"class": "ranking-table-link"}).text.split(',')[0])
+        except:
+            lastname_array.append('')
 
     print('profile links:')
     print(profile_links)     # print all a tags to profiles
@@ -93,6 +112,8 @@ for i in range(page_total): # for each page
     print(score_array)
     print('positions:')
     print(position_array)
+    print('last names:')
+    print(lastname_array)
     
     loop_counter = 0
     for rider_link in rider_link_array:
@@ -110,20 +131,6 @@ for i in range(page_total): # for each page
         try:
             rider_name = profile_soup.select('h1.rider-label')[0].text.strip()
             profile[0] = rider_name
-
-            # #get rider points
-            # rider_point_soup = profile_soup.find('div', attrs={'id': 'result-table-points-list-ss'})
-            # if rider_point_soup is not None:
-            #     rider_point_cont = rider_point_soup.ul.find_all('li')
-            #     point_counter = 1
-            #     for litag in rider_point_cont:
-            #         rider_point_data = litag.getText()
-            #         rider_point_info = rider_point_data.split(':', 1)
-            #         profile[point_counter] = rider_point_info[1]
-            #         point_counter += 1
-            # else:
-            #     profile[1] = ''
-            #     print('FAIL: no slopestyle score')
                 
             # get rider sponsors
             rider_sponsor_soup = profile_soup.find('div', attrs={'class': 'sponsor-list'})
@@ -225,18 +232,3 @@ for i in range(page_total): # for each page
 
 f.close()  # Close the file
 driver.quit()
-
-# WHEN IT IS DONE!!
-# Traceback (most recent call last):
-#   File "sel_scraper_3.py", line 185, in <module>
-#     page_next = driver.find_element_by_class_name('next')
-#   File "/usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 564, in find_element_by_class_name
-#     return self.find_element(by=By.CLASS_NAME, value=name)
-#   File "/usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
-#     return self.execute(Command.FIND_ELEMENT, {
-#   File "/usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
-#     self.error_handler.check_response(response)
-#   File "/usr/local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
-#     raise exception_class(message, screen, stacktrace)
-# selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".next"}
-#   (Session info: chrome=86.0.4240.80)
