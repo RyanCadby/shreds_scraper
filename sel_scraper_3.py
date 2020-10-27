@@ -13,10 +13,12 @@ from bs4 import BeautifulSoup
 # import os
 #website urls
 base_url = 'http://www.worldsnowboarding.org/'
-# athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'
-athletes_url = 'http://www.worldsnowboarding.org/points-lists/27/?type=SS&gender=M'
-# athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=W#table'
-# athletes_url = 'http://www.worldsnowboarding.org/points-lists/9/?type=SS&gender=M'
+# athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'  #mens ss page 1
+# athletes_url = 'http://www.worldsnowboarding.org/points-lists/27/?type=SS&gender=M'     #mens ss page 27
+# athletes_url = 'http://www.worldsnowboarding.org/points-lists/9/?type=SS&gender=M'      #mens ss page 9
+athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=HP&gender=M#table'    #mens hp page 1
+
+# athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=W#table'  #womens ss page 1
 
 # Chrome session
 driver = webdriver.Chrome(executable_path='/Users/rcadby/Sites/shreds_scraper/chromedriver')
@@ -26,7 +28,7 @@ driver.implicitly_wait(100)
 # name the output file to write to local disk
 out_filename = "./csv/snowboard-profiles.csv"
 # header of csv file to be written
-headers = "riderName, position, points, sponsors, age, nationality, stance, height, residence, resort, website, facebook, twitter, nationality_full  \n"
+headers = "lastName, firstName, position, points, sponsors, age, nationality, nationality_full, stance, height, residence, resort, website, facebook, twitter \n"
 
 # opens file, and writes headers
 f = open(out_filename, "w")
@@ -72,6 +74,7 @@ for i in range(page_total): # for each page
     score_array = []
     position_array = []
     lastname_array = []
+    firstname_array = []
     # get array of full country names
     for row in profile_data:
         # get full country name from table and add to array
@@ -98,9 +101,9 @@ for i in range(page_total): # for each page
             lastname_array.append('')
         # get rider first name
         try:
-            lastname_array.append(row.find("a", {"class": "ranking-table-link"}).text.split(',')[0])
+            firstname_array.append(row.find("a", {"class": "ranking-table-link"}).text.split(',')[1])
         except:
-            lastname_array.append('')
+            firstname_array.append('')
 
     print('profile links:')
     print(profile_links)     # print all a tags to profiles
@@ -114,28 +117,32 @@ for i in range(page_total): # for each page
     print(position_array)
     print('last names:')
     print(lastname_array)
+    print('first names:')
+    print(firstname_array)
     
     loop_counter = 0
     for rider_link in rider_link_array:
         # initiate list for rider stats
         profile = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
         # assign full country name to profile
-        profile[13] = country_array[loop_counter]
-        profile[1] = position_array[loop_counter]
-        profile[2] = score_array[loop_counter]
+        profile[7] = country_array[loop_counter]
+        profile[0] = lastname_array[loop_counter]
+        profile[1] = firstname_array[loop_counter]
+        profile[2] = position_array[loop_counter]
+        profile[3] = score_array[loop_counter]
         # click on rider profile
         driver.get(rider_link)
         # get html on rider page and parse
         profile_soup = BeautifulSoup(driver.page_source, 'html.parser')
         # get rider name
         try:
-            rider_name = profile_soup.select('h1.rider-label')[0].text.strip()
-            profile[0] = rider_name
+            # rider_name = profile_soup.select('h1.rider-label')[0].text.strip()
+            # profile[0] = rider_name
                 
             # get rider sponsors
             rider_sponsor_soup = profile_soup.find('div', attrs={'class': 'sponsor-list'})
             if rider_sponsor_soup is None:
-                profile[3] = ''
+                profile[4] = ''
             else:
                 rider_sponsor_soup_conf = rider_sponsor_soup.ul.find_all('li')
                 sponsors = ''
@@ -143,7 +150,7 @@ for i in range(page_total): # for each page
                     sponsor_item = litag.text.strip()
                     sponsors += sponsor_item + ' | '
 
-                profile[3] = sponsors
+                profile[4] = sponsors
 
             profile_code_soup = profile_soup.find_all('ul', attrs={'class': 'plain-list'})
             for ultag in profile_code_soup:
@@ -163,25 +170,25 @@ for i in range(page_total): # for each page
 
                     # check nationality
                     if profile_type == 'age':
-                        profile[4]=profile_stat
-                    elif profile_type == 'nationality':
                         profile[5]=profile_stat
-                    elif profile_type == 'stance':
+                    elif profile_type == 'nationality':
                         profile[6]=profile_stat
-                    elif profile_type == 'height':
-                        profile[7]=profile_stat
-                    elif profile_type == 'residence':
+                    elif profile_type == 'stance':
                         profile[8]=profile_stat
-                    elif profile_type == 'home resort':
+                    elif profile_type == 'height':
                         profile[9]=profile_stat
-                    elif profile_type == 'website':
+                    elif profile_type == 'residence':
                         profile[10]=profile_stat
-                    elif profile_type == 'facebook':
+                    elif profile_type == 'home resort':
                         profile[11]=profile_stat
-                    elif profile_type == 'twitter':
+                    elif profile_type == 'website':
                         profile[12]=profile_stat
-                    elif profile_type == 'instagram':
+                    elif profile_type == 'facebook':
                         profile[13]=profile_stat
+                    elif profile_type == 'twitter':
+                        profile[14]=profile_stat
+                    elif profile_type == 'instagram':
+                        profile[15]=profile_stat
                     else:
                         pass
 
