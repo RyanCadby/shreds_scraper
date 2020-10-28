@@ -17,9 +17,10 @@ base_url = 'http://www.worldsnowboarding.org/'
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/27/?type=SS&gender=M'     #mens ss page 27
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/9/?type=SS&gender=M'      #mens ss page 9
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=HP&gender=M#table'    #mens hp page 1
-athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=BA&gender=M#table'    #mens ba page 1
+# athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=BA&gender=M#table'     #mens ba page 1
 
-# athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=W#table'  #womens ss page 1
+athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=W#table'  #womens ss page 1
+
 
 # Chrome session
 driver = webdriver.Chrome(executable_path='/Users/rcadby/Sites/shreds_scraper/chromedriver')
@@ -233,6 +234,11 @@ for i in range(page_total): # for each page
             f.write("\n")
 
         loop_counter += 1
+
+    # wait for table to appear
+    element = WebDriverWait(driver, 10).until(
+        EC.visibility_of_element_located((By.CSS_SELECTOR, ".pagination"))
+    )
      # navigate to link
     page_next = driver.find_element_by_class_name('next')
     page_next.click()
