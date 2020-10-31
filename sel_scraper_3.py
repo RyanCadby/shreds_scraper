@@ -13,13 +13,13 @@ from bs4 import BeautifulSoup
 # import os
 #website urls
 base_url = 'http://www.worldsnowboarding.org/'
-# athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'  #mens ss page 1
+athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'  #mens ss page 1
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/27/?type=SS&gender=M'     #mens ss page 27
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/9/?type=SS&gender=M'      #mens ss page 9
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=HP&gender=M#table'    #mens hp page 1
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=BA&gender=M#table'     #mens ba page 1
 
-athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=W#table'  #womens ss page 1
+# athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=W#table'  #womens ss page 1
 
 
 # Chrome session
@@ -45,7 +45,7 @@ pages = []
 for link in page_count:
     pages.append(link)
 page_total = pages[-2].text.strip()
-page_total = int(page_total)
+page_total = int(page_total) + 20
 print("page total: " + str(page_total))
 
 for i in range(page_total): # for each page
