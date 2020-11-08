@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 # import os
 #website urls
 base_url = 'http://www.worldsnowboarding.org/'
-# athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'  #mens ss page 1
+athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=M#table'  #mens ss page 1
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/27/?type=SS&gender=M'     #mens ss page 27
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/9/?type=SS&gender=M'      #mens ss page 9
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=HP&gender=M#table'    #mens hp page 1
@@ -21,7 +21,7 @@ base_url = 'http://www.worldsnowboarding.org/'
 
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=SS&gender=W#table'  #womens ss page 1
 # athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=HP&gender=W#table'    #womens hp page 1
-athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=BA&gender=W#table'    #womens ba page 1
+# athletes_url = 'http://www.worldsnowboarding.org/points-lists/?type=BA&gender=W#table'    #womens ba page 1
 
 
 # Chrome session
@@ -49,6 +49,8 @@ for link in page_count:
 page_total = pages[-2].text.strip()
 page_total = int(page_total) + 20
 print("page total: " + str(page_total))
+# initiate empty variable to see if it has already read this page
+last_position_check = None
 
 for i in range(page_total): # for each page
 
@@ -108,6 +110,72 @@ for i in range(page_total): # for each page
             firstname_array.append(row.find("a", {"class": "ranking-table-link"}).text.split(',')[1])
         except:
             firstname_array.append('')
+
+
+    if i != 0 and position_array[49] == last_position_check:
+        # navigate to link
+        page_next = driver.find_element_by_class_name('next')
+        page_next.click()
+        print('FAIL: duplicate page trial')
+
+        # count profiles per page
+        profile_count = len(driver.find_elements_by_class_name('ranking'))
+        print('number of riders ' + str(profile_count))
+
+        
+        # wait for table to appear
+        element = WebDriverWait(driver, 10).until(
+            EC.visibility_of_element_located((By.CSS_SELECTOR, ".block-table"))
+        )
+        rank_page_soup = BeautifulSoup(driver.page_source, 'html.parser')
+        # profile a tags
+        profile_links = rank_page_soup.find_all(class_="ranking-table-link")
+        # get urls from a tags
+        rider_link_array = []
+        for profile_link in profile_links:
+            rider_link_input = 'http://www.worldsnowboarding.org/' + profile_link.get('href')
+            # rider_link_input = profile_link.get('href')
+            rider_link_array.append(rider_link_input)
+
+
+        # get whole rank row
+        profile_data = rank_page_soup.find_all("tr", {"class":"ranking"})
+        country_array = []
+        score_array = []
+        position_array = []
+        lastname_array = []
+        firstname_array = []
+        # get array of full country names
+        for row in profile_data:
+            # get full country name from table and add to array
+            try:
+                country_array.append(row.find("span", {"class": "icon-flag-medium"})['oldtitle'])
+            except:
+                country_array.append('')
+            # get rider score from table and add to array
+            try:
+                score_array.append(float(row.find("td", {"class": "last"}).text))
+            except:
+                score_array.append('')
+            # get position from table and add to array
+            try:
+                position_str = row.findChildren()[0].span.text
+                position = int(position_str[:-1])
+                position_array.append(position)
+            except:
+                position_array.append(0)
+            # get rider last name
+            try:
+                lastname_array.append(row.find("a", {"class": "ranking-table-link"}).text.split(',')[0])
+            except:
+                lastname_array.append('')
+            # get rider first name
+            try:
+                firstname_array.append(row.find("a", {"class": "ranking-table-link"}).text.split(',')[1])
+            except:
+                firstname_array.append('')
+
+
 
     print('profile links:')
     print(profile_links)     # print all a tags to profiles
@@ -199,6 +267,9 @@ for i in range(page_total): # for each page
             profile_str = ', '.join(str(x) for x in profile)
             print('PROFILE STRING: ' + profile_str)
             f.write(profile_str)
+            if loop_counter == 49:
+                last_position_check = profile[2]
+
 
             # go back to initial page
             driver.execute_script("window.history.go(-1)")
@@ -238,7 +309,7 @@ for i in range(page_total): # for each page
         loop_counter += 1
 
     # wait for table to appear
-    element = WebDriverWait(driver, 10).until(
+    WebDriverWait(driver, 10).until(
         EC.visibility_of_element_located((By.CSS_SELECTOR, ".pagination"))
     )
      # navigate to link
