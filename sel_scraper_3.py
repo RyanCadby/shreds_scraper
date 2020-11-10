@@ -112,7 +112,7 @@ for i in range(page_total): # for each page
             firstname_array.append('')
 
 
-    if i != 0 and position_array[49] == last_position_check:
+    if i != 0 and position_array[(profile_count - 1)] == last_position_check:
         # navigate to link
         page_next = driver.find_element_by_class_name('next')
         page_next.click()
@@ -136,8 +136,7 @@ for i in range(page_total): # for each page
             rider_link_input = 'http://www.worldsnowboarding.org/' + profile_link.get('href')
             # rider_link_input = profile_link.get('href')
             rider_link_array.append(rider_link_input)
-
-
+            
         # get whole rank row
         profile_data = rank_page_soup.find_all("tr", {"class":"ranking"})
         country_array = []
@@ -174,6 +173,8 @@ for i in range(page_total): # for each page
                 firstname_array.append(row.find("a", {"class": "ranking-table-link"}).text.split(',')[1])
             except:
                 firstname_array.append('')
+    else:
+        pass
 
 
 
