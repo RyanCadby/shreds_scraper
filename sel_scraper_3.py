@@ -39,7 +39,7 @@ f = open(out_filename, "w")
 f.write(headers)
 
 # get initial page soup
-page_soup = BeautifulSoup(driver.page_source, 'html.parser')
+page_soup = BeautifulSoup(driver.page_source, 'html.parser', from_encoding='utf8')
 
 # count number of pages
 page_count = page_soup.find('div', attrs={'class': 'pagination-links'}).find_all('a')
@@ -63,7 +63,7 @@ for i in range(page_total): # for each page
     element = WebDriverWait(driver, 10).until(
         EC.visibility_of_element_located((By.CSS_SELECTOR, ".block-table"))
     )
-    rank_page_soup = BeautifulSoup(driver.page_source, 'html.parser')
+    rank_page_soup = BeautifulSoup(driver.page_source, 'html.parser', from_encoding='utf8')
     # profile a tags
     profile_links = rank_page_soup.find_all(class_="ranking-table-link")
     # get urls from a tags
@@ -127,7 +127,7 @@ for i in range(page_total): # for each page
         element = WebDriverWait(driver, 10).until(
             EC.visibility_of_element_located((By.CSS_SELECTOR, ".block-table"))
         )
-        rank_page_soup = BeautifulSoup(driver.page_source, 'html.parser')
+        rank_page_soup = BeautifulSoup(driver.page_source, 'html.parser', from_encoding='utf8')
         # profile a tags
         profile_links = rank_page_soup.find_all(class_="ranking-table-link")
         # get urls from a tags
@@ -136,7 +136,7 @@ for i in range(page_total): # for each page
             rider_link_input = 'http://www.worldsnowboarding.org/' + profile_link.get('href')
             # rider_link_input = profile_link.get('href')
             rider_link_array.append(rider_link_input)
-            
+
         # get whole rank row
         profile_data = rank_page_soup.find_all("tr", {"class":"ranking"})
         country_array = []
@@ -206,7 +206,7 @@ for i in range(page_total): # for each page
         # click on rider profile
         driver.get(rider_link)
         # get html on rider page and parse
-        profile_soup = BeautifulSoup(driver.page_source, 'html.parser')
+        profile_soup = BeautifulSoup(driver.page_source, 'html.parser', from_encoding='utf8')
         # get rider name
         try:
             # rider_name = profile_soup.select('h1.rider-label')[0].text.strip()
@@ -237,9 +237,11 @@ for i in range(page_total): # for each page
                     profile_info = profile_info.replace('"', 'in.')
                     profile_info = profile_info.replace(',', '|')
 
-                    profile_type, profile_stat = profile_info.split(":", 1)
-                    profile_type = profile_type.lower()
-                    profile_stat = profile_stat.strip()
+                    # split profile info by title and value using a colon
+                    profile_type= profile_info.split(":", 1)[0].lower()
+                    profile_stat = profile_info.split(":", 1)[1].strip().replace('\n', ' ') #replace new line value with space
+
+                    print(profile_type, profile_stat)
 
                     # check nationality
                     if profile_type == 'age':
@@ -264,7 +266,7 @@ for i in range(page_total): # for each page
                         profile[15]=profile_stat
                     else:
                         pass
-
+                    
             profile_str = ', '.join(str(x) for x in profile)
             print('PROFILE STRING: ' + profile_str)
             f.write(profile_str)
@@ -282,7 +284,7 @@ for i in range(page_total): # for each page
             # go back to initial page
             driver.execute_script("window.history.go(-1)")
 
-            table_soup = BeautifulSoup(driver.page_source, 'html.parser')
+            table_soup = BeautifulSoup(driver.page_source, 'html.parser', from_encoding='utf8')
             # find url in table
             url = rider_link.strip('http://www.worldsnowboarding.org/')
             find_link = table_soup.select_one("a[href*='" + url + "']")
