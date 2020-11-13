@@ -32,7 +32,7 @@ driver.implicitly_wait(100)
 # name the output file to write to local disk
 out_filename = "./csv/snowboard-profiles.csv"
 # header of csv file to be written
-headers = "lastName, firstName, position, points, sponsors, age, nationality, nationality_full, stance, height, residence, resort, website, facebook, twitter \n"
+headers = "lastName, firstName, position, points, sponsors, age, nationality, nationality_full, stance, height, residence, resort, website, facebook, twitter, rider_concat_id, \n"
 
 # opens file, and writes headers
 f = open(out_filename, "w")
@@ -81,6 +81,7 @@ for i in range(page_total): # for each page
     position_array = []
     lastname_array = []
     firstname_array = []
+    nationality_abr = []
     # get array of full country names
     for row in profile_data:
         # get full country name from table and add to array
@@ -110,6 +111,11 @@ for i in range(page_total): # for each page
             firstname_array.append(row.find("a", {"class": "ranking-table-link"}).text.split(',')[1])
         except:
             firstname_array.append('')
+        # get rider first name
+        try:
+            nationality_abr.append(row.find("span", {"class": "icon-flag-medium"}).text.lower())
+        except:
+            nationality_abr.append('')
 
 
     if i != 0 and position_array[(profile_count - 1)] == last_position_check:
@@ -144,6 +150,7 @@ for i in range(page_total): # for each page
         position_array = []
         lastname_array = []
         firstname_array = []
+        nationality_abr = []
         # get array of full country names
         for row in profile_data:
             # get full country name from table and add to array
@@ -173,6 +180,11 @@ for i in range(page_total): # for each page
                 firstname_array.append(row.find("a", {"class": "ranking-table-link"}).text.split(',')[1])
             except:
                 firstname_array.append('')
+            # get rider first name
+            try:
+                nationality_abr.append(row.find("span", {"class": "icon-flag-medium"}).text.lower())
+            except:
+                nationality_abr.append('')
     else:
         pass
 
@@ -196,13 +208,19 @@ for i in range(page_total): # for each page
     loop_counter = 0
     for rider_link in rider_link_array:
         # initiate list for rider stats
-        profile = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+        profile = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
         # assign full country name to profile
         profile[7] = country_array[loop_counter]
         profile[0] = lastname_array[loop_counter]
         profile[1] = firstname_array[loop_counter]
         profile[2] = position_array[loop_counter]
         profile[3] = score_array[loop_counter]
+
+        first_name_concat = firstname_array[loop_counter].strip().lower()
+        last_name_concat = lastname_array[loop_counter].strip().lower()
+        nationality_concat = nationality_abr[loop_counter].strip()
+        profile[16] =  str(first_name_concat + last_name_concat + nationality_concat)
+
         # click on rider profile
         driver.get(rider_link)
         # get html on rider page and parse
@@ -266,7 +284,7 @@ for i in range(page_total): # for each page
                         profile[15]=profile_stat
                     else:
                         pass
-                    
+
             profile_str = ', '.join(str(x) for x in profile)
             print('PROFILE STRING: ' + profile_str)
             f.write(profile_str)
