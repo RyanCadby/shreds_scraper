@@ -180,9 +180,10 @@ for i in range(page_total): # for each page
                 firstname_array.append(row.find("a", {"class": "ranking-table-link"}).text.split(',')[1])
             except:
                 firstname_array.append('')
-            # get rider first name
+            # get rider full nationality
             try:
-                nationality_abr.append(row.find("span", {"class": "icon-flag-medium"}).text.lower())
+                nationality_full_array = row.find("span", {"class": "icon-flag-medium"}).text.split(',')[0].lower()
+                nationality_abr.append(nationality_full_array)
             except:
                 nationality_abr.append('')
     else:
@@ -208,7 +209,7 @@ for i in range(page_total): # for each page
     loop_counter = 0
     for rider_link in rider_link_array:
         # initiate list for rider stats
-        profile = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+        profile = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
         # assign full country name to profile
         profile[7] = country_array[loop_counter]
         profile[0] = lastname_array[loop_counter]
@@ -219,7 +220,7 @@ for i in range(page_total): # for each page
         first_name_concat = firstname_array[loop_counter].strip().lower()
         last_name_concat = lastname_array[loop_counter].strip().lower()
         nationality_concat = nationality_abr[loop_counter].strip()
-        profile[16] =  str(first_name_concat + last_name_concat + nationality_concat)
+        profile[15] =  str(first_name_concat + last_name_concat + nationality_concat)
 
         # click on rider profile
         driver.get(rider_link)
@@ -280,8 +281,6 @@ for i in range(page_total): # for each page
                         profile[13]=profile_stat
                     elif profile_type == 'twitter':
                         profile[14]=profile_stat
-                    elif profile_type == 'instagram':
-                        profile[15]=profile_stat
                     else:
                         pass
 
