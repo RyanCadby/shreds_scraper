@@ -111,9 +111,10 @@ for i in range(page_total): # for each page
             firstname_array.append(row.find("a", {"class": "ranking-table-link"}).text.split(',')[1])
         except:
             firstname_array.append('')
-        # get rider first name
+        # get full nationality
         try:
-            nationality_abr.append(row.find("span", {"class": "icon-flag-medium"}).text.lower())
+            nationality_full_array = row.find("span", {"class": "icon-flag-medium"}).text.split(',')[0].lower()
+            nationality_abr.append(nationality_full_array)
         except:
             nationality_abr.append('')
 
