@@ -86,7 +86,7 @@ for i in range(page_total): # for each page
     for row in profile_data:
         # get full country name from table and add to array
         try:
-            country_array.append(row.find("span", {"class": "icon-flag-medium"})['oldtitle'])
+            country_array.append(row.find("span", {"class": "icon-flag-medium"})['oldtitle'].split(',')[0].lower())
         except:
             country_array.append('')
         # get rider score from table and add to array
@@ -113,7 +113,7 @@ for i in range(page_total): # for each page
             firstname_array.append('')
         # get full nationality
         try:
-            nationality_full_array = row.find("span", {"class": "icon-flag-medium"}).text.split(',')[0].lower()
+            nationality_full_array = row.find("span", {"class": "icon-flag-medium"}).text.lower()
             nationality_abr.append(nationality_full_array)
         except:
             nationality_abr.append('')
@@ -156,7 +156,7 @@ for i in range(page_total): # for each page
         for row in profile_data:
             # get full country name from table and add to array
             try:
-                country_array.append(row.find("span", {"class": "icon-flag-medium"})['oldtitle'])
+                country_array.append(row.find("span", {"class": "icon-flag-medium"})['oldtitle'].split(',')[0].lower())
             except:
                 country_array.append('')
             # get rider score from table and add to array
@@ -183,7 +183,7 @@ for i in range(page_total): # for each page
                 firstname_array.append('')
             # get rider full nationality
             try:
-                nationality_full_array = row.find("span", {"class": "icon-flag-medium"}).text.split(',')[0].lower()
+                nationality_full_array = row.find("span", {"class": "icon-flag-medium"}).text.lower()
                 nationality_abr.append(nationality_full_array)
             except:
                 nationality_abr.append('')
@@ -329,10 +329,10 @@ for i in range(page_total): # for each page
 
         loop_counter += 1
 
-    # wait for table to appear
-    WebDriverWait(driver, 10).until(
-        EC.visibility_of_element_located((By.CSS_SELECTOR, ".pagination"))
-    )
+    # # wait for table to appear
+    # WebDriverWait(driver, 10).until(
+    #     EC.visibility_of_element_located((By.CSS_SELECTOR, ".pagination"))
+    # )
      # navigate to link
     page_next = driver.find_element_by_class_name('next')
     page_next.click()
