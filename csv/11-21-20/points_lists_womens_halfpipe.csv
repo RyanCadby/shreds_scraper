@@ -1,0 +1,248 @@
+﻿position_hp,lastname,firstname,nationality,age,dob,WST Rider ID,fis code,number_of_results_hp,points_hp,concat_id,gender,created_at,updated_at
+1,Cai,Xuetong,CHN,27,9/26/93 0:00,79864,1129975,3 / (8),1000,xuetongcaichn,f,11/21/20 17:16,11/21/20 17:16
+2,Castellet,Queralt,ESP,31,6/17/89 0:00,75419,1499921,3 / (8),966.67,queraltcastelletesp,f,11/21/20 17:16,11/21/20 17:16
+3,Liu,Jiayu,CHN,28,9/17/92 0:00,77457,1129974,3 / (6),903.43,jiayuliuchn,f,11/21/20 17:16,11/21/20 17:16
+4,Mastro,Maddie,USA,20,2/22/00 0:00,77905,9535389,3 / (8),843.47,maddiemastrousa,f,11/21/20 17:16,11/21/20 17:16
+5,Tomita,Sena,JPN,21,10/5/99 0:00,81785,9305313,3 / (5),768.27,senatomitajpn,f,11/21/20 17:16,11/21/20 17:16
+6,Imai,Kurumi,JPN,21,9/24/99 0:00,84354,9305315,3 / (6),742.33,kurumiimaijpn,f,11/21/20 17:16,11/21/20 17:16
+7,Ono,Mitsuki,JPN,,,91506,9305411,3 / (8),730.52,mitsukionojpn,f,11/21/20 17:16,11/21/20 17:16
+8,Gold,Arielle,USA,24,5/4/96 0:00,76874,9535287,3 / (3),719.73,ariellegoldusa,f,11/21/20 17:16,11/21/20 17:16
+9,Tomita,Ruki,JPN,,,81778,9305337,3 / (9),719.4,rukitomitajpn,f,11/21/20 17:16,11/21/20 17:16
+10,Wu,Shaotong,CHN,,,92443,9125004,3 / (9),713.67,shaotongwuchn,f,11/21/20 17:16,11/21/20 17:16
+11,Matsumoto,Haruna,JPN,27,7/26/93 0:00,76642,9305166,3 / (8),692.56,harunamatsumotojpn,f,11/21/20 17:16,11/21/20 17:16
+12,Rohrer,Verena,SUI,24,4/8/96 0:00,82499,9515128,3 / (6),596.97,verenarohrersui,f,11/21/20 17:16,11/21/20 17:16
+13,Qiu,Leng,CHN,,,92442,9125003,3 / (6),555.72,lengqiuchn,f,11/21/20 17:16,11/21/20 17:16
+14,Hosking,Elizabeth,CAN,19,7/22/01 0:00,87908,9105347,3 / (2),527.76,elizabethhoskingcan,f,11/21/20 17:16,11/21/20 17:16
+15,Ettel,Leilani,GER,19,7/5/01 0:00,88773,9205072,3 / (9),510.15,leilaniettelger,f,11/21/20 17:16,11/21/20 17:16
+16,Kaji,Manon,JPN,,,98108,9305404,3 / (4),480.29,manonkajijpn,f,11/21/20 17:16,11/21/20 17:16
+17,Tamada,Takara,JPN,,,89491,9305310,3 / (6),465.13,takaratamadajpn,f,11/21/20 17:16,11/21/20 17:16
+18,Maud,Tessa,USA,,,95320,9535486,3 / (9),464.77,tessamaudusa,f,11/21/20 17:16,11/21/20 17:16
+19,Wicki,Berenice,SUI,18,9/24/02 0:00,85772,9515179,3 / (5),460.98,berenicewickisui,f,11/21/20 17:16,11/21/20 17:16
+20,Dhondt,Brooke,CAN,15,3/9/05 0:00,93624,,3 / (9),457.85,brookedhondtcan,f,11/21/20 17:16,11/21/20 17:16
+21,Kalapos,Zoe,USA,23,4/17/97 0:00,84471,9535344,3 / (7),444,zoekalaposusa,f,11/21/20 17:16,11/21/20 17:16
+22,Simsovits,Alexandria,USA,,,96994,9535536,3 / (9),423.38,alexandriasimsovitsusa,f,11/21/20 17:16,11/21/20 17:16
+23,Schuetz,Elena,SUI,17,4/26/03 0:00,91723,9515192,3 / (5),403.79,elenaschuetzsui,f,11/21/20 17:16,11/21/20 17:16
+24,Alba,Sonora,USA,,,96995,,3 / (7),362.9,sonoraalbausa,f,11/21/20 17:16,11/21/20 17:16
+25,Wang,Jianjie,CHN,,,98670,9125040,3 / (6),362.35,jianjiewangchn,f,11/21/20 17:16,11/21/20 17:16
+26,Kamata,Ayako,JPN,,,87723,9305327,3 / (4),360.03,ayakokamatajpn,f,11/21/20 17:16,11/21/20 17:16
+27,Loetscher,Isabelle,SUI,,,88803,9515197,3 / (5),356.41,isabelleloetschersui,f,11/21/20 17:16,11/21/20 17:16
+28,Wang,Jingjing,CHN,,,96063,9125017,3 / (4),354.77,jingjingwangchn,f,11/21/20 17:16,11/21/20 17:16
+29,Kakubari,Misaki,JPN,,,83835,9305344,3 / (3),346.21,misakikakubarijpn,f,11/21/20 17:16,11/21/20 17:16
+30,White,Kinsley,USA,,,86544,9535485,3 / (9),336.72,kinsleywhiteusa,f,11/21/20 17:16,11/21/20 17:16
+31,Obregon,Taylor,USA,23,12/2/96 0:00,83924,9535385,3 / (6),330.65,taylorobregonusa,f,11/21/20 17:16,11/21/20 17:16
+32,Comeau,Athena,USA,,,97649,,3 / (10),317.75,athenacomeauusa,f,11/21/20 17:16,11/21/20 17:16
+33,Shafer,Kaili,USA,,,88165,9535441,3 / (8),303.1,kailishaferusa,f,11/21/20 17:16,11/21/20 17:16
+34,Gisler,Bianca,SUI,17,2/15/03 0:00,93678,9515199,3 / (3),295.24,biancagislersui,f,11/21/20 17:16,11/21/20 17:16
+35,Black,Margie,USA,,,96505,9535502,3 / (7),285.88,margieblackusa,f,11/21/20 17:16,11/21/20 17:16
+36,Spiteri,Jenise,MLT,28,9/20/92 0:00,83071,9535341,3 / (3),275.36,jenisespiterimlt,f,11/21/20 17:16,11/21/20 17:16
+37,Arthur,Emily,AUS,21,4/24/99 0:00,75465,9045073,3 / (3),267.43,emilyarthuraus,f,11/21/20 17:16,11/21/20 17:16
+38,Lee,Na-Yoon,KOR,,,97550,,3 / (11),258.75,na-yoonleekor,f,11/21/20 17:16,11/21/20 17:16
+39,Ettel,Kona,GER,13,5/11/07 0:00,91588,,3 / (3),240.75,konaettelger,f,11/21/20 17:16,11/21/20 17:16
+40,Zhang,Yinan,CHN,,,98676,9125041,3 / (3),234.1,yinanzhangchn,f,11/21/20 17:16,11/21/20 17:16
+41,Yang,Lu,CHN,,,98669,,3 / (3),229.83,luyangchn,f,11/21/20 17:16,11/21/20 17:16
+42,Cowan,Ellah,USA,,,98243,,3 / (8),229.08,ellahcowanusa,f,11/21/20 17:16,11/21/20 17:16
+43,Cowan,Lola,USA,,,98229,,3 / (6),228.83,lolacowanusa,f,11/21/20 17:16,11/21/20 17:16
+44,Bogart,Kailey,USA,,,98061,,3 / (5),227.84,kaileybogartusa,f,11/21/20 17:16,11/21/20 17:16
+45,Kolodziej,Klementyna,POL,,,78149,9435051,3 / (3),215.4,klementynakolodziejpol,f,11/21/20 17:16,11/21/20 17:16
+46,Hasler,Leonie,SUI,,,99622,,3 / (4),213.5,leoniehaslersui,f,11/21/20 17:16,11/21/20 17:16
+47,Geremia,Felicity,CAN,,,96569,,3 / (4),188.95,felicitygeremiacan,f,11/21/20 17:16,11/21/20 17:16
+48,Ulmer,Lily-Ann,CAN,,,98482,,3 / (4),187.66,lily-annulmercan,f,11/21/20 17:16,11/21/20 17:16
+49,Jia,Yanru,CHN,,,96064,9125015,3 / (6),185.23,yanrujiachn,f,11/21/20 17:16,11/21/20 17:16
+50,Kita,Fuwari,JPN,,,94999,9305439,2 / (2),183.83,fuwarikitajpn,f,11/21/20 17:16,11/21/20 17:16
+51,Fu,Xinya,CHN,,,96065,9125018,2 / (2),183.62,xinyafuchn,f,11/21/20 17:16,11/21/20 17:16
+52,Nashiki,Mirei,JPN,,,99341,,2 / (2),181.96,mireinashikijpn,f,11/21/20 17:16,11/21/20 17:16
+53,Kozuback,Kamilla,CAN,16,5/5/04 0:00,93492,9105435,3 / (5),180.82,kamillakozubackcan,f,11/21/20 17:16,11/21/20 17:16
+54,Jia,Lulu,CHN,,,96061,9125016,3 / (4),176.47,lulujiachn,f,11/21/20 17:16,11/21/20 17:16
+55,Poltera,Siria,SUI,14,3/1/06 0:00,87670,,3 / (3),162.56,siriapolterasui,f,11/21/20 17:16,11/21/20 17:16
+56,Fujiwara,Mio,JPN,,,98152,,3 / (3),162.55,miofujiwarajpn,f,11/21/20 17:16,11/21/20 17:16
+57,Walker,Jenna,CAN,,,98468,,3 / (4),161.68,jennawalkercan,f,11/21/20 17:16,11/21/20 17:16
+58,Mondani,Samuela,SUI,,,97422,9515195,3 / (3),157.36,samuelamondanisui,f,11/21/20 17:16,11/21/20 17:16
+59,Coumont,Summer,CAN,,,96589,,3 / (3),142.61,summercoumontcan,f,11/21/20 17:16,11/21/20 17:16
+60,Neal,Kaylie,USA,,,100254,,3 / (3),140.16,kaylienealusa,f,11/21/20 17:16,11/21/20 17:16
+61,Quintieri,Kaiya,USA,,,98718,9535565,3 / (7),132.05,kaiyaquintieriusa,f,11/21/20 17:16,11/21/20 17:16
+62,Kawahara,Riju,JPN,,,99455,,3 / (3),131.6,rijukawaharajpn,f,11/21/20 17:16,11/21/20 17:16
+63,Kutcher,Stella,CAN,12,9/9/08 0:00,96574,,3 / (4),127.83,stellakutchercan,f,11/21/20 17:16,11/21/20 17:16
+64,Cook,Ava,CAN,,,97943,,3 / (4),126.35,avacookcan,f,11/21/20 17:16,11/21/20 17:16
+65,Inaba,Mikoto,JPN,,,99659,,3 / (3),123.82,mikotoinabajpn,f,11/21/20 17:16,11/21/20 17:16
+66,Ohashi,Sorana,JPN,,,99456,,2 / (2),123.3,soranaohashijpn,f,11/21/20 17:16,11/21/20 17:16
+67,Taka,Eveliina,FIN,,,93436,9185078,1 / (1),120,eveliinatakafin,f,11/21/20 17:16,11/21/20 17:16
+68,Thomas,Kristen,USA,,,98715,9535538,3 / (4),116.72,kristenthomasusa,f,11/21/20 17:16,11/21/20 17:16
+69,Buckley,Katy,USA,,,98713,9535566,3 / (4),116.57,katybuckleyusa,f,11/21/20 17:16,11/21/20 17:16
+70,Pancochova,Sarka,CZE,30,11/1/90 0:00,74989,1159968,2 / (2),115.43,sarkapancochovacze,f,11/21/20 17:16,11/21/20 17:16
+71,Candrian,Sina,SUI,32,11/21/88 0:00,52643,9515010,1 / (1),114.28,sinacandriansui,f,11/21/20 17:16,11/21/20 17:16
+72,Powers,Victoria,USA,,,98719,9535559,3 / (4),109.3,victoriapowersusa,f,11/21/20 17:16,11/21/20 17:16
+73,Ewoldt,Django,USA,,,95849,9535584,3 / (4),107.04,djangoewoldtusa,f,11/21/20 17:16,11/21/20 17:16
+74,Hardt,Sarah,GER,,,89340,9205077,1 / (1),106.68,sarahhardtger,f,11/21/20 17:16,11/21/20 17:16
+75,Elvy,Sascha,AUS,,,99422,,3 / (4),106.07,saschaelvyaus,f,11/21/20 17:16,11/21/20 17:16
+76,Hallen,Veda,USA,,,98864,,3 / (5),103.14,vedahallenusa,f,11/21/20 17:16,11/21/20 17:16
+77,Partridge,Natalie,USA,,,97773,,2 / (2),100.14,nataliepartridgeusa,f,11/21/20 17:16,11/21/20 17:16
+78,Kolodziej,Shirly,SUI,,,94140,,1 / (1),100,shirlykolodziejsui,f,11/21/20 17:16,11/21/20 17:16
+79,Pelfrey,Kanoe,USA,26,2/28/94 0:00,92188,9535444,3 / (7),99.86,kanoepelfreyusa,f,11/21/20 17:16,11/21/20 17:16
+80,Shibata,Nanako,JPN,,,98149,,3 / (3),99.58,nanakoshibatajpn,f,11/21/20 17:16,11/21/20 17:16
+81,Chen,Alexandra,AUS,,,92293,9045098,2 / (2),95.8,alexandrachenaus,f,11/21/20 17:16,11/21/20 17:16
+82,Jong De,Jacquelina,NED,14,3/8/06 0:00,88775,,3 / (4),94.34,jacquelinajong dened,f,11/21/20 17:16,11/21/20 17:16
+83,Graven,Isla,CAN,,,97961,,3 / (4),92.9,islagravencan,f,11/21/20 17:16,11/21/20 17:16
+84,Wei,Xinzhuo,CHN,,,100189,9125119,2 / (2),88.45,xinzhuoweichn,f,11/21/20 17:16,11/21/20 17:16
+85,Nishizuka,Rinka,JPN,,,100981,,1 / (1),85.53,rinkanishizukajpn,f,11/21/20 17:16,11/21/20 17:16
+86,Wang,Pinxuan,CHN,,,100191,9125118,2 / (2),85.25,pinxuanwangchn,f,11/21/20 17:16,11/21/20 17:16
+87,Bakke,Emma,NOR,,,95307,,2 / (2),85.13,emmabakkenor,f,11/21/20 17:16,11/21/20 17:16
+88,Perach,Yugala,GER,,,97056,,1 / (1),84.83,yugalaperachger,f,11/21/20 17:16,11/21/20 17:16
+89,Sarkipaju,Telma,FIN,,,97426,9185080,1 / (1),84.04,telmasarkipajufin,f,11/21/20 17:16,11/21/20 17:16
+90,Mogi,Megumi,JPN,,,98151,,2 / (2),82.36,megumimogijpn,f,11/21/20 17:16,11/21/20 17:16
+91,Tahara,Yumiko,JPN,,,97163,,2 / (2),80.53,yumikotaharajpn,f,11/21/20 17:16,11/21/20 17:16
+92,Connor,Meredith,USA,,,97795,9535562,3 / (3),80.28,meredithconnorusa,f,11/21/20 17:16,11/21/20 17:16
+93,Poon,Marylin,USA,,,91827,,1 / (1),75.27,marylinpoonusa,f,11/21/20 17:16,11/21/20 17:16
+94,Benneker,Olivia,SUI,,,94955,,3 / (3),74.19,oliviabennekersui,f,11/21/20 17:16,11/21/20 17:16
+95,Boulanger,Kinsey,CAN,16,2/17/04 0:00,99867,9105480,3 / (6),73.39,kinseyboulangercan,f,11/21/20 17:16,11/21/20 17:16
+96,Goto,Hinako,JPN,,,93167,9305316,1 / (1),71.12,hinakogotojpn,f,11/21/20 17:16,11/21/20 17:16
+97,Kurosawa,Mahiro,JPN,,,99513,,1 / (1),70.03,mahirokurosawajpn,f,11/21/20 17:16,11/21/20 17:16
+98,Starblanket,Ava,CAN,,,98467,,2 / (2),69.11,avastarblanketcan,f,11/21/20 17:16,11/21/20 17:16
+99,Bossard,Madita,SUI,,,98325,,2 / (2),68.47,maditabossardsui,f,11/21/20 17:16,11/21/20 17:16
+100,Zhou,Patti Yizhu,CHN,,,100893,,2 / (2),67.49,patti yizhuzhouchn,f,11/21/20 17:16,11/21/20 17:16
+101,Kwon,Sunoo,KOR,21,1/14/99 0:00,91104,9325030,2 / (2),66.67,sunookwonkor,f,11/21/20 17:16,11/21/20 17:16
+102,Haensel,Ronja,AUT,,,96457,9055105,1 / (1),66.42,ronjahaenselaut,f,11/21/20 17:16,11/21/20 17:16
+103,Romanova,Varvara,RUS,,,97654,,3 / (3),65.52,varvararomanovarus,f,11/21/20 17:16,11/21/20 17:16
+104,Scheidegger,Yuna,SUI,,,96744,,3 / (3),64.72,yunascheideggersui,f,11/21/20 17:16,11/21/20 17:16
+105,Verdnik,Kaja,SLO,21,2/23/99 0:00,87134,1569999,1 / (1),64.65,kajaverdnikslo,f,11/21/20 17:16,11/21/20 17:16
+106,Immonen,Veera,FIN,,,95738,9185079,1 / (1),63.68,veeraimmonenfin,f,11/21/20 17:16,11/21/20 17:16
+107,Roberts,Kali,CAN,13,7/12/07 0:00,96573,,3 / (3),62.64,kalirobertscan,f,11/21/20 17:16,11/21/20 17:16
+108,Hedrich,Anne,GER,,,97057,,1 / (1),58.18,annehedrichger,f,11/21/20 17:16,11/21/20 17:16
+109,Cohen,Gabby,USA,,,96123,9535491,2 / (2),57.15,gabbycohenusa,f,11/21/20 17:16,11/21/20 17:16
+110,Salis,Andrina,SUI,,,93064,,1 / (1),56.01,andrinasalissui,f,11/21/20 17:16,11/21/20 17:16
+111,Mittermueller,Silvia,GER,37,8/8/83 0:00,32669,1708267,1 / (1),55.31,silviamittermuellerger,f,11/21/20 17:16,11/21/20 17:16
+112,Ballantyne,Becca,CAN,20,2/28/00 0:00,83320,9105374,1 / (1),54.51,beccaballantynecan,f,11/21/20 17:16,11/21/20 17:16
+113,Smigel,Sophia,CAN,,,99423,,2 / (2),53.45,sophiasmigelcan,f,11/21/20 17:16,11/21/20 17:16
+114,Mueller,Lena,SUI,17,1/21/03 0:00,90856,9515207,1 / (1),53.07,lenamuellersui,f,11/21/20 17:16,11/21/20 17:16
+115,Sakaue,Mito,JPN,,,101018,,1 / (1),52.76,mitosakauejpn,f,11/21/20 17:16,11/21/20 17:16
+116,Wilson,Beth,CAN,19,9/28/01 0:00,91609,9105393,3 / (3),51.93,bethwilsoncan,f,11/21/20 17:16,11/21/20 17:16
+117,Lisle,Olivia,USA,,,97793,,2 / (2),51.33,olivialisleusa,f,11/21/20 17:16,11/21/20 17:16
+118,Bockhorni,Heli,GER,,,93814,,1 / (1),50.47,helibockhorniger,f,11/21/20 17:16,11/21/20 17:16
+118,Yang,Le,CHN,,,99717,9125060,1 / (1),50.47,leyangchn,f,11/21/20 17:16,11/21/20 17:16
+120,Imura,Noa,JPN,,,97164,,2 / (2),49.95,noaimurajpn,f,11/21/20 17:16,11/21/20 17:16
+121,Seidler,Katie,CAN,,,96571,,3 / (3),49.53,katieseidlercan,f,11/21/20 17:16,11/21/20 17:16
+122,Kim,Bea,USA,,,100983,,1 / (1),48.49,beakimusa,f,11/21/20 17:16,11/21/20 17:16
+123,Hagiwara,Kumiko,JPN,44,8/10/76 0:00,73906,,1 / (1),48.15,kumikohagiwarajpn,f,11/21/20 17:16,11/21/20 17:16
+124,Tarasoff,Reese,CAN,17,10/24/03 0:00,93754,9105422,2 / (2),46.65,reesetarasoffcan,f,11/21/20 17:16,11/21/20 17:16
+125,Roll,Bettina,NOR,,,92495,9425056,2 / (2),46.54,bettinarollnor,f,11/21/20 17:16,11/21/20 17:16
+126,Cook,Kaeleigh,CAN,,,98481,,3 / (4),45.18,kaeleighcookcan,f,11/21/20 17:16,11/21/20 17:16
+127,Schipani,Elena,USA,,,98861,,2 / (2),44.43,elenaschipaniusa,f,11/21/20 17:16,11/21/20 17:16
+128,Plur De La Rosa,Manola,GER,14,8/3/06 0:00,96340,,1 / (1),43.2,manolaplur de la rosager,f,11/21/20 17:16,11/21/20 17:16
+129,Danuser,Mona,SUI,,,93677,9515205,1 / (1),43.17,monadanusersui,f,11/21/20 17:16,11/21/20 17:16
+130,Brookes,Mia,GBR,,,97672,,1 / (1),40.75,miabrookesgbr,f,11/21/20 17:16,11/21/20 17:16
+131,Jekel,Lily,AUS,,,97547,,1 / (1),40.54,lilyjekelaus,f,11/21/20 17:16,11/21/20 17:16
+132,Tucker,Julie,CAN,16,6/29/04 0:00,100605,,2 / (2),39.37,julietuckercan,f,11/21/20 17:16,11/21/20 17:16
+133,Hyatt,Kianah,CAN,18,8/28/02 0:00,92616,9105404,2 / (2),39.29,kianahhyattcan,f,11/21/20 17:16,11/21/20 17:16
+134,Holden,Gabriella,USA,,,100252,,2 / (2),38.03,gabriellaholdenusa,f,11/21/20 17:16,11/21/20 17:16
+135,Choi,Ye-Woon,KOR,,,100726,,2 / (2),37.74,ye-woonchoikor,f,11/21/20 17:16,11/21/20 17:16
+136,Sato,Rin,JPN,,,94987,9305409,1 / (1),37.63,rinsatojpn,f,11/21/20 17:16,11/21/20 17:16
+137,Koeppe,Skylar,USA,,,98771,,3 / (3),36.78,skylarkoeppeusa,f,11/21/20 17:16,11/21/20 17:16
+138,Yamazaki,Tsuki,JPN,,,99459,,1 / (1),36.68,tsukiyamazakijpn,f,11/21/20 17:16,11/21/20 17:16
+139,Hahnl,Marie,GER,,,95335,9205088,1 / (1),36.28,mariehahnlger,f,11/21/20 17:16,11/21/20 17:16
+140,Collins,Kaiya,NZL,,,97605,,1 / (1),36,kaiyacollinsnzl,f,11/21/20 17:16,11/21/20 17:16
+141,Osther,Cornelia,NOR,,,97645,,2 / (2),35.8,corneliaosthernor,f,11/21/20 17:16,11/21/20 17:16
+142,Corti,Tosca,SUI,,,98364,,2 / (2),35.7,toscacortisui,f,11/21/20 17:16,11/21/20 17:16
+143,Gricol,Jordyn,USA,,,100255,,1 / (1),34.65,jordyngricolusa,f,11/21/20 17:16,11/21/20 17:16
+144,Hata,Reina,JPN,,,99669,,2 / (2),33.99,reinahatajpn,f,11/21/20 17:16,11/21/20 17:16
+145,Janett,Soha,SUI,,,99519,,1 / (1),33.81,sohajanettsui,f,11/21/20 17:16,11/21/20 17:16
+146,Chung,Ji Hye,KOR,35,2/20/85 0:00,91103,9325028,2 / (2),33.74,ji hyechungkor,f,11/21/20 17:16,11/21/20 17:16
+147,Bogdanova,Elizaveta,RUS,,,91094,9485287,1 / (1),33.33,elizavetabogdanovarus,f,11/21/20 17:16,11/21/20 17:16
+147,Vatne-Larsen,Thea Cassandra,NOR,19,12/6/00 0:00,93231,,1 / (1),33.33,thea cassandravatne-larsennor,f,11/21/20 17:16,11/21/20 17:16
+149,Fujisaki,Yuzuki,JPN,,,98560,,1 / (1),31.17,yuzukifujisakijpn,f,11/21/20 17:16,11/21/20 17:16
+150,Choi,Elle,CAN,9,8/10/11 0:00,97962,,3 / (3),30.85,ellechoican,f,11/21/20 17:16,11/21/20 17:16
+151,Oswald,Ronja,SUI,,,98603,,1 / (1),30.81,ronjaoswaldsui,f,11/21/20 17:16,11/21/20 17:16
+152,Saarela,Enni,FIN,,,96441,,1 / (1),29.8,ennisaarelafin,f,11/21/20 17:16,11/21/20 17:16
+152,Chavez Martinez,Maria Azul,ARG,,,96050,1039974,1 / (1),29.8,maria azulchavez martinezarg,f,11/21/20 17:16,11/21/20 17:16
+154,Kluge,Xenia,GER,,,95275,,1 / (1),29.7,xeniaklugeger,f,11/21/20 17:16,11/21/20 17:16
+155,Mylius,Maria,NOR,,,92494,9425054,2 / (2),28.71,mariamyliusnor,f,11/21/20 17:16,11/21/20 17:16
+156,Espeli Olsen,Stine,NOR,,,92492,9425055,1 / (1),28.51,stineespeli olsennor,f,11/21/20 17:16,11/21/20 17:16
+157,Meier,Julia,SUI,,,94951,,1 / (1),28.04,juliameiersui,f,11/21/20 17:16,11/21/20 17:16
+158,Proydina,Juliya,RUS,,,94583,9485309,1 / (1),27.65,juliyaproydinarus,f,11/21/20 17:16,11/21/20 17:16
+158,Yamada,Rinoka,JPN,,,98205,9305420,1 / (1),27.65,rinokayamadajpn,f,11/21/20 17:16,11/21/20 17:16
+160,Kitazawa,Asuka,JPN,,,89577,,1 / (1),27.63,asukakitazawajpn,f,11/21/20 17:16,11/21/20 17:16
+161,De Jong,Jacky,NED,,,100982,,1 / (1),27.62,jackyde jongned,f,11/21/20 17:16,11/21/20 17:16
+162,Fenton,Summer,USA,26,6/19/94 0:00,76965,9535225,1 / (1),27.44,summerfentonusa,f,11/21/20 17:16,11/21/20 17:16
+163,Mori,Masako,JPN,,,98138,,2 / (2),27.31,masakomorijpn,f,11/21/20 17:16,11/21/20 17:16
+164,Narita,Keiko,JPN,,,95079,,1 / (1),26.88,keikonaritajpn,f,11/21/20 17:16,11/21/20 17:16
+165,Beer,Ava,USA,,,100895,,1 / (1),26.53,avabeerusa,f,11/21/20 17:16,11/21/20 17:16
+166,Lonar,Ingrid,NOR,,,76095,,1 / (1),25.99,ingridlonarnor,f,11/21/20 17:16,11/21/20 17:16
+167,Gregory,Megan,USA,,,100916,,1 / (1),24.86,megangregoryusa,f,11/21/20 17:16,11/21/20 17:16
+167,Curci,Channing,USA,,,98721,,1 / (1),24.86,channingcurciusa,f,11/21/20 17:16,11/21/20 17:16
+169,Toyama,Ichigo,JPN,,,101021,,1 / (1),24.29,ichigotoyamajpn,f,11/21/20 17:16,11/21/20 17:16
+170,Leenderts,Anine,NOR,19,11/5/01 0:00,93207,,1 / (1),24.08,anineleendertsnor,f,11/21/20 17:16,11/21/20 17:16
+171,Dhawornvej,Lily,USA,,,97785,,1 / (1),23.66,lilydhawornvejusa,f,11/21/20 17:16,11/21/20 17:16
+172,Kondo,Yuki,JPN,,,100928,,2 / (2),23.62,yukikondojpn,f,11/21/20 17:16,11/21/20 17:16
+173,Steeg,Philippa,GER,,,98609,,1 / (1),23.37,philippasteegger,f,11/21/20 17:16,11/21/20 17:16
+174,Wick,Lura,SUI,,,98256,,1 / (1),23.11,lurawicksui,f,11/21/20 17:16,11/21/20 17:16
+175,Rule,Peyton,CAN,,,99421,,3 / (3),22.69,peytonrulecan,f,11/21/20 17:16,11/21/20 17:16
+176,Kostenko,Elena,RUS,25,8/29/95 0:00,89882,9485178,1 / (1),22.36,elenakostenkorus,f,11/21/20 17:16,11/21/20 17:16
+177,Hendrix,Devin,USA,,,96985,,1 / (1),21.07,devinhendrixusa,f,11/21/20 17:16,11/21/20 17:16
+178,Norman,Hahna,USA,,,98869,,1 / (1),21.01,hahnanormanusa,f,11/21/20 17:16,11/21/20 17:16
+179,Bietenholz,Anouk,SUI,,,98365,,1 / (1),20.87,anoukbietenholzsui,f,11/21/20 17:16,11/21/20 17:16
+180,Kristiansen Rue,Andrea,NOR,,,99339,,1 / (1),19.98,andreakristiansen ruenor,f,11/21/20 17:16,11/21/20 17:16
+181,Shaw,Maelle,CAN,,,93621,,2 / (2),19.72,maelleshawcan,f,11/21/20 17:16,11/21/20 17:16
+182,Douglas-Crampton,Zoe,CAN,11,12/14/08 0:00,100604,,2 / (2),19.21,zoedouglas-cramptoncan,f,11/21/20 17:16,11/21/20 17:16
+183,Clarke,Gabi,CAN,17,4/14/03 0:00,100602,,2 / (2),19.2,gabiclarkecan,f,11/21/20 17:16,11/21/20 17:16
+184,Lisiecka,Maria,NOR,,,76739,,1 / (1),19.04,marialisieckanor,f,11/21/20 17:16,11/21/20 17:16
+185,Klebeck,Kiana,AUT,,,99970,,1 / (1),18.77,kianaklebeckaut,f,11/21/20 17:16,11/21/20 17:16
+186,Weinberg,Rochelle,USA,,,97789,,1 / (1),18.72,rochelleweinbergusa,f,11/21/20 17:16,11/21/20 17:16
+187,Lee,Bo Yeon,KOR,,,99262,,2 / (2),18.32,bo yeonleekor,f,11/21/20 17:16,11/21/20 17:16
+188,Kaneko,Hinata,JPN,,,94985,9305408,1 / (1),18.07,hinatakanekojpn,f,11/21/20 17:16,11/21/20 17:16
+189,Stalker,Meila,AUS,,,97604,,1 / (1),17.64,meilastalkeraus,f,11/21/20 17:16,11/21/20 17:16
+190,Olsen,Gabby,CAN,13,8/5/07 0:00,100601,,2 / (2),17.49,gabbyolsencan,f,11/21/20 17:16,11/21/20 17:16
+191,An,Hyun Ju,KOR,,,100727,,1 / (1),17.41,hyun juankor,f,11/21/20 17:16,11/21/20 17:16
+191,Belikova,Dariya,RUS,,,94713,9485308,1 / (1),17.41,dariyabelikovarus,f,11/21/20 17:16,11/21/20 17:16
+193,Mizuguchi,Yuki,JPN,,,93139,,1 / (1),17.35,yukimizuguchijpn,f,11/21/20 17:16,11/21/20 17:16
+194,Grempel,Mia,GER,,,93576,9205089,1 / (1),17.27,miagrempelger,f,11/21/20 17:16,11/21/20 17:16
+194,Wang,Hanhan,CHN,,,99715,,1 / (1),17.27,hanhanwangchn,f,11/21/20 17:16,11/21/20 17:16
+196,Sprenger,Samira,SUI,,,98369,,1 / (1),16.77,samirasprengersui,f,11/21/20 17:16,11/21/20 17:16
+197,McCafferty,Brecken,USA,,,100897,,1 / (1),16.57,breckenmccaffertyusa,f,11/21/20 17:16,11/21/20 17:16
+198,Moore,Allison,CAN,13,9/28/07 0:00,100606,,2 / (2),16.32,allisonmoorecan,f,11/21/20 17:16,11/21/20 17:16
+199,Kaneyama,Narumi,JPN,,,100930,,1 / (1),15.58,narumikaneyamajpn,f,11/21/20 17:16,11/21/20 17:16
+200,Haring,Simone,SUI,,,86749,,1 / (1),15.38,simoneharingsui,f,11/21/20 17:16,11/21/20 17:16
+201,Hoshi,Sarasa,JPN,,,100931,,2 / (2),14.86,sarasahoshijpn,f,11/21/20 17:16,11/21/20 17:16
+202,Graf,Lynne,SUI,,,99982,,1 / (1),14.85,lynnegrafsui,f,11/21/20 17:16,11/21/20 17:16
+203,Borders,Chloe,USA,,,99542,,1 / (1),14.59,chloebordersusa,f,11/21/20 17:16,11/21/20 17:16
+204,Wyss,Merlin,SUI,,,98613,,1 / (1),13.02,merlinwysssui,f,11/21/20 17:16,11/21/20 17:16
+205,Isaacs,Annika,USA,,,100914,,1 / (1),12.76,annikaisaacsusa,f,11/21/20 17:16,11/21/20 17:16
+206,Topp Oye,Nora Synnove,NOR,,,99332,,1 / (1),12.58,nora synnovetopp oyenor,f,11/21/20 17:16,11/21/20 17:16
+207,Misund,Ine Marie,NOR,,,92496,9425053,2 / (2),12.54,ine mariemisundnor,f,11/21/20 17:16,11/21/20 17:16
+208,Eilertsen,Hanne,NOR,21,3/23/99 0:00,89004,9425037,1 / (1),12.43,hanneeilertsennor,f,11/21/20 17:16,11/21/20 17:16
+209,Bowler,Margaret Grace,USA,,,97790,9535581,1 / (1),12.27,margaret gracebowlerusa,f,11/21/20 17:16,11/21/20 17:16
+210,Plur De La Rosa,Lucia,GER,,,97275,,1 / (1),11.37,luciaplur de la rosager,f,11/21/20 17:16,11/21/20 17:16
+210,Liu,Chenchen,CHN,,,99716,9125058,1 / (1),11.37,chenchenliuchn,f,11/21/20 17:16,11/21/20 17:16
+212,Imper,Niah Johanna,SUI,,,98367,,1 / (1),11.25,niah johannaimpersui,f,11/21/20 17:16,11/21/20 17:16
+213,Morton,Madeline,USA,,,98242,,1 / (1),11.04,madelinemortonusa,f,11/21/20 17:16,11/21/20 17:16
+214,Frothinger,Ava,USA,,,98858,,1 / (1),10.76,avafrothingerusa,f,11/21/20 17:16,11/21/20 17:16
+215,Nelson,Sydney,CAN,,,101037,,1 / (1),10.62,sydneynelsoncan,f,11/21/20 17:16,11/21/20 17:16
+216,Rix,Lela,USA,,,98863,,1 / (1),10.29,lelarixusa,f,11/21/20 17:16,11/21/20 17:16
+217,Coubes,Emma,SUI,,,100639,,1 / (1),10.02,emmacoubessui,f,11/21/20 17:16,11/21/20 17:16
+218,Lukaschek,Ida,GER,,,98608,,1 / (1),9.53,idalukaschekger,f,11/21/20 17:16,11/21/20 17:16
+219,Bogart,Ashley,USA,,,98060,,1 / (1),9.43,ashleybogartusa,f,11/21/20 17:16,11/21/20 17:16
+220,Lyu,Zhikun,CHN,,,100190,,1 / (1),9.26,zhikunlyuchn,f,11/21/20 17:16,11/21/20 17:16
+221,Sato,Megumi,JPN,41,9/5/79 0:00,76448,,1 / (1),8.99,megumisatojpn,f,11/21/20 17:16,11/21/20 17:16
+222,Jung,Dawoon,KOR,18,10/30/02 0:00,100330,9325059,2 / (2),8.97,dawoonjungkor,f,11/21/20 17:16,11/21/20 17:16
+223,Aoki,Tomomi,JPN,,,95169,,1 / (1),8.88,tomomiaokijpn,f,11/21/20 17:16,11/21/20 17:16
+224,Kokushkina,Maria,RUS,,,100234,,1 / (1),8.3,mariakokushkinarus,f,11/21/20 17:16,11/21/20 17:16
+225,Scott,Penelope,USA,,,100253,,1 / (1),8.12,penelopescottusa,f,11/21/20 17:16,11/21/20 17:16
+226,Burdick,Magnolia,USA,,,96990,,1 / (1),7.91,magnoliaburdickusa,f,11/21/20 17:16,11/21/20 17:16
+227,Skinner,Liliana,SUI,,,99975,,1 / (1),7.87,lilianaskinnersui,f,11/21/20 17:16,11/21/20 17:16
+228,Riberdy,Alena,USA,,,100915,,1 / (1),6.47,alenariberdyusa,f,11/21/20 17:16,11/21/20 17:16
+229,Lounis,LÈnnie Camille,SUI,,,99980,,1 / (1),6.23,lènnie camillelounissui,f,11/21/20 17:16,11/21/20 17:16
+230,Aulejtner,Malgorzata,POL,,,85622,,1 / (1),6.1,malgorzataaulejtnerpol,f,11/21/20 17:16,11/21/20 17:16
+231,Mailer,Molly,CAN,,,101036,,1 / (1),5.91,mollymailercan,f,11/21/20 17:16,11/21/20 17:16
+232,Suzuki,Miu,JPN,,,100927,,1 / (1),5.89,miusuzukijpn,f,11/21/20 17:16,11/21/20 17:16
+233,Mueller,Paulina,GER,,,99291,,1 / (1),5.62,paulinamuellerger,f,11/21/20 17:16,11/21/20 17:16
+234,Ibaragi,Yukiha,JPN,,,98203,9305422,1 / (1),5.37,yukihaibaragijpn,f,11/21/20 17:16,11/21/20 17:16
+235,Kutcher,Olive,CAN,,,99419,,1 / (1),5.21,olivekutchercan,f,11/21/20 17:16,11/21/20 17:16
+236,Wild,Aimee,USA,,,99541,,1 / (1),5.08,aimeewildusa,f,11/21/20 17:16,11/21/20 17:16
+237,Reusser,Eliane,SUI,,,100640,,1 / (1),4.91,elianereussersui,f,11/21/20 17:16,11/21/20 17:16
+238,Sigg,Lani Tara,SUI,,,99977,,1 / (1),4.64,lani tarasiggsui,f,11/21/20 17:16,11/21/20 17:16
+239,Gorshenina,Anastasiya,RUS,,,101082,,1 / (1),4.06,anastasiyagorsheninarus,f,11/21/20 17:16,11/21/20 17:16
+240,Polatty,Alana,USA,,,99538,,1 / (1),3.75,alanapolattyusa,f,11/21/20 17:16,11/21/20 17:16
+241,Golland,Ella,SUI,,,99976,,1 / (1),3.07,ellagollandsui,f,11/21/20 17:16,11/21/20 17:16
+242,Kegode,Zahra-Kadi,USA,,,100912,,1 / (1),2.46,zahra-kadikegodeusa,f,11/21/20 17:16,11/21/20 17:16
+243,Sundquist,Eliana,CAN,,,100603,,1 / (1),1.71,elianasundquistcan,f,11/21/20 17:16,11/21/20 17:16
+243,McCaffrey,Angelina,CAN,17,12/4/02 0:00,98488,,1 / (1),1.71,angelinamccaffreycan,f,11/21/20 17:16,11/21/20 17:16
+245,Demke,Lisa,SUI,,,99981,,1 / (1),1.53,lisademkesui,f,11/21/20 17:16,11/21/20 17:16
+246,Solomon,Charley,CAN,10,4/11/10 0:00,100664,,1 / (1),1.45,charleysolomoncan,f,11/21/20 17:16,11/21/20 17:16
+247,Pilloud,Anja,USA,,,100913,,1 / (1),1.22,anjapilloudusa,f,11/21/20 17:16,11/21/20 17:16

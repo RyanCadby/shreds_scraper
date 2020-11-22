@@ -1,0 +1,586 @@
+﻿position_ba,lastname,firstname,nationality,age,dob,wst_rider_id,fis_code,number_of_results_ba,points_ba,concat_id,gender,created_at,updated_at
+1,Corning,Chris,USA,21,9/7/99 0:00,90901,9531130,3 / (6),818.37,chriscorningusa,m,11/21/20 8:22,11/21/20 8:22
+2,Laframboise,Nicolas,CAN,20,4/10/00 0:00,92867,9101080,3 / (6),776.32,nicolaslaframboisecan,m,11/21/20 8:22,11/21/20 8:22
+3,Parrot,Max,CAN,26,6/6/94 0:00,83656,9100565,3 / (4),733.33,maxparrotcan,m,11/21/20 8:22,11/21/20 8:22
+4,Kimata,Ryoma,JPN,18,7/24/02 0:00,91175,9300804,3 / (6),714.75,ryomakimatajpn,m,11/21/20 8:22,11/21/20 8:22
+5,McMorris,Mark,CAN,26,12/9/93 0:00,78481,9100228,3 / (6),710.53,markmcmorriscan,m,11/21/20 8:22,11/21/20 8:22
+6,Thorgren,Sven,SWE,26,10/4/94 0:00,75853,9500105,3 / (5),626.07,sventhorgrenswe,m,11/21/20 8:22,11/21/20 8:22
+7,Huber,Nicolas,SUI,25,1/14/95 0:00,86955,9510438,3 / (10),591.62,nicolashubersui,m,11/21/20 8:22,11/21/20 8:22
+8,Jarvilehto,Kalle,FIN,25,7/21/95 0:00,82408,9180120,3 / (6),571.75,kallejarvilehtofin,m,11/21/20 8:22,11/21/20 8:22
+9,Henkes,Justus,USA,19,4/3/01 0:00,82666,9531241,3 / (3),518.58,justushenkesusa,m,11/21/20 8:22,11/21/20 8:22
+10,Gauger,Wendelin,SUI,20,3/16/00 0:00,86579,9510403,3 / (5),511.36,wendelingaugersui,m,11/21/20 8:22,11/21/20 8:22
+11,Mekinc,Naj,SLO,,,91345,9560205,3 / (11),502.42,najmekincslo,m,11/21/20 8:22,11/21/20 8:22
+12,Kawakami,Aoto,JPN,16,7/12/04 0:00,90215,9300911,3 / (4),496.11,aotokawakamijpn,m,11/21/20 8:22,11/21/20 8:22
+13,Tobita,Ruki,JPN,21,5/7/99 0:00,92065,9300723,3 / (3),495.12,rukitobitajpn,m,11/21/20 8:22,11/21/20 8:22
+14,Sharpe,Darcy,CAN,24,2/9/96 0:00,81099,9100445,3 / (6),494.9,darcysharpecan,m,11/21/20 8:22,11/21/20 8:22
+15,Fitzsimons,Sean,USA,20,9/22/00 0:00,82777,9531194,3 / (4),482.25,seanfitzsimonsusa,m,11/21/20 8:22,11/21/20 8:22
+16,Boesiger,Jonas,SUI,25,4/5/95 0:00,80754,9510288,3 / (6),468,jonasboesigersui,m,11/21/20 8:22,11/21/20 8:22
+17,Gerard,Redmond,USA,20,6/29/00 0:00,82704,9531135,3 / (3),464.7,redmondgerardusa,m,11/21/20 8:22,11/21/20 8:22
+18,Boll,Moritz,SUI,20,7/8/00 0:00,86577,9510387,3 / (7),452.75,moritzbollsui,m,11/21/20 8:22,11/21/20 8:22
+19,Milenkovic,Matija,SRB,19,2/23/01 0:00,92999,9310011,3 / (17),447.62,matijamilenkovicsrb,m,11/21/20 8:22,11/21/20 8:22
+20,Lauzi,Emiliano,ITA,26,9/22/94 0:00,80711,9290268,3 / (4),446.36,emilianolauziita,m,11/21/20 8:22,11/21/20 8:22
+21,Valax,Enzo,FRA,20,10/27/00 0:00,92084,9190422,3 / (12),436.01,enzovalaxfra,m,11/21/20 8:22,11/21/20 8:22
+22,Cox,Matthew,AUS,22,6/9/98 0:00,75364,9040200,3 / (5),433.92,matthewcoxaus,m,11/21/20 8:22,11/21/20 8:22
+23,Konijnenberg,Sebastien,FRA,23,8/18/97 0:00,87631,9190322,3 / (10),430.74,sebastienkonijnenbergfra,m,11/21/20 8:22,11/21/20 8:22
+24,Winkelmann,Luke,USA,19,12/18/00 0:00,90894,9531163,3 / (3),420.27,lukewinkelmannusa,m,11/21/20 8:22,11/21/20 8:22
+25,Otsuka,Takeru,JPN,19,4/2/01 0:00,89562,9300781,3 / (3),419.85,takeruotsukajpn,m,11/21/20 8:22,11/21/20 8:22
+26,Stassel,Ryan,USA,28,10/23/92 0:00,74792,9530618,3 / (3),419.52,ryanstasselusa,m,11/21/20 8:22,11/21/20 8:22
+27,Smits,Seppe,BEL,29,7/13/91 0:00,70756,1064997,3 / (7),418.36,seppesmitsbel,m,11/21/20 8:22,11/21/20 8:22
+28,Amsuess,Moritz,AUT,22,11/15/98 0:00,87375,9050254,3 / (3),409.19,moritzamsuessaut,m,11/21/20 8:22,11/21/20 8:22
+29,Henricksen,Dusty,USA,,,97763,9531369,3 / (5),401.13,dustyhenricksenusa,m,11/21/20 8:22,11/21/20 8:22
+30,Matveev,Mikhail,RUS,24,5/22/96 0:00,81947,9480456,3 / (5),400.23,mikhailmatveevrus,m,11/21/20 8:22,11/21/20 8:22
+31,Brcic,Dante,CRO,,,91715,9380038,3 / (13),375.7,dantebrciccro,m,11/21/20 8:22,11/21/20 8:22
+32,Liviero,Nicola,ITA,21,4/23/99 0:00,86560,9290314,3 / (7),367.75,nicolalivieroita,m,11/21/20 8:22,11/21/20 8:22
+33,Canter,Jake,USA,17,7/19/03 0:00,90895,9531350,3 / (4),366.01,jakecanterusa,m,11/21/20 8:22,11/21/20 8:22
+34,Brearley,Liam,CAN,17,2/27/03 0:00,87932,9101066,3 / (5),347.57,liambrearleycan,m,11/21/20 8:22,11/21/20 8:22
+35,MacDougall,Jack,CAN,20,11/19/00 0:00,94663,9100828,3 / (4),342.26,jackmacdougallcan,m,11/21/20 8:22,11/21/20 8:22
+36,Van Der Velden,Niek,NED,20,5/28/00 0:00,90838,9400053,3 / (5),335.95,niekvan der veldenned,m,11/21/20 8:22,11/21/20 8:22
+37,Larochaix,Noe,FRA,,,81626,9190448,3 / (7),332.65,noelarochaixfra,m,11/21/20 8:22,11/21/20 8:22
+38,McCormick,Matt,GBR,23,2/2/97 0:00,77485,9220040,3 / (3),326.97,mattmccormickgbr,m,11/21/20 8:22,11/21/20 8:22
+39,Kleveland,Marcus,NOR,21,4/25/99 0:00,82158,9420145,3 / (3),326.57,marcusklevelandnor,m,11/21/20 8:22,11/21/20 8:22
+40,Vandeweyer,Stef,BEL,21,8/6/99 0:00,75555,9060009,3 / (7),320.75,stefvandeweyerbel,m,11/21/20 8:22,11/21/20 8:22
+41,Buffey,William,CAN,18,7/16/02 0:00,90797,9100947,3 / (5),318.56,williambuffeycan,m,11/21/20 8:22,11/21/20 8:22
+42,Frijns,Joewen,BEL,,,92203,9060015,3 / (6),316.79,joewenfrijnsbel,m,11/21/20 8:22,11/21/20 8:22
+43,Davern,Mitchell,NZL,18,3/21/02 0:00,96093,9410049,3 / (4),315.38,mitchelldavernnzl,m,11/21/20 8:22,11/21/20 8:22
+44,Farrell,Lyon,USA,21,11/22/98 0:00,88493,9531213,2 / (2),312.23,lyonfarrellusa,m,11/21/20 8:22,11/21/20 8:22
+45,Rehnberg,Mikko,FIN,23,4/16/97 0:00,87639,9180118,3 / (6),311.72,mikkorehnbergfin,m,11/21/20 8:22,11/21/20 8:22
+46,Kunitake,Hiroaki,JPN,18,2/10/02 0:00,95166,,3 / (4),301.61,hiroakikunitakejpn,m,11/21/20 8:22,11/21/20 8:22
+47,Kuhar,Ozbe,SLO,,,96454,9560220,3 / (8),301.34,ozbekuharslo,m,11/21/20 8:22,11/21/20 8:22
+48,Puenter,Nick,SUI,18,3/1/02 0:00,93061,9510443,3 / (5),301.12,nickpuentersui,m,11/21/20 8:22,11/21/20 8:22
+49,Mattsson,Niklas,SWE,28,3/16/92 0:00,78135,9500081,3 / (3),298.17,niklasmattssonswe,m,11/21/20 8:22,11/21/20 8:22
+50,Hofmann,Patrick,SUI,19,4/24/01 0:00,91716,9510412,3 / (4),294.48,patrickhofmannsui,m,11/21/20 8:22,11/21/20 8:22
+51,Roisland,Mons,NOR,23,1/28/97 0:00,82747,9420133,3 / (5),293.92,monsroislandnor,m,11/21/20 8:22,11/21/20 8:22
+52,Morauskas,Motiejus,LTU,,,88728,1783066,3 / (5),292.43,motiejusmorauskasltu,m,11/21/20 8:22,11/21/20 8:22
+53,BARTET,Titouan,FRA,20,2/22/00 0:00,92081,9190436,3 / (7),285.37,titouanbartetfra,m,11/21/20 8:22,11/21/20 8:22
+54,Vicktor,Noah,GER,19,8/18/01 0:00,91469,9200131,3 / (4),283.52,noahvicktorger,m,11/21/20 8:22,11/21/20 8:22
+55,Kadono,Yuki,JPN,24,5/18/96 0:00,80971,9300591,2 / (2),275.23,yukikadonojpn,m,11/21/20 8:22,11/21/20 8:22
+56,Jarvis,Carter,CAN,21,2/19/99 0:00,87781,9100655,3 / (4),275,carterjarviscan,m,11/21/20 8:22,11/21/20 8:22
+57,Cornillat,Lucas,FRA,,,95768,9190465,3 / (6),273.62,lucascornillatfra,m,11/21/20 8:22,11/21/20 8:22
+58,Hamada,Kaito,JPN,21,10/14/99 0:00,89955,9300738,3 / (3),273.54,kaitohamadajpn,m,11/21/20 8:22,11/21/20 8:22
+59,Frischhut,Lukas,AUT,,,92521,9050276,3 / (8),269.86,lukasfrischhutaut,m,11/21/20 8:22,11/21/20 8:22
+60,Pentecote,Eliot,FRA,,,91231,9190469,3 / (5),264.67,eliotpentecotefra,m,11/21/20 8:22,11/21/20 8:22
+61,Schaerer,Michael,SUI,23,12/23/96 0:00,76241,9510290,3 / (3),263.07,michaelschaerersui,m,11/21/20 8:22,11/21/20 8:22
+62,Laesser,Martin,SUI,22,1/24/98 0:00,86861,9510407,3 / (4),260.62,martinlaessersui,m,11/21/20 8:22,11/21/20 8:22
+63,Millauer,Clemens,AUT,25,12/15/94 0:00,86506,9050251,3 / (3),255.65,clemensmillaueraut,m,11/21/20 8:22,11/21/20 8:22
+64,Koenen,Fynn,GER,,,91467,9200146,3 / (6),249.51,fynnkoenenger,m,11/21/20 8:22,11/21/20 8:22
+65,Rinnekangas,Rene,FIN,21,9/25/99 0:00,87638,9180149,3 / (5),249.26,renerinnekangasfin,m,11/21/20 8:22,11/21/20 8:22
+66,Oliver,Lenny,FRA,,,91235,9190470,3 / (6),247.02,lennyoliverfra,m,11/21/20 8:22,11/21/20 8:22
+67,Strohmeyer,Till,AUT,18,5/7/02 0:00,94405,9200165,3 / (7),246.84,tillstrohmeyeraut,m,11/21/20 8:22,11/21/20 8:22
+68,Lenchevskiy,Yaroslav,RUS,,,95784,9480723,3 / (6),246.47,yaroslavlenchevskiyrus,m,11/21/20 8:22,11/21/20 8:22
+69,Vockensperger,Leon,GER,21,8/25/99 0:00,91350,9200135,3 / (4),245.83,leonvockenspergerger,m,11/21/20 8:22,11/21/20 8:22
+70,Watanabe,Rikuto,JPN,,,95432,9300985,3 / (3),245.68,rikutowatanabejpn,m,11/21/20 8:22,11/21/20 8:22
+71,Adams,Gabriel,GBR,17,2/14/03 0:00,90976,9220090,3 / (3),245.46,gabrieladamsgbr,m,11/21/20 8:22,11/21/20 8:22
+72,Boudjelal,Yannick,DZA,35,9/15/85 0:00,74281,9190018,3 / (6),243.79,yannickboudjelaldza,m,11/21/20 8:22,11/21/20 8:22
+73,Jaros,Samuel,SVK,,,84996,9700047,3 / (3),242.23,samueljarossvk,m,11/21/20 8:22,11/21/20 8:22
+74,Bidegain,Pedro,ARG,,,90582,9030063,3 / (5),240.76,pedrobidegainarg,m,11/21/20 8:22,11/21/20 8:22
+75,Moretti,Sacha,FRA,22,8/14/98 0:00,89521,9190363,3 / (4),240.12,sachamorettifra,m,11/21/20 8:22,11/21/20 8:22
+76,Ehrler,Lukas,SUI,23,1/28/97 0:00,82753,9510368,3 / (3),238.82,lukasehrlersui,m,11/21/20 8:22,11/21/20 8:22
+77,Mathisen,William,SWE,,,94026,9500160,3 / (4),236.65,williammathisenswe,m,11/21/20 8:22,11/21/20 8:22
+78,Owczarek,Krzysztof,POL,,,98408,9430170,3 / (4),235.02,krzysztofowczarekpol,m,11/21/20 8:22,11/21/20 8:22
+79,Mack,Kyle,USA,23,7/6/97 0:00,71811,9530894,3 / (3),232.25,kylemackusa,m,11/21/20 8:22,11/21/20 8:22
+80,Venderotte,Tom,FRA,19,7/25/01 0:00,95769,9190453,3 / (6),231.6,tomvenderottefra,m,11/21/20 8:22,11/21/20 8:22
+81,Collins,Tiarn,NZL,21,11/9/99 0:00,93344,9410044,3 / (4),229.89,tiarncollinsnzl,m,11/21/20 8:22,11/21/20 8:22
+82,Kleivdal,Stian,NOR,23,4/29/97 0:00,82751,9420129,3 / (6),229.67,stiankleivdalnor,m,11/21/20 8:22,11/21/20 8:22
+83,Gray,Nathan,FRA,19,11/28/00 0:00,87096,9220049,3 / (4),225.12,nathangrayfra,m,11/21/20 8:22,11/21/20 8:22
+84,Salac,Kristian,CZE,,,86901,9150216,3 / (3),224.79,kristiansalaccze,m,11/21/20 8:22,11/21/20 8:22
+85,Framarin,Loris,ITA,22,1/1/98 0:00,80699,9290318,3 / (5),223.06,lorisframarinita,m,11/21/20 8:22,11/21/20 8:22
+86,Rowe,Storm,USA,20,4/16/00 0:00,82041,9531153,3 / (3),220.61,stormroweusa,m,11/21/20 8:22,11/21/20 8:22
+87,McDermott,Eli,USA,,,96556,,3 / (3),215.09,elimcdermottusa,m,11/21/20 8:22,11/21/20 8:22
+88,Bergrem,Torgeir,NOR,29,9/20/91 0:00,74846,9420060,3 / (4),213.85,torgeirbergremnor,m,11/21/20 8:22,11/21/20 8:22
+89,Teimurov,Mark,RUS,23,6/11/97 0:00,76906,9480585,3 / (3),211.35,markteimurovrus,m,11/21/20 8:22,11/21/20 8:22
+90,Zulian,Emil,ITA,23,8/22/97 0:00,76950,9290265,3 / (4),210.21,emilzulianita,m,11/21/20 8:22,11/21/20 8:22
+91,Luckerbauer,David,AUT,20,6/10/00 0:00,87593,9050255,3 / (8),209.4,davidluckerbaueraut,m,11/21/20 8:22,11/21/20 8:22
+92,Suzuki,Atsuhiro,JPN,,,81739,9300782,3 / (3),207.78,atsuhirosuzukijpn,m,11/21/20 8:22,11/21/20 8:22
+93,Abozovik,Nikita,RUS,,,97494,9480695,3 / (4),207.07,nikitaabozovikrus,m,11/21/20 8:22,11/21/20 8:22
+94,Spalding,Cam,CAN,,,97420,9101189,3 / (4),205.75,camspaldingcan,m,11/21/20 8:22,11/21/20 8:22
+95,Kolarevic,Janko,SRB,23,9/6/97 0:00,91808,9310008,3 / (10),200.88,jankokolarevicsrb,m,11/21/20 8:22,11/21/20 8:22
+96,Kikas,Marten,EST,,,89800,9390005,3 / (4),200.36,martenkikasest,m,11/21/20 8:22,11/21/20 8:22
+97,Wolf,Casper,NED,19,4/6/01 0:00,90986,9400067,3 / (6),199.59,casperwolfned,m,11/21/20 8:22,11/21/20 8:22
+98,Smelov,Aleksandr,RUS,24,4/22/96 0:00,92525,,3 / (5),199.06,aleksandrsmelovrus,m,11/21/20 8:22,11/21/20 8:22
+99,Su,Yiming,CHN,,,100091,9120055,2 / (2),199.04,yimingsuchn,m,11/21/20 8:22,11/21/20 8:22
+100,Stojak,Tino,CRO,,,92429,9380019,2 / (2),195.99,tinostojakcro,m,11/21/20 8:22,11/21/20 8:22
+101,Fridbjornsson,Benedikt,ISL,16,6/14/04 0:00,89430,9250044,3 / (3),193.27,benediktfridbjornssonisl,m,11/21/20 8:22,11/21/20 8:22
+102,Zaczyk,MacIej,POL,,,101029,,3 / (3),193.05,maciejzaczykpol,m,11/21/20 8:22,11/21/20 8:22
+103,Ayoubi,Hudson,AUS,,,90538,,3 / (3),191.76,hudsonayoubiaus,m,11/21/20 8:22,11/21/20 8:22
+104,Guetl,Leon,GER,19,3/19/01 0:00,89696,9200129,3 / (3),190.88,leonguetlger,m,11/21/20 8:22,11/21/20 8:22
+105,Vermaat,Sam,NED,,,94925,,2 / (2),189.14,samvermaatned,m,11/21/20 8:22,11/21/20 8:22
+106,Yamada,Yuto,JPN,,,98297,9300861,2 / (2),188.09,yutoyamadajpn,m,11/21/20 8:22,11/21/20 8:22
+107,Moreno,Valentin,ARG,,,94369,9030115,3 / (6),186.65,valentinmorenoarg,m,11/21/20 8:22,11/21/20 8:22
+108,Baskakov,Ilia,RUS,,,93422,9480640,3 / (4),185.58,iliabaskakovrus,m,11/21/20 8:22,11/21/20 8:22
+109,Maligoj,Lenart,SLO,,,97723,9560223,3 / (4),185.41,lenartmaligojslo,m,11/21/20 8:22,11/21/20 8:22
+110,Smith,Ethan,GBR,17,6/12/03 0:00,86275,9220081,3 / (3),182.92,ethansmithgbr,m,11/21/20 8:22,11/21/20 8:22
+111,Anishchanka,Pavel,BLR,,,90008,1664924,3 / (5),181.35,pavelanishchankablr,m,11/21/20 8:22,11/21/20 8:22
+112,De Sloover,Jules,BEL,,,92575,9060016,3 / (5),180.25,julesde slooverbel,m,11/21/20 8:22,11/21/20 8:22
+113,Jobin,Francis,CAN,22,9/21/98 0:00,84410,9100693,3 / (4),175.3,francisjobincan,m,11/21/20 8:22,11/21/20 8:22
+114,Kirkhus,Oyvind,NOR,,,93529,9420164,3 / (3),174.59,oyvindkirkhusnor,m,11/21/20 8:22,11/21/20 8:22
+115,Schwan,Philip,GER,20,9/22/00 0:00,92396,9510433,3 / (4),174.39,philipschwanger,m,11/21/20 8:22,11/21/20 8:22
+116,Sandbech,Staale,NOR,27,6/3/93 0:00,74165,9420072,2 / (2),173.36,staalesandbechnor,m,11/21/20 8:22,11/21/20 8:22
+117,Breu,Moritz,GER,17,7/6/03 0:00,91598,9200161,3 / (4),170.58,moritzbreuger,m,11/21/20 8:22,11/21/20 8:22
+118,Leleu,Martin,FRA,,,98129,9190535,3 / (5),169.21,martinleleufra,m,11/21/20 8:22,11/21/20 8:22
+119,Bergman,Joonas,FIN,20,5/15/00 0:00,93245,9180170,3 / (3),166,joonasbergmanfin,m,11/21/20 8:22,11/21/20 8:22
+120,Framarin,Leo,ITA,,,86566,9290402,3 / (3),164.92,leoframarinita,m,11/21/20 8:22,11/21/20 8:22
+121,Merken,Julien,FRA,,,99265,,3 / (5),164.34,julienmerkenfra,m,11/21/20 8:22,11/21/20 8:22
+122,Rohrt,Odin,NOR,15,12/15/04 0:00,93544,9420169,3 / (5),163.51,odinrohrtnor,m,11/21/20 8:22,11/21/20 8:22
+123,Gyosharkov,Petar,BUL,24,6/29/96 0:00,88296,9090090,3 / (3),158.14,petargyosharkovbul,m,11/21/20 8:22,11/21/20 8:22
+124,Gill,Liam,CAN,17,7/30/03 0:00,88090,9101051,3 / (3),158.09,liamgillcan,m,11/21/20 8:22,11/21/20 8:22
+125,Ciccarelli,Michael,CAN,24,9/4/96 0:00,79384,9100401,3 / (4),156.04,michaelciccarellican,m,11/21/20 8:22,11/21/20 8:22
+126,Landmark,Jesper,SWE,21,1/4/99 0:00,77181,9500137,2 / (2),154.96,jesperlandmarkswe,m,11/21/20 8:22,11/21/20 8:22
+127,Valjus,Antti,FIN,,,93252,9180191,2 / (2),154.88,anttivaljusfin,m,11/21/20 8:22,11/21/20 8:22
+128,Nevakivi,Aleksi,FIN,21,6/12/99 0:00,92580,9180169,3 / (3),153.16,aleksinevakivifin,m,11/21/20 8:22,11/21/20 8:22
+129,Bullock-Womble,Fynn,USA,,,96984,,2 / (2),152.02,fynnbullock-wombleusa,m,11/21/20 8:22,11/21/20 8:22
+130,Healy,Will,USA,18,3/11/02 0:00,95407,9531311,2 / (2),149.37,willhealyusa,m,11/21/20 8:22,11/21/20 8:22
+131,Fisher,Beau,AUS,,,96028,,2 / (2),148.79,beaufisheraus,m,11/21/20 8:22,11/21/20 8:22
+132,Yanez,Alvaro,CHI,18,1/1/02 0:00,82307,9110019,3 / (4),147.11,alvaroyanezchi,m,11/21/20 8:22,11/21/20 8:22
+133,van Hoeij,Dylan,BEL,16,11/26/03 0:00,92576,9060023,3 / (4),146.08,dylanvan hoeijbel,m,11/21/20 8:22,11/21/20 8:22
+134,Tarakanov,Igor,RUS,,,97662,,3 / (4),144.63,igortarakanovrus,m,11/21/20 8:22,11/21/20 8:22
+135,Groterud,Magnus,NOR,,,93196,9420171,3 / (4),142.79,magnusgroterudnor,m,11/21/20 8:22,11/21/20 8:22
+136,Mostovoi,Konstantin,RUS,,,100243,9480794,3 / (3),141.94,konstantinmostovoirus,m,11/21/20 8:22,11/21/20 8:22
+137,Sutton,Alfred,FRA,,,97381,,3 / (5),141.84,alfredsuttonfra,m,11/21/20 8:22,11/21/20 8:22
+138,Ogiwara,Hiroto,JPN,,,86969,9300971,2 / (2),141.17,hirotoogiwarajpn,m,11/21/20 8:22,11/21/20 8:22
+139,Deutinger,Maximilian,AUT,,,89417,9050261,3 / (3),139.89,maximiliandeutingeraut,m,11/21/20 8:22,11/21/20 8:22
+140,Massitti,Mateo,CAN,19,4/9/01 0:00,87820,9100861,2 / (2),139.24,mateomassittican,m,11/21/20 8:22,11/21/20 8:22
+141,Ney,Oscar,FRA,,,91233,9190471,3 / (6),138.45,oscarneyfra,m,11/21/20 8:22,11/21/20 8:22
+142,Herzenjak,Anej,SLO,,,95196,9560222,3 / (5),137.78,anejherzenjakslo,m,11/21/20 8:22,11/21/20 8:22
+143,Skhvediani,Jaba,GEO,,,96157,9680004,3 / (3),136.59,jabaskhvedianigeo,m,11/21/20 8:22,11/21/20 8:22
+144,Katko,Grey,USA,,,97089,9531391,2 / (2),135.58,greykatkousa,m,11/21/20 8:22,11/21/20 8:22
+145,Jovic,Todor,SRB,,,97316,9310012,3 / (5),135.07,todorjovicsrb,m,11/21/20 8:22,11/21/20 8:22
+146,Almqvist,Gabriel,SWE,,,84586,9500158,2 / (2),134.93,gabrielalmqvistswe,m,11/21/20 8:22,11/21/20 8:22
+147,Kaufmann,Moritz,AUT,20,7/20/00 0:00,86504,9050256,3 / (4),132.46,moritzkaufmannaut,m,11/21/20 8:22,11/21/20 8:22
+148,Edelman,Stefan Vladislav,SRB,,,96158,9310013,3 / (7),131.43,stefan vladislavedelmansrb,m,11/21/20 8:22,11/21/20 8:22
+149,Lee,Chaeun,KOR,,,95232,,3 / (3),129.35,chaeunleekor,m,11/21/20 8:22,11/21/20 8:22
+150,Aizawa,Ryo,JPN,,,90217,9300740,2 / (2),128.16,ryoaizawajpn,m,11/21/20 8:22,11/21/20 8:22
+151,Boggio,Davide,ITA,21,2/26/99 0:00,92713,9290338,2 / (2),127.49,davideboggioita,m,11/21/20 8:22,11/21/20 8:22
+152,Hrones,Jakub,CZE,,,88066,9150266,2 / (2),126.53,jakubhronescze,m,11/21/20 8:22,11/21/20 8:22
+153,Schmitt,Matias,ARG,,,85559,9030045,2 / (2),126.49,matiasschmittarg,m,11/21/20 8:22,11/21/20 8:22
+154,Ozturk,Edis,BIH,,,97075,9710011,3 / (7),126.38,edisozturkbih,m,11/21/20 8:22,11/21/20 8:22
+155,Koven,Sam,CAN,19,9/10/01 0:00,83283,9101044,3 / (5),125.53,samkovencan,m,11/21/20 8:22,11/21/20 8:22
+156,Deriban,Karlo,MKD,,,100622,,3 / (4),122.3,karloderibanmkd,m,11/21/20 8:22,11/21/20 8:22
+157,Skjomming,Kristian,NOR,,,96484,,3 / (4),122.18,kristianskjommingnor,m,11/21/20 8:22,11/21/20 8:22
+158,Tischendorf,Fridtjof,NOR,23,3/29/97 0:00,85722,9420140,3 / (4),121.12,fridtjoftischendorfnor,m,11/21/20 8:22,11/21/20 8:22
+159,Johnson,Liam,USA,,,98025,9531414,3 / (3),121.11,liamjohnsonusa,m,11/21/20 8:22,11/21/20 8:22
+160,Taklo,Johannes,NOR,,,93190,9420163,3 / (3),120.9,johannestaklonor,m,11/21/20 8:22,11/21/20 8:22
+161,Andrasovich,Uladzislau,BLR,,,96599,1664926,3 / (4),120.13,uladzislauandrasovichblr,m,11/21/20 8:22,11/21/20 8:22
+162,Ju,Sikyung,KOR,,,97863,9320200,3 / (3),119.94,sikyungjukor,m,11/21/20 8:22,11/21/20 8:22
+163,Pauli,Stan,NED,18,10/5/02 0:00,92814,9400090,3 / (3),119.84,stanpaulined,m,11/21/20 8:22,11/21/20 8:22
+164,Finestone,Finn,CAN,17,3/23/03 0:00,96698,9101116,3 / (5),118.4,finnfinestonecan,m,11/21/20 8:22,11/21/20 8:22
+165,Kristjansson,Marino,ISL,19,12/1/00 0:00,89431,9250023,3 / (3),118.07,marinokristjanssonisl,m,11/21/20 8:22,11/21/20 8:22
+166,Laine,Juho,FIN,,,93963,,2 / (2),117.79,juholainefin,m,11/21/20 8:22,11/21/20 8:22
+167,Irarrazaval,Inaqui,CHI,28,1/1/92 0:00,78005,9110006,3 / (3),116.2,inaquiirarrazavalchi,m,11/21/20 8:22,11/21/20 8:22
+168,Vilhelmsson,Baldur,ISL,,,94723,9250012,3 / (4),116.2,baldurvilhelmssonisl,m,11/21/20 8:22,11/21/20 8:22
+169,Jacob,Legault,CAN,,,96660,9101074,3 / (5),115.94,legaultjacobcan,m,11/21/20 8:22,11/21/20 8:22
+170,Petit,Noe,FRA,,,97878,9190518,3 / (5),115.33,noepetitfra,m,11/21/20 8:22,11/21/20 8:22
+171,Lotorto,Alessandro Marco,SUI,,,86573,9510474,2 / (2),114.92,alessandro marcolotortosui,m,11/21/20 8:22,11/21/20 8:22
+172,Van Hoof,Ilias,BEL,21,5/5/99 0:00,89015,9060011,3 / (5),113.48,iliasvan hoofbel,m,11/21/20 8:22,11/21/20 8:22
+173,Lundstroem,Gustaf,SWE,22,1/17/98 0:00,92004,9500138,3 / (3),113.03,gustaflundstroemswe,m,11/21/20 8:22,11/21/20 8:22
+174,Rodriguez,Lukas,ESP,,,97669,9490234,3 / (4),111.55,lukasrodriguezesp,m,11/21/20 8:22,11/21/20 8:22
+175,Ironside,Glen,GBR,21,6/13/99 0:00,88103,9220050,3 / (3),110.87,glenironsidegbr,m,11/21/20 8:22,11/21/20 8:22
+176,Legac,Fran,CRO,,,97682,,3 / (8),109.68,franlegaccro,m,11/21/20 8:22,11/21/20 8:22
+177,Toledo,Antoni,ESP,,,97866,9490230,3 / (5),105.09,antonitoledoesp,m,11/21/20 8:22,11/21/20 8:22
+178,Kautonen,Valtteri,FIN,,,93246,9180186,1 / (1),104.77,valtterikautonenfin,m,11/21/20 8:22,11/21/20 8:22
+179,Salleras,Narcis,ESP,,,99186,9490238,3 / (3),103.78,narcissallerasesp,m,11/21/20 8:22,11/21/20 8:22
+180,Obradovic,Petar,SRB,,,98196,9310037,3 / (4),103.61,petarobradovicsrb,m,11/21/20 8:22,11/21/20 8:22
+181,Grkovic,Vladan,SRB,,,100055,,3 / (4),103.55,vladangrkovicsrb,m,11/21/20 8:22,11/21/20 8:22
+182,Partanen,Aatu,FIN,,,93237,9180192,2 / (2),102.89,aatupartanenfin,m,11/21/20 8:22,11/21/20 8:22
+183,CHIARADIO DE LA IGLESIA,Federico,ARG,,,86254,9030049,3 / (3),102.75,federicochiaradio de la iglesiaarg,m,11/21/20 8:22,11/21/20 8:22
+184,Foy,Rakim,NED,18,2/13/02 0:00,92826,9400080,2 / (2),100.43,rakimfoyned,m,11/21/20 8:22,11/21/20 8:22
+185,Fuser,Elia Manuel,ITA,,,92591,,2 / (2),100.26,elia manuelfuserita,m,11/21/20 8:22,11/21/20 8:22
+186,Petrovski,Marko,MKD,,,100621,,3 / (4),100.25,markopetrovskimkd,m,11/21/20 8:22,11/21/20 8:22
+187,Gjerdalen,Bendik,NOR,22,1/26/98 0:00,88313,9420143,3 / (3),100,bendikgjerdalennor,m,11/21/20 8:22,11/21/20 8:22
+188,Tveiten,Sindre,NOR,22,4/5/98 0:00,92592,9420153,3 / (3),99.2,sindretveitennor,m,11/21/20 8:22,11/21/20 8:22
+189,Denda,Jeremy,SUI,,,89233,9510488,2 / (2),98.23,jeremydendasui,m,11/21/20 8:22,11/21/20 8:22
+190,Karahasanovic,Amar,BIH,,,90412,9710006,3 / (7),97.94,amarkarahasanovicbih,m,11/21/20 8:22,11/21/20 8:22
+191,Kim,Sang-Jae,KOR,,,99260,,3 / (3),96.88,sang-jaekimkor,m,11/21/20 8:22,11/21/20 8:22
+192,Couderc,Baptiste,FRA,,,92784,9190539,3 / (3),96.64,baptistecoudercfra,m,11/21/20 8:22,11/21/20 8:22
+193,Laurenchikj,Vedran,MKD,,,100620,,3 / (3),95.44,vedranlaurenchikjmkd,m,11/21/20 8:22,11/21/20 8:22
+194,Sanzhapov,Serhii,UKR,15,3/25/05 0:00,94172,,2 / (2),93.84,serhiisanzhapovukr,m,11/21/20 8:22,11/21/20 8:22
+195,Mork Danielsen,Sander,NOR,,,94623,,3 / (3),93.25,sandermork danielsennor,m,11/21/20 8:22,11/21/20 8:22
+196,Agnew,Joshua,AUS,,,94290,9040258,3 / (4),93.04,joshuaagnewaus,m,11/21/20 8:22,11/21/20 8:22
+197,Miller,Nicholas,USA,,,97836,1051577,3 / (3),92.31,nicholasmillerusa,m,11/21/20 8:22,11/21/20 8:22
+198,Izzard,William,CAN,23,7/21/97 0:00,96696,9100653,3 / (3),91.56,williamizzardcan,m,11/21/20 8:22,11/21/20 8:22
+199,Bosch,Anthon,RSA,24,4/16/96 0:00,84589,9500128,2 / (2),90.25,anthonboschrsa,m,11/21/20 8:22,11/21/20 8:22
+200,Vik,Sebastian,NOR,,,93197,9420165,3 / (3),89.77,sebastianviknor,m,11/21/20 8:22,11/21/20 8:22
+201,Otsubo,Shuzaburo,JPN,17,11/14/03 0:00,97883,9300908,2 / (2),89.31,shuzaburootsubojpn,m,11/21/20 8:22,11/21/20 8:22
+202,Matteoli,Ian,ITA,,,87524,,2 / (2),89.19,ianmatteoliita,m,11/21/20 8:22,11/21/20 8:22
+203,Teixeira,Augustinho,BRA,,,99140,,3 / (5),88.53,augustinhoteixeirabra,m,11/21/20 8:22,11/21/20 8:22
+204,Mouton,Boris,SUI,23,1/24/97 0:00,81608,9190362,2 / (2),88.45,borismoutonsui,m,11/21/20 8:22,11/21/20 8:22
+205,Bubic,Leon,CRO,,,97683,,3 / (8),87.71,leonbubiccro,m,11/21/20 8:22,11/21/20 8:22
+206,Le Fur,Honorio,FRA,,,95675,,3 / (3),86.93,honoriole furfra,m,11/21/20 8:22,11/21/20 8:22
+207,Ganserer,Jakob,GER,,,98010,,1 / (1),86.8,jakobgansererger,m,11/21/20 8:22,11/21/20 8:22
+208,Chomlack,Jadyn,CAN,18,9/19/02 0:00,91331,9101067,3 / (3),86.38,jadynchomlackcan,m,11/21/20 8:22,11/21/20 8:22
+209,Soic,Mauro,CRO,,,100045,,3 / (8),85.1,maurosoiccro,m,11/21/20 8:22,11/21/20 8:22
+210,Hasegawa,Taiga,JPN,,,93682,9300953,1 / (1),82.96,taigahasegawajpn,m,11/21/20 8:22,11/21/20 8:22
+211,Vallieres,Tyler,USA,,,82920,9531257,2 / (2),82.65,tylervallieresusa,m,11/21/20 8:22,11/21/20 8:22
+212,Maglov,Aleksey,RUS,,,92527,9480570,1 / (1),82.44,alekseymaglovrus,m,11/21/20 8:22,11/21/20 8:22
+213,Skenderovski,Bojan,MKD,,,98414,1754974,3 / (3),80.22,bojanskenderovskimkd,m,11/21/20 8:22,11/21/20 8:22
+214,Fornes,Anders,NOR,,,94625,9420167,2 / (2),79.47,andersfornesnor,m,11/21/20 8:22,11/21/20 8:22
+215,Shmurikov,Egor,RUS,,,100242,,2 / (2),79.3,egorshmurikovrus,m,11/21/20 8:22,11/21/20 8:22
+216,Wega,Carter,CAN,13,3/29/07 0:00,93637,,3 / (3),79.17,carterwegacan,m,11/21/20 8:22,11/21/20 8:22
+217,Lotz,Peter,GER,,,98008,,2 / (2),79.07,peterlotzger,m,11/21/20 8:22,11/21/20 8:22
+218,Crouch,Brock,USA,21,8/22/99 0:00,80857,9531095,1 / (1),78.78,brockcrouchusa,m,11/21/20 8:22,11/21/20 8:22
+219,Merimee Mantovani,Luca,FRA,,,92793,,3 / (4),78.19,lucamerimee mantovanifra,m,11/21/20 8:22,11/21/20 8:22
+220,Peeters,Lorenzo,BEL,,,83408,9060014,1 / (1),77.99,lorenzopeetersbel,m,11/21/20 8:22,11/21/20 8:22
+221,Holtzapfel,Casper,NED,,,92431,9400070,1 / (1),77.61,casperholtzapfelned,m,11/21/20 8:22,11/21/20 8:22
+222,Kim,Gyeonguk,KOR,19,2/8/01 0:00,93169,,3 / (4),76.29,gyeongukkimkor,m,11/21/20 8:22,11/21/20 8:22
+223,Demchuck,Keenan,CAN,,,96348,9101006,3 / (4),76.28,keenandemchuckcan,m,11/21/20 8:22,11/21/20 8:22
+224,Frey,Leopold,GER,,,97271,,3 / (3),76.15,leopoldfreyger,m,11/21/20 8:22,11/21/20 8:22
+225,Arvanitidis,Theofilos,GRE,,,101030,,3 / (3),76.1,theofilosarvanitidisgre,m,11/21/20 8:22,11/21/20 8:22
+226,Yamase,Kensho,JPN,,,95425,9300989,1 / (1),76.03,kenshoyamasejpn,m,11/21/20 8:22,11/21/20 8:22
+227,Vogrin,Jan,SLO,,,95412,9560221,3 / (3),75.91,janvogrinslo,m,11/21/20 8:22,11/21/20 8:22
+228,Fasola,Manuel,ARG,,,99139,9030146,3 / (3),75.29,manuelfasolaarg,m,11/21/20 8:22,11/21/20 8:22
+229,Hordii,Yurii,UKR,,,99241,,2 / (2),74.32,yuriihordiiukr,m,11/21/20 8:22,11/21/20 8:22
+230,Kralj Kos,Bono,SLO,,,81401,9560208,2 / (2),73.75,bonokralj kosslo,m,11/21/20 8:22,11/21/20 8:22
+231,Springinsfeld,Nahuel,ARG,,,94367,9030137,2 / (2),73.61,nahuelspringinsfeldarg,m,11/21/20 8:22,11/21/20 8:22
+232,Retzlaff,Dave,USA,,,95411,9531294,2 / (2),73.54,daveretzlaffusa,m,11/21/20 8:22,11/21/20 8:22
+233,Vaisanen,Emppu,FIN,,,93251,9180183,2 / (2),72.43,emppuvaisanenfin,m,11/21/20 8:22,11/21/20 8:22
+234,Tessand,Jakob,NOR,,,96483,,2 / (2),71.72,jakobtessandnor,m,11/21/20 8:22,11/21/20 8:22
+235,Thoenen,Moritz,SUI,23,12/9/96 0:00,82802,9510319,2 / (2),71.71,moritzthoenensui,m,11/21/20 8:22,11/21/20 8:22
+236,Olimstad,Markus,NOR,26,1/16/94 0:00,86945,9420146,2 / (2),71.13,markusolimstadnor,m,11/21/20 8:22,11/21/20 8:22
+237,Luengo,Esteeban,ARG,,,92346,,2 / (2),70.48,esteebanluengoarg,m,11/21/20 8:22,11/21/20 8:22
+238,Fomchenko,Mihail,RUS,,,91985,9480573,2 / (2),70.11,mihailfomchenkorus,m,11/21/20 8:22,11/21/20 8:22
+239,Allemand,Romain,FRA,,,96542,,3 / (3),70.02,romainallemandfra,m,11/21/20 8:22,11/21/20 8:22
+240,Tsuji,Haruhi,JPN,,,96829,9300947,1 / (1),69.94,haruhitsujijpn,m,11/21/20 8:22,11/21/20 8:22
+241,Seo,Gyeong,KOR,,,96474,9320182,3 / (3),69.38,gyeongseokor,m,11/21/20 8:22,11/21/20 8:22
+242,Maffei,Alberto,ITA,25,5/11/95 0:00,80676,9290315,3 / (3),68.67,albertomaffeiita,m,11/21/20 8:22,11/21/20 8:22
+243,Balicco,Sacha,FRA,,,90414,9190371,1 / (1),68.46,sachabaliccofra,m,11/21/20 8:22,11/21/20 8:22
+244,Yang,Wenlong,CHN,,,96913,1124981,2 / (2),66.8,wenlongyangchn,m,11/21/20 8:22,11/21/20 8:22
+245,Kirkevoll,Embrik,NOR,,,94742,,3 / (3),66.75,embrikkirkevollnor,m,11/21/20 8:22,11/21/20 8:22
+246,Biogradlic,Faris,BIH,,,86398,1714997,2 / (2),66.67,farisbiogradlicbih,m,11/21/20 8:22,11/21/20 8:22
+247,Perez Guerra,Ignasio,AND,,,100703,,2 / (2),66.4,ignasioperez guerraand,m,11/21/20 8:22,11/21/20 8:22
+248,Pesic,Nemanja,SRB,,,100625,,2 / (2),66.29,nemanjapesicsrb,m,11/21/20 8:22,11/21/20 8:22
+249,Vera,Dante,ARG,,,96045,9030109,3 / (4),66.19,danteveraarg,m,11/21/20 8:22,11/21/20 8:22
+250,Lee,Dongheon,KOR,,,100181,,2 / (2),66.18,dongheonleekor,m,11/21/20 8:22,11/21/20 8:22
+251,Tagliaferro,Nahuel,AND,,,100538,,3 / (3),65.68,nahueltagliaferroand,m,11/21/20 8:22,11/21/20 8:22
+252,Weaver,Lane,CAN,17,5/10/03 0:00,93358,9101200,3 / (3),65.41,laneweavercan,m,11/21/20 8:22,11/21/20 8:22
+253,Steele,Sunny,AUS,17,10/14/03 0:00,96007,9040280,3 / (4),65.11,sunnysteeleaus,m,11/21/20 8:22,11/21/20 8:22
+254,Antraygues,Zachary,FRA,,,92786,9190464,3 / (3),64.77,zacharyantrayguesfra,m,11/21/20 8:22,11/21/20 8:22
+255,Kimura,Kira,JPN,,,98184,,1 / (1),64.57,kirakimurajpn,m,11/21/20 8:22,11/21/20 8:22
+256,Garandel,Liam,FRA,,,100495,,3 / (3),64.36,liamgarandelfra,m,11/21/20 8:22,11/21/20 8:22
+257,Nagasawa,Hayato,JPN,18,7/27/02 0:00,90211,9300814,3 / (3),64.04,hayatonagasawajpn,m,11/21/20 8:22,11/21/20 8:22
+258,Eckhoff,Mathias,NOR,21,1/10/99 0:00,88950,9420142,2 / (2),63.85,mathiaseckhoffnor,m,11/21/20 8:22,11/21/20 8:22
+259,Minkov,Mihail,BUL,17,11/16/03 0:00,100355,9090149,1 / (1),62.72,mihailminkovbul,m,11/21/20 8:22,11/21/20 8:22
+260,Fricz,Botond Istvan,HUN,19,12/29/00 0:00,90983,9240028,1 / (1),61.68,botond istvanfriczhun,m,11/21/20 8:22,11/21/20 8:22
+261,Biele,Gian Andrin,SUI,17,6/20/03 0:00,88788,9510455,2 / (2),60.67,gian andrinbielesui,m,11/21/20 8:22,11/21/20 8:22
+262,Lunn,Tobias,NOR,,,96211,,3 / (3),60.51,tobiaslunnnor,m,11/21/20 8:22,11/21/20 8:22
+263,Leenderts,Emil,NOR,21,9/17/99 0:00,92106,9420154,1 / (1),60.43,emilleendertsnor,m,11/21/20 8:22,11/21/20 8:22
+264,Choi,Seongjun,KOR,,,100496,,3 / (3),60.31,seongjunchoikor,m,11/21/20 8:22,11/21/20 8:22
+265,Kaku,Shusei,JPN,,,98217,,1 / (1),59.8,shuseikakujpn,m,11/21/20 8:22,11/21/20 8:22
+266,Patronen,Roope,FIN,,,93244,,2 / (2),59.27,roopepatronenfin,m,11/21/20 8:22,11/21/20 8:22
+267,Huber,Niklas,GER,16,4/17/04 0:00,92995,9200181,2 / (2),58.52,niklashuberger,m,11/21/20 8:22,11/21/20 8:22
+268,Legac,Vid,CRO,,,100046,,3 / (8),58.39,vidlegaccro,m,11/21/20 8:22,11/21/20 8:22
+269,Nunez,Jascha,AUT,,,100457,,2 / (2),58.15,jaschanunezaut,m,11/21/20 8:22,11/21/20 8:22
+270,Ogasawara,Senan,JPN,,,96846,9300916,2 / (2),57.7,senanogasawarajpn,m,11/21/20 8:22,11/21/20 8:22
+271,Tourki,Liam,FRA,21,3/25/99 0:00,81604,9190385,1 / (1),57.58,liamtourkifra,m,11/21/20 8:22,11/21/20 8:22
+272,Petrov,Vladislav,RUS,,,100239,9480830,2 / (2),57.14,vladislavpetrovrus,m,11/21/20 8:22,11/21/20 8:22
+273,Doumos,Ioannis,GRE,,,99209,,3 / (4),56.34,ioannisdoumosgre,m,11/21/20 8:22,11/21/20 8:22
+274,Vebra,Gytis,LTU,,,89866,1783067,2 / (2),56.29,gytisvebraltu,m,11/21/20 8:22,11/21/20 8:22
+275,Ulstein,Isak,NOR,22,3/2/98 0:00,82749,9420138,2 / (2),55.95,isakulsteinnor,m,11/21/20 8:22,11/21/20 8:22
+276,Mortenson,Jared,USA,,,98026,,1 / (1),55.93,jaredmortensonusa,m,11/21/20 8:22,11/21/20 8:22
+277,Kakimoto,Yua,JPN,,,96834,,1 / (1),55.54,yuakakimotojpn,m,11/21/20 8:22,11/21/20 8:22
+278,Pecanin,Nedim,BIH,,,90406,9710004,3 / (3),54.82,nedimpecaninbih,m,11/21/20 8:22,11/21/20 8:22
+279,Berdal Holm,Jonas,NOR,,,94621,,2 / (2),54.29,jonasberdal holmnor,m,11/21/20 8:22,11/21/20 8:22
+280,Frischhut,Paul,AUT,,,95051,,2 / (2),54.23,paulfrischhutaut,m,11/21/20 8:22,11/21/20 8:22
+281,Stang,Karis,USA,,,96948,,2 / (2),53.38,karisstangusa,m,11/21/20 8:22,11/21/20 8:22
+282,De Feo,Milco,ITA,,,86574,9290389,2 / (2),53.16,milcode feoita,m,11/21/20 8:22,11/21/20 8:22
+283,Sukke,Niklas,NOR,,,99329,,3 / (3),53.04,niklassukkenor,m,11/21/20 8:22,11/21/20 8:22
+284,Darkov,Marko,MKD,,,98415,,1 / (1),52.95,markodarkovmkd,m,11/21/20 8:22,11/21/20 8:22
+284,Mair,Enzo,ARG,,,94385,,1 / (1),52.95,enzomairarg,m,11/21/20 8:22,11/21/20 8:22
+286,Hovde Pettersen,Adrian,NOR,,,94745,,2 / (2),52.88,adrianhovde pettersennor,m,11/21/20 8:22,11/21/20 8:22
+287,Tsitsos,Christos,GRE,,,99210,,2 / (2),52.01,christostsitsosgre,m,11/21/20 8:22,11/21/20 8:22
+288,Tsuji,Hinata,JPN,,,90216,9300779,1 / (1),51.72,hinatatsujijpn,m,11/21/20 8:22,11/21/20 8:22
+289,Kerschhackl,Marco,ITA,20,9/24/00 0:00,91093,9290368,1 / (1),50.89,marcokerschhacklita,m,11/21/20 8:22,11/21/20 8:22
+290,Goulet,Hunter,USA,,,97647,,1 / (1),50.2,huntergouletusa,m,11/21/20 8:22,11/21/20 8:22
+291,Jaromin,Jan,POL,18,12/5/01 0:00,90873,9430152,2 / (2),50.08,janjarominpol,m,11/21/20 8:22,11/21/20 8:22
+292,NDOUMBE MOUKOURI,Natan,FRA,15,12/2/04 0:00,92797,9190523,3 / (3),49.12,natanndoumbe moukourifra,m,11/21/20 8:22,11/21/20 8:22
+293,Kreienbuehl,Gabriel Tim,SUI,,,91077,,2 / (2),49.03,gabriel timkreienbuehlsui,m,11/21/20 8:22,11/21/20 8:22
+294,Depriest,Brooklyn,USA,14,2/21/06 0:00,96997,,2 / (2),48.91,brooklyndepriestusa,m,11/21/20 8:22,11/21/20 8:22
+295,Miyamura,Yuto,JPN,,,97916,,1 / (1),48.26,yutomiyamurajpn,m,11/21/20 8:22,11/21/20 8:22
+296,Groeneveld,Kai,NED,16,4/27/04 0:00,92837,9400102,2 / (2),48.15,kaigroeneveldned,m,11/21/20 8:22,11/21/20 8:22
+297,Andonov,Bojan,MKD,,,91805,1759990,2 / (2),48.05,bojanandonovmkd,m,11/21/20 8:22,11/21/20 8:22
+298,Stevens,Liam,CAN,23,3/21/97 0:00,86792,9100515,2 / (2),46.42,liamstevenscan,m,11/21/20 8:22,11/21/20 8:22
+299,Alkefjaerd,Daniel,SWE,23,7/13/97 0:00,89248,9500140,2 / (2),46.05,danielalkefjaerdswe,m,11/21/20 8:22,11/21/20 8:22
+300,Lehwald,Lasse,DEN,23,8/29/97 0:00,93003,1174975,2 / (2),46.01,lasselehwaldden,m,11/21/20 8:22,11/21/20 8:22
+301,Behensky,Lukas,AUT,,,97666,,1 / (1),45.85,lukasbehenskyaut,m,11/21/20 8:22,11/21/20 8:22
+302,Menzies,Dane,CAN,15,3/27/05 0:00,92604,9101168,2 / (2),45.78,danemenziescan,m,11/21/20 8:22,11/21/20 8:22
+303,Roll,Bo,NOR,,,98270,,3 / (3),45.08,borollnor,m,11/21/20 8:22,11/21/20 8:22
+304,KRALJ KOS,Max,SLO,,,81399,9560168,1 / (1),44.73,maxkralj kosslo,m,11/21/20 8:22,11/21/20 8:22
+305,Lee,Minsik,KOR,20,7/5/00 0:00,91111,9320133,2 / (0),44.64,minsikleekor,m,11/21/20 8:22,11/21/20 8:22
+306,Bucher,Jeremy,SUI,,,92981,9510487,2 / (2),44.12,jeremybuchersui,m,11/21/20 8:22,11/21/20 8:22
+307,Kristjansson,Egill Gunnar,ISL,,,95745,9250004,1 / (1),43.72,egill gunnarkristjanssonisl,m,11/21/20 8:22,11/21/20 8:22
+308,Kallo,Sami,FIN,,,93249,9180167,3 / (3),43.7,samikallofin,m,11/21/20 8:22,11/21/20 8:22
+309,Baez,Gonzalo Daniel,ARG,,,94383,9030129,2 / (2),43.11,gonzalo danielbaezarg,m,11/21/20 8:22,11/21/20 8:22
+310,Yanez,Benjamin,CHI,17,1/1/03 0:00,82306,9110030,2 / (2),43.03,benjaminyanezchi,m,11/21/20 8:22,11/21/20 8:22
+311,Haefliger,Lars,SUI,,,97424,,2 / (2),42.54,larshaefligersui,m,11/21/20 8:22,11/21/20 8:22
+312,Shirakawa,Mafuyu,JPN,,,81765,9300775,1 / (1),42.23,mafuyushirakawajpn,m,11/21/20 8:22,11/21/20 8:22
+313,Traasdahl Fornes,Anders,NOR,,,100518,,1 / (1),42.23,anderstraasdahl fornesnor,m,11/21/20 8:22,11/21/20 8:22
+314,Figueras,Santiago,ARG,,,92338,9030141,2 / (2),42.04,santiagofiguerasarg,m,11/21/20 8:22,11/21/20 8:22
+315,Moller,Justo,ARG,,,92968,9030140,2 / (2),41.81,justomollerarg,m,11/21/20 8:22,11/21/20 8:22
+316,Bastiaansen,Erik,NED,22,2/23/98 0:00,86114,9400045,1 / (1),41.47,erikbastiaansenned,m,11/21/20 8:22,11/21/20 8:22
+317,Nieto,Leo,FRA,,,92078,9190434,1 / (1),41.42,leonietofra,m,11/21/20 8:22,11/21/20 8:22
+318,Ferry,Lucas,USA,,,85132,9531505,1 / (1),41.25,lucasferryusa,m,11/21/20 8:22,11/21/20 8:22
+319,Christensson,Conner,CAN,18,10/22/02 0:00,96177,9101053,2 / (2),40.76,connerchristenssoncan,m,11/21/20 8:22,11/21/20 8:22
+320,Mikalsen Ostby,Simon,NOR,,,97886,,2 / (2),40.09,simonmikalsen ostbynor,m,11/21/20 8:22,11/21/20 8:22
+321,Comeau,Lucas,CAN,18,8/12/02 0:00,91459,9100941,2 / (2),39.99,lucascomeaucan,m,11/21/20 8:22,11/21/20 8:22
+322,Kim,Taewook,KOR,,,99345,,3 / (3),39.65,taewookkimkor,m,11/21/20 8:22,11/21/20 8:22
+323,Williams,Max,USA,,,94556,9531317,1 / (1),39.6,maxwilliamsusa,m,11/21/20 8:22,11/21/20 8:22
+324,Negishi,Ukyo,JPN,,,96737,9300972,1 / (1),39.57,ukyonegishijpn,m,11/21/20 8:22,11/21/20 8:22
+325,Finnsson,Kolbeinn Thor,ISL,,,97461,9250014,2 / (2),39.54,kolbeinn thorfinnssonisl,m,11/21/20 8:22,11/21/20 8:22
+326,Krauskopf,Tosh,CAN,15,1/16/05 0:00,91393,,3 / (3),39.23,toshkrauskopfcan,m,11/21/20 8:22,11/21/20 8:22
+327,Krogt  Van Der,Mitchell,NED,,,100224,,1 / (1),39.18,mitchellkrogt  van derned,m,11/21/20 8:22,11/21/20 8:22
+328,Kalinin,Kirill,RUS,,,100064,,1 / (1),39.01,kirillkalininrus,m,11/21/20 8:22,11/21/20 8:22
+329,Zisko,Affan,BIH,,,93160,9710009,2 / (2),38.42,affanziskobih,m,11/21/20 8:22,11/21/20 8:22
+330,Buraud,Jules,FRA,,,97374,9190516,1 / (1),38.17,julesburaudfra,m,11/21/20 8:22,11/21/20 8:22
+331,Poulin,Patrice,CAN,20,12/12/99 0:00,92947,9100986,1 / (1),37.8,patricepoulincan,m,11/21/20 8:22,11/21/20 8:22
+332,Tokarczyk,Piotr,POL,29,7/11/91 0:00,78786,9430115,1 / (1),37.53,piotrtokarczykpol,m,11/21/20 8:22,11/21/20 8:22
+333,Kaku,Yusei,JPN,,,98221,9300925,1 / (1),37.1,yuseikakujpn,m,11/21/20 8:22,11/21/20 8:22
+334,Shambo,Grant,USA,,,84582,9531248,1 / (1),37.03,grantshambousa,m,11/21/20 8:22,11/21/20 8:22
+335,Nicholson,Tyler,CAN,25,8/3/95 0:00,83279,9100475,1 / (1),36.97,tylernicholsoncan,m,11/21/20 8:22,11/21/20 8:22
+336,Mikhalevych,Viktor,UKR,,,95814,,1 / (1),36.96,viktormikhalevychukr,m,11/21/20 8:22,11/21/20 8:22
+337,Fairgrieve-Park,Kalin,CAN,20,4/5/00 0:00,91778,9100868,2 / (2),36.61,kalinfairgrieve-parkcan,m,11/21/20 8:22,11/21/20 8:22
+338,Ershov,Petr,RUS,,,94835,,2 / (2),36.54,petrershovrus,m,11/21/20 8:22,11/21/20 8:22
+339,Ohashi,Rikuto,JPN,18,12/5/01 0:00,95027,9300841,1 / (1),36.53,rikutoohashijpn,m,11/21/20 8:22,11/21/20 8:22
+340,Karhila,Roni,FIN,,,95037,9180194,2 / (2),36.45,ronikarhilafin,m,11/21/20 8:22,11/21/20 8:22
+341,Castro,Jaime,ESP,,,94513,9490217,1 / (1),36.4,jaimecastroesp,m,11/21/20 8:22,11/21/20 8:22
+341,Cachat,Juan,FRA,20,5/9/00 0:00,91285,9190452,1 / (1),36.4,juancachatfra,m,11/21/20 8:22,11/21/20 8:22
+343,Rice,Brian,USA,,,98906,,1 / (1),36.32,brianriceusa,m,11/21/20 8:22,11/21/20 8:22
+344,Forin,Guillaume,FRA,,,96343,9190486,1 / (1),35.14,guillaumeforinfra,m,11/21/20 8:22,11/21/20 8:22
+345,Obata,Kaishi,JPN,,,93043,9300909,1 / (1),34.79,kaishiobatajpn,m,11/21/20 8:22,11/21/20 8:22
+346,Rizzi,Giovanni,SUI,,,93567,9510445,2 / (2),34.24,giovannirizzisui,m,11/21/20 8:22,11/21/20 8:22
+347,Virsunen,Juho,FIN,,,96440,,2 / (2),33.83,juhovirsunenfin,m,11/21/20 8:22,11/21/20 8:22
+348,Almqvist,William,SWE,,,84585,9500159,1 / (1),33.53,williamalmqvistswe,m,11/21/20 8:22,11/21/20 8:22
+349,Uporov,Ermolai,RUS,,,100241,,1 / (1),33.53,ermolaiuporovrus,m,11/21/20 8:22,11/21/20 8:22
+350,Cukunde,Arturs,LAT,,,86395,1554959,1 / (1),33.33,arturscukundelat,m,11/21/20 8:22,11/21/20 8:22
+350,Guseli,Valentino,AUS,15,4/1/05 0:00,88527,9040291,1 / (1),33.33,valentinoguseliaus,m,11/21/20 8:22,11/21/20 8:22
+350,Smith,Truth,CAN,16,3/4/04 0:00,91327,9101123,1 / (1),33.33,truthsmithcan,m,11/21/20 8:22,11/21/20 8:22
+353,Stanek,Jarek,FIN,,,97147,,1 / (1),33.13,jarekstanekfin,m,11/21/20 8:22,11/21/20 8:22
+354,Brune Olsen,Anders Johannes,NOR,,,98565,,2 / (2),32.7,anders johannesbrune olsennor,m,11/21/20 8:22,11/21/20 8:22
+355,Kudo,Yamato,JPN,,,91686,9300845,1 / (1),32.61,yamatokudojpn,m,11/21/20 8:22,11/21/20 8:22
+356,Uzpolevicius,Domas,LTU,,,98195,,1 / (1),32.46,domasuzpoleviciusltu,m,11/21/20 8:22,11/21/20 8:22
+357,Wrobel,Evan,USA,,,98929,,1 / (1),32.38,evanwrobelusa,m,11/21/20 8:22,11/21/20 8:22
+358,Stojchevski,Hristijan,MKD,,,99801,,1 / (1),32.3,hristijanstojchevskimkd,m,11/21/20 8:22,11/21/20 8:22
+359,Turpeinen,Tuomas,FIN,,,96431,,2 / (2),32.01,tuomasturpeinenfin,m,11/21/20 8:22,11/21/20 8:22
+360,Klebe-Mcculloch,Dashiell,CAN,,,95445,9101137,2 / (2),31.66,dashiellklebe-mccullochcan,m,11/21/20 8:22,11/21/20 8:22
+361,Choi,Yoonjae,KOR,,,94882,,2 / (2),31.62,yoonjaechoikor,m,11/21/20 8:22,11/21/20 8:22
+362,Kweon,Leejun,KOR,23,10/24/97 0:00,86412,9320093,2 / (2),31.13,leejunkweonkor,m,11/21/20 8:22,11/21/20 8:22
+363,Gao,Xuesong,CHN,,,100092,9120058,1 / (1),31.04,xuesonggaochn,m,11/21/20 8:22,11/21/20 8:22
+364,Klein,Oskar,CAN,19,8/16/01 0:00,88085,9100871,2 / (2),30.44,oskarkleincan,m,11/21/20 8:22,11/21/20 8:22
+365,Hendriks,Lucas,NED,,,99227,,1 / (1),30.38,lucashendriksned,m,11/21/20 8:22,11/21/20 8:22
+366,Parkinson,Jesse,AUS,15,6/28/05 0:00,94288,9040298,2 / (2),30.08,jesseparkinsonaus,m,11/21/20 8:22,11/21/20 8:22
+367,Palissier Roy,Enzo,FRA,,,92778,,3 / (3),29.9,enzopalissier royfra,m,11/21/20 8:22,11/21/20 8:22
+368,Strolz,Timo,SUI,,,91078,9510423,2 / (2),29.52,timostrolzsui,m,11/21/20 8:22,11/21/20 8:22
+369,Grigaitis,Rokas,LTU,,,100093,1783076,2 / (2),29.43,rokasgrigaitisltu,m,11/21/20 8:22,11/21/20 8:22
+370,Aalto,Roni,FIN,,,96435,,1 / (1),29.35,roniaaltofin,m,11/21/20 8:22,11/21/20 8:22
+371,Mawejje,Brolin,USA,,,85974,9531148,2 / (2),28.97,brolinmawejjeusa,m,11/21/20 8:22,11/21/20 8:22
+372,Abe,Jinichiro,JPN,,,96863,9300854,1 / (1),28.58,jinichiroabejpn,m,11/21/20 8:22,11/21/20 8:22
+373,Suikov,Maksim,RUS,,,94554,9480555,1 / (1),28.45,maksimsuikovrus,m,11/21/20 8:22,11/21/20 8:22
+374,Lehner,Elias,SUI,,,95313,,1 / (1),27.94,eliaslehnersui,m,11/21/20 8:22,11/21/20 8:22
+375,Haug,Thorbjorn,NOR,,,99325,,3 / (3),27.81,thorbjornhaugnor,m,11/21/20 8:22,11/21/20 8:22
+376,Cantelon,Jonah,CAN,,,99402,,2 / (2),27.62,jonahcanteloncan,m,11/21/20 8:22,11/21/20 8:22
+377,Garcia Knight,Carlos,NZL,23,5/6/97 0:00,87289,9410042,1 / (1),27.6,carlosgarcia knightnzl,m,11/21/20 8:22,11/21/20 8:22
+378,Huuhtanen,Juhani,FIN,,,93238,,2 / (2),27.35,juhanihuuhtanenfin,m,11/21/20 8:22,11/21/20 8:22
+379,Kim,Hyobin,KOR,,,99344,,3 / (3),27.3,hyobinkimkor,m,11/21/20 8:22,11/21/20 8:22
+380,BAILLY SALIN,Maxime,FRA,,,91557,9190515,1 / (1),27.07,maximebailly salinfra,m,11/21/20 8:22,11/21/20 8:22
+381,Petrusevics,Toms,LAT,28,7/20/92 0:00,88671,1554994,1 / (1),26.98,tomspetrusevicslat,m,11/21/20 8:22,11/21/20 8:22
+382,Arnason,Tomas Orri,ISL,,,96306,9250015,1 / (1),26.78,tomas orriarnasonisl,m,11/21/20 8:22,11/21/20 8:22
+383,Saijo,Kazuki,JPN,,,93680,9300807,1 / (1),26.7,kazukisaijojpn,m,11/21/20 8:22,11/21/20 8:22
+384,Hauschildt,Kian Christopher,BRA,,,99305,,1 / (1),26.41,kian christopherhauschildtbra,m,11/21/20 8:22,11/21/20 8:22
+385,Fitzgerald,Tj,USA,19,9/14/01 0:00,85106,9531271,1 / (1),26.37,tjfitzgeraldusa,m,11/21/20 8:22,11/21/20 8:22
+386,Kauranen,Mitja,FIN,,,93243,,1 / (1),25.75,mitjakauranenfin,m,11/21/20 8:22,11/21/20 8:22
+386,Lee,Hyun-Jun,KOR,,,95239,9320181,1 / (1),25.75,hyun-junleekor,m,11/21/20 8:22,11/21/20 8:22
+388,Putys-Gallagher,Luke,LTU,,,100860,,1 / (1),25.34,lukeputys-gallagherltu,m,11/21/20 8:22,11/21/20 8:22
+389,Tyler,Hayden,USA,,,96979,,1 / (1),25.3,haydentylerusa,m,11/21/20 8:22,11/21/20 8:22
+390,Banados,Felipe,CHI,,,96190,9110026,2 / (2),25.17,felipebanadoschi,m,11/21/20 8:22,11/21/20 8:22
+391,Morii,Miruki,JPN,,,95018,9300944,1 / (1),24.88,mirukimoriijpn,m,11/21/20 8:22,11/21/20 8:22
+392,ROBERTSON-HAHN,Joshua,AUS,,,94284,9040292,1 / (1),24.81,joshuarobertson-hahnaus,m,11/21/20 8:22,11/21/20 8:22
+393,Romani,Lucio,ARG,,,99144,9030147,2 / (2),24.8,lucioromaniarg,m,11/21/20 8:22,11/21/20 8:22
+394,Hafsahl,Storm,NOR,,,97096,,2 / (2),24.71,stormhafsahlnor,m,11/21/20 8:22,11/21/20 8:22
+395,Schuetz,Nicolas,SUI,,,91725,9510483,1 / (1),24.64,nicolasschuetzsui,m,11/21/20 8:22,11/21/20 8:22
+396,Bauer,Raphael,FRA,,,98437,,1 / (1),24.63,raphaelbauerfra,m,11/21/20 8:22,11/21/20 8:22
+397,Eckhardt,Gregory,SUI,,,93665,,2 / (2),24.58,gregoryeckhardtsui,m,11/21/20 8:22,11/21/20 8:22
+398,Golay,Eliot,SUI,,,98301,9510485,1 / (1),24.51,eliotgolaysui,m,11/21/20 8:22,11/21/20 8:22
+399,Granli-Sommerud,Andreas,NOR,,,98271,,3 / (3),24.19,andreasgranli-sommerudnor,m,11/21/20 8:22,11/21/20 8:22
+400,Steffensen,Lasse,NOR,,,93760,,3 / (3),24.14,lassesteffensennor,m,11/21/20 8:22,11/21/20 8:22
+401,Bradic,Bosko,SRB,,,100627,,2 / (2),23.77,boskobradicsrb,m,11/21/20 8:22,11/21/20 8:22
+402,Siadanau,Ihnat,BLR,,,90006,1664923,1 / (1),23.71,ihnatsiadanaublr,m,11/21/20 8:22,11/21/20 8:22
+403,Barin,Cesar,FRA,,,94634,9190550,1 / (1),23.67,cesarbarinfra,m,11/21/20 8:22,11/21/20 8:22
+404,Striukov,Timofei,RUS,,,99570,,1 / (1),23.37,timofeistriukovrus,m,11/21/20 8:22,11/21/20 8:22
+405,Khadarin,Vlad,RUS,22,2/22/98 0:00,87235,9480582,1 / (1),23.16,vladkhadarinrus,m,11/21/20 8:22,11/21/20 8:22
+406,Asaga,Shimpei,JPN,30,5/7/90 0:00,87333,,1 / (1),23.13,shimpeiasagajpn,m,11/21/20 8:22,11/21/20 8:22
+407,Garay,Santiago,ARG,,,100194,9030154,2 / (2),23.08,santiagogarayarg,m,11/21/20 8:22,11/21/20 8:22
+408,Denham,Jake,USA,,,92047,9531233,1 / (1),22.97,jakedenhamusa,m,11/21/20 8:22,11/21/20 8:22
+409,Gustaffson,Tim,NOR,,,98566,,2 / (2),22.86,timgustaffsonnor,m,11/21/20 8:22,11/21/20 8:22
+410,Andenmatten,Mika,SUI,19,9/20/01 0:00,90862,9510425,1 / (1),22.81,mikaandenmattensui,m,11/21/20 8:22,11/21/20 8:22
+411,Petrick,Ryder,CAN,19,3/11/01 0:00,91460,9101032,2 / (2),22.67,ryderpetrickcan,m,11/21/20 8:22,11/21/20 8:22
+412,Mendolia,Facundo Catriel,ARG,,,96047,9030084,1 / (1),22.48,facundo catrielmendoliaarg,m,11/21/20 8:22,11/21/20 8:22
+413,Chemodurov,Yuriy,RUS,30,6/8/90 0:00,88146,9480461,2 / (2),22.13,yuriychemodurovrus,m,11/21/20 8:22,11/21/20 8:22
+414,Bjorgvinsson,Arnar,ISL,,,99041,,1 / (1),21.57,arnarbjorgvinssonisl,m,11/21/20 8:22,11/21/20 8:22
+415,Lauffer,Logan,USA,18,1/24/02 0:00,97567,9531410,1 / (1),21.34,loganlaufferusa,m,11/21/20 8:22,11/21/20 8:22
+416,Chayametisurat,Lubpawath,THA,,,100180,,2 / (2),21.16,lubpawathchayametisurattha,m,11/21/20 8:22,11/21/20 8:22
+417,Arason,Birkir Thor,ISL,,,97456,9250017,2 / (2),21.13,birkir thorarasonisl,m,11/21/20 8:22,11/21/20 8:22
+418,Cinca,Patrick,GER,30,10/11/90 0:00,81690,9200087,1 / (1),21.11,patrickcincager,m,11/21/20 8:22,11/21/20 8:22
+419,Thelen,Axel,FIN,23,11/15/97 0:00,90978,9180154,2 / (2),21.1,axelthelenfin,m,11/21/20 8:22,11/21/20 8:22
+420,Pundins,Janis,LAT,,,100029,,1 / (1),21.01,janispundinslat,m,11/21/20 8:22,11/21/20 8:22
+421,Machtans,Ben,CAN,17,10/16/03 0:00,95446,9101117,1 / (1),20.97,benmachtanscan,m,11/21/20 8:22,11/21/20 8:22
+422,Riley,Sam,USA,,,98709,9531512,1 / (1),20.85,samrileyusa,m,11/21/20 8:22,11/21/20 8:22
+423,Markov,Nikolay,RUS,,,100244,9480829,2 / (2),20.71,nikolaymarkovrus,m,11/21/20 8:22,11/21/20 8:22
+424,Cockrell,Billy,GBR,21,1/30/99 0:00,82368,9220101,1 / (1),20.64,billycockrellgbr,m,11/21/20 8:22,11/21/20 8:22
+425,Gennero,Lorenzo,ITA,23,6/30/97 0:00,86558,9290295,1 / (1),20.34,lorenzogenneroita,m,11/21/20 8:22,11/21/20 8:22
+426,Banados,Vicente,CHI,,,96049,9110018,1 / (1),20.16,vicentebanadoschi,m,11/21/20 8:22,11/21/20 8:22
+427,Bouzanne,Gabin,FRA,,,96541,9190549,1 / (1),20.04,gabinbouzannefra,m,11/21/20 8:22,11/21/20 8:22
+428,Stepanov,Peresvet,RUS,,,100240,9480835,2 / (2),19.89,peresvetstepanovrus,m,11/21/20 8:22,11/21/20 8:22
+429,Mukai,Takeru,JPN,,,95175,9300966,1 / (1),19.76,takerumukaijpn,m,11/21/20 8:22,11/21/20 8:22
+430,Leuenberger,Lukas,SUI,,,93059,,1 / (1),19.7,lukasleuenbergersui,m,11/21/20 8:22,11/21/20 8:22
+431,Malcolm,George,CAN,19,11/3/01 0:00,94673,9100976,2 / (2),19.64,georgemalcolmcan,m,11/21/20 8:22,11/21/20 8:22
+432,Mork Danielsen,Jonas,NOR,,,98372,,2 / (2),19.63,jonasmork danielsennor,m,11/21/20 8:22,11/21/20 8:22
+433,Repo,Kalle,FIN,,,95032,,1 / (1),19.51,kallerepofin,m,11/21/20 8:22,11/21/20 8:22
+434,Fenning,Lenny,GBR,,,96540,,1 / (1),19.51,lennyfenninggbr,m,11/21/20 8:22,11/21/20 8:22
+435,Hietikko,Jere,FIN,,,93960,,1 / (1),19.4,jerehietikkofin,m,11/21/20 8:22,11/21/20 8:22
+436,Hed,Olle,SWE,,,87980,9500170,1 / (1),19.39,ollehedswe,m,11/21/20 8:22,11/21/20 8:22
+436,Kervinen,Nooa,FIN,,,94160,9180193,1 / (1),19.39,nooakervinenfin,m,11/21/20 8:22,11/21/20 8:22
+438,Jonsson,Bjartur Snaer,ISL,,,97442,9250059,1 / (1),19.34,bjartur snaerjonssonisl,m,11/21/20 8:22,11/21/20 8:22
+439,Kronlund,Stian,NOR,18,12/25/01 0:00,93191,,2 / (2),19.23,stiankronlundnor,m,11/21/20 8:22,11/21/20 8:22
+440,Urbanski,Patryk,POL,,,87044,9430185,1 / (1),19.07,patrykurbanskipol,m,11/21/20 8:22,11/21/20 8:22
+441,Chen,Maxson,AUS,,,92310,9040299,3 / (3),18.81,maxsonchenaus,m,11/21/20 8:22,11/21/20 8:22
+442,Stepanov,Daniil,RUS,,,99569,,1 / (1),18.32,daniilstepanovrus,m,11/21/20 8:22,11/21/20 8:22
+443,Konuma,Haruka,JPN,,,96727,,1 / (1),18.13,harukakonumajpn,m,11/21/20 8:22,11/21/20 8:22
+444,Coletti,Anzo,FRA,,,100546,,1 / (1),17.86,anzocolettifra,m,11/21/20 8:22,11/21/20 8:22
+445,Muhonen,Anton,SWE,,,94027,9500164,1 / (1),17.83,antonmuhonenswe,m,11/21/20 8:22,11/21/20 8:22
+446,Scherrer,Ian,CAN,19,2/27/01 0:00,96220,,1 / (1),17.38,ianscherrercan,m,11/21/20 8:22,11/21/20 8:22
+447,Odinsson,Hafsteinn Heimir,ISL,,,99031,,1 / (1),17.31,hafsteinn heimirodinssonisl,m,11/21/20 8:22,11/21/20 8:22
+447,Modesti,Michael,CAN,19,7/12/01 0:00,91040,9100907,2 / (2),17.31,michaelmodestican,m,11/21/20 8:22,11/21/20 8:22
+449,Hagen,Haavard,NOR,,,94620,,2 / (2),17,haavardhagennor,m,11/21/20 8:22,11/21/20 8:22
+450,Canniccioni,Julien,CAN,17,1/28/03 0:00,96657,9101031,1 / (1),16.97,juliencanniccionican,m,11/21/20 8:22,11/21/20 8:22
+451,Ocariz,Francisco,ARG,,,100184,9030144,2 / (2),16.65,franciscoocarizarg,m,11/21/20 8:22,11/21/20 8:22
+452,Martin,Kade,USA,,,96973,,2 / (2),16.53,kademartinusa,m,11/21/20 8:22,11/21/20 8:22
+453,Drechsler,Carl Maria,GER,,,96282,,1 / (1),16.53,carl mariadrechslerger,m,11/21/20 8:22,11/21/20 8:22
+453,Uehara,Takuya,JPN,29,3/28/91 0:00,95026,9300846,1 / (1),16.53,takuyaueharajpn,m,11/21/20 8:22,11/21/20 8:22
+455,Lecroy,Kolman,USA,,,96120,9531366,1 / (1),16.52,kolmanlecroyusa,m,11/21/20 8:22,11/21/20 8:22
+456,Capodiferro,Alessio,SUI,,,97624,9510464,1 / (1),16.42,alessiocapodiferrosui,m,11/21/20 8:22,11/21/20 8:22
+457,Guisolan,Aristide,SUI,,,97621,9510465,1 / (1),16.15,aristideguisolansui,m,11/21/20 8:22,11/21/20 8:22
+458,Jozsa,Martin,SVK,,,99083,,1 / (1),15.73,martinjozsasvk,m,11/21/20 8:22,11/21/20 8:22
+459,Laminie,Theo,FRA,,,97373,9190510,1 / (1),15.73,theolaminiefra,m,11/21/20 8:22,11/21/20 8:22
+460,Zhang,Jiahao,CHN,,,90959,1124972,1 / (1),15.73,jiahaozhangchn,m,11/21/20 8:22,11/21/20 8:22
+461,Hlynsson,Reynar,ISL,,,95750,,1 / (1),15.46,reynarhlynssonisl,m,11/21/20 8:22,11/21/20 8:22
+462,Dumins,Eduards,LAT,,,100030,,1 / (1),15.38,eduardsduminslat,m,11/21/20 8:22,11/21/20 8:22
+463,Wijnstra,Thom,NED,,,100225,,1 / (1),15.17,thomwijnstraned,m,11/21/20 8:22,11/21/20 8:22
+464,Skvoznyakov,Efim,RUS,,,100237,9480831,1 / (1),15.05,efimskvoznyakovrus,m,11/21/20 8:22,11/21/20 8:22
+464,Sigel,Gus,USA,,,98708,,1 / (1),15.05,gussigelusa,m,11/21/20 8:22,11/21/20 8:22
+464,Erkaev,Konstantin,RUS,,,78038,9480386,1 / (1),15.05,konstantinerkaevrus,m,11/21/20 8:22,11/21/20 8:22
+467,Graikos,Dimitrios,GRE,,,99211,,2 / (2),15,dimitriosgraikosgre,m,11/21/20 8:22,11/21/20 8:22
+468,Hiraoka,Keitaro,JPN,21,11/27/98 0:00,87120,9300730,1 / (1),14.96,keitarohiraokajpn,m,11/21/20 8:22,11/21/20 8:22
+469,Matt,Landen,USA,,,98897,,1 / (1),14.92,landenmattusa,m,11/21/20 8:22,11/21/20 8:22
+470,Johansson,Borgthor Omar,ISL,,,96991,,1 / (1),14.73,borgthor omarjohanssonisl,m,11/21/20 8:22,11/21/20 8:22
+471,Clara Ventosa,Jan,ESP,,,100858,,1 / (1),14.51,janclara ventosaesp,m,11/21/20 8:22,11/21/20 8:22
+472,Perroud,Timothy,SUI,,,96445,9510442,1 / (1),14.51,timothyperroudsui,m,11/21/20 8:22,11/21/20 8:22
+473,Karafyllias,Drosos,GRE,,,100631,,3 / (4),14.41,drososkarafylliasgre,m,11/21/20 8:22,11/21/20 8:22
+474,Leutola Diaz,Lucas,FIN,,,100608,,1 / (1),14.22,lucasleutola diazfin,m,11/21/20 8:22,11/21/20 8:22
+475,Teksle,Petter,NOR,,,96873,,2 / (2),14.12,pettertekslenor,m,11/21/20 8:22,11/21/20 8:22
+476,Gioia,Tomas,ARG,,,100195,,2 / (2),14.1,tomasgioiaarg,m,11/21/20 8:22,11/21/20 8:22
+477,Aubergy,Pall Rist,ISL,,,97450,9250053,1 / (1),13.75,pall ristaubergyisl,m,11/21/20 8:22,11/21/20 8:22
+478,Abadlia,Marouane,FRA,,,95691,,1 / (1),13.66,marouaneabadliafra,m,11/21/20 8:22,11/21/20 8:22
+478,Dunaux,Benjamin,FRA,,,78350,9190344,1 / (1),13.66,benjamindunauxfra,m,11/21/20 8:22,11/21/20 8:22
+480,Sverresvold,Julian,NOR,,,100717,,1 / (1),13.49,juliansverresvoldnor,m,11/21/20 8:22,11/21/20 8:22
+481,Sequeira,Gabriel,CAN,,,99445,,1 / (1),13.28,gabrielsequeiracan,m,11/21/20 8:22,11/21/20 8:22
+482,Roy,Liam,CAN,,,91632,,1 / (1),13.21,liamroycan,m,11/21/20 8:22,11/21/20 8:22
+483,Wirth,Joschka,GER,,,101031,,1 / (1),13,joschkawirthger,m,11/21/20 8:22,11/21/20 8:22
+483,Radulovic,Ognjen,SRB,,,100626,,2 / (2),13,ognjenradulovicsrb,m,11/21/20 8:22,11/21/20 8:22
+485,Karoliussen,Petter,NOR,,,97692,,1 / (1),12.74,petterkaroliussennor,m,11/21/20 8:22,11/21/20 8:22
+486,Durand,Alois,GER,16,12/2/03 0:00,91590,9200184,2 / (2),12.47,aloisdurandger,m,11/21/20 8:22,11/21/20 8:22
+487,Lee,Hyun-Su,KOR,,,99258,,1 / (1),12.25,hyun-suleekor,m,11/21/20 8:22,11/21/20 8:22
+488,Arnarsson,Skirnir Dadi,ISL,,,95744,,1 / (1),12.16,skirnir dadiarnarssonisl,m,11/21/20 8:22,11/21/20 8:22
+489,Mather,Samuel,CAN,17,10/15/03 0:00,95450,9101146,2 / (2),12,samuelmathercan,m,11/21/20 8:22,11/21/20 8:22
+490,Kleivdal,Morten,NOR,29,3/13/91 0:00,71775,9420061,1 / (1),11.91,mortenkleivdalnor,m,11/21/20 8:22,11/21/20 8:22
+491,Minamiya,Hanato,JPN,,,98219,,1 / (1),11.87,hanatominamiyajpn,m,11/21/20 8:22,11/21/20 8:22
+492,Ahola,Niko,FIN,,,97145,,1 / (1),11.85,nikoaholafin,m,11/21/20 8:22,11/21/20 8:22
+492,Lee,Byung-Yun,KOR,,,96475,9320188,1 / (1),11.85,byung-yunleekor,m,11/21/20 8:22,11/21/20 8:22
+494,Chomlack,Caleb,CAN,16,6/10/04 0:00,91323,9101193,1 / (1),11.81,calebchomlackcan,m,11/21/20 8:22,11/21/20 8:22
+495,St‰dler,Jonas,SUI,,,98319,,1 / (1),11.48,jonasst‰dlersui,m,11/21/20 8:22,11/21/20 8:22
+496,Knellwolf,Andrin,SUI,,,92982,9510508,1 / (1),11.25,andrinknellwolfsui,m,11/21/20 8:22,11/21/20 8:22
+497,Paunonen,Arttu,FIN,,,97146,,1 / (1),11.25,arttupaunonenfin,m,11/21/20 8:22,11/21/20 8:22
+498,Levy,Griffin,CAN,,,93631,9101210,1 / (1),11.05,griffinlevycan,m,11/21/20 8:22,11/21/20 8:22
+499,Steen Ahlstrom,Oliver,NOR,,,99324,,2 / (2),10.86,oliversteen ahlstromnor,m,11/21/20 8:22,11/21/20 8:22
+500,Hagen,Ole Christian,NOR,25,6/7/95 0:00,81726,,1 / (1),10.75,ole christianhagennor,m,11/21/20 8:22,11/21/20 8:22
+501,Gudmundsson,Astvaldur Ari,ISL,,,99042,,1 / (1),10.67,astvaldur arigudmundssonisl,m,11/21/20 8:22,11/21/20 8:22
+502,Sakamoto,Rento,JPN,,,95300,,1 / (1),10.35,rentosakamotojpn,m,11/21/20 8:22,11/21/20 8:22
+503,Fantuz,Dawson,CAN,17,7/26/03 0:00,96214,9101078,1 / (1),10.29,dawsonfantuzcan,m,11/21/20 8:22,11/21/20 8:22
+504,Eibl,Maxwell,CAN,16,9/24/04 0:00,97856,9101223,1 / (1),10.09,maxwelleiblcan,m,11/21/20 8:22,11/21/20 8:22
+505,Willemsen,Jesse,NED,,,98443,,1 / (1),10.08,jessewillemsenned,m,11/21/20 8:22,11/21/20 8:22
+506,Rokosh,Max,CAN,,,91990,9101145,1 / (1),10.06,maxrokoshcan,m,11/21/20 8:22,11/21/20 8:22
+507,Vasarajs,Arturs,LAT,,,88756,1554987,1 / (1),10.02,artursvasarajslat,m,11/21/20 8:22,11/21/20 8:22
+508,Barth,Ivan,ARG,,,99143,,2 / (2),9.97,ivanbartharg,m,11/21/20 8:22,11/21/20 8:22
+509,Burch,Dario,SUI,23,3/15/97 0:00,82504,9510348,1 / (1),9.84,darioburchsui,m,11/21/20 8:22,11/21/20 8:22
+510,Yin,Kai,FIN,,,100607,,1 / (1),9.63,kaiyinfin,m,11/21/20 8:22,11/21/20 8:22
+511,Pardo,Falcundo,ARG,,,94370,9030117,1 / (1),9.62,falcundopardoarg,m,11/21/20 8:22,11/21/20 8:22
+512,Roberts,Ocean,AUS,19,3/6/01 0:00,92306,9040263,2 / (2),9.59,oceanrobertsaus,m,11/21/20 8:22,11/21/20 8:22
+513,Burns,Owen,CAN,17,5/11/03 0:00,92619,9101056,1 / (1),9.55,owenburnscan,m,11/21/20 8:22,11/21/20 8:22
+514,Garcia Sune,Manel,AND,,,100855,,1 / (1),9.35,manelgarcia suneand,m,11/21/20 8:22,11/21/20 8:22
+515,Zabela,Siarhei,BLR,,,100833,,1 / (1),9.28,siarheizabelablr,m,11/21/20 8:22,11/21/20 8:22
+516,Thoroddsson,Arnor Dagur,ISL,,,100025,9250061,1 / (1),9.28,arnor dagurthoroddssonisl,m,11/21/20 8:22,11/21/20 8:22
+517,Fujiya,Ryoji,JPN,,,95431,9300935,1 / (1),8.85,ryojifujiyajpn,m,11/21/20 8:22,11/21/20 8:22
+518,Argue,Chase,CAN,,,99356,,1 / (1),8.64,chasearguecan,m,11/21/20 8:22,11/21/20 8:22
+519,Harding,Jimmy,AUS,,,94309,,1 / (1),8.63,jimmyhardingaus,m,11/21/20 8:22,11/21/20 8:22
+520,Dale Nyqvist,Alexander,NOR,,,100438,,1 / (1),8.33,alexanderdale nyqvistnor,m,11/21/20 8:22,11/21/20 8:22
+521,Marchesi,Luis,SUI,,,98607,,1 / (1),8.2,luismarchesisui,m,11/21/20 8:22,11/21/20 8:22
+522,Cigovski,Maksim,MKD,,,100623,,1 / (1),8.19,maksimcigovskimkd,m,11/21/20 8:22,11/21/20 8:22
+523,Koppenberg,Luca,SUI,,,91730,9510477,1 / (1),8.03,lucakoppenbergsui,m,11/21/20 8:22,11/21/20 8:22
+524,Klapfenberger,Tobias,GER,,,98007,,1 / (1),8.02,tobiasklapfenbergerger,m,11/21/20 8:22,11/21/20 8:22
+525,Moon,Jaxson,USA,,,98937,,2 / (2),7.68,jaxsonmoonusa,m,11/21/20 8:22,11/21/20 8:22
+526,Ostergaard,Maximilian,DEN,,,100066,,1 / (1),7.66,maximilianostergaardden,m,11/21/20 8:22,11/21/20 8:22
+526,Authier,Mathis,FRA,,,100702,,1 / (1),7.66,mathisauthierfra,m,11/21/20 8:22,11/21/20 8:22
+528,Iivonen,Martti,FIN,,,93962,,1 / (1),7.53,marttiiivonenfin,m,11/21/20 8:22,11/21/20 8:22
+529,Chen,Vinson,AUS,,,92299,9040300,2 / (2),7.52,vinsonchenaus,m,11/21/20 8:22,11/21/20 8:22
+530,Okajima,Daia,JPN,,,96714,9300969,1 / (1),7.35,daiaokajimajpn,m,11/21/20 8:22,11/21/20 8:22
+531,Eckert,Coltan,CAN,17,10/6/03 0:00,94849,,1 / (1),7.32,coltaneckertcan,m,11/21/20 8:22,11/21/20 8:22
+532,Steed,Jackson,CAN,,,96312,,1 / (1),7.26,jacksonsteedcan,m,11/21/20 8:22,11/21/20 8:22
+533,Ulseth Sylte,Vegard,NOR,,,100615,,1 / (1),7.1,vegardulseth syltenor,m,11/21/20 8:22,11/21/20 8:22
+534,Vargdal,Sigurd,NOR,,,95251,9420162,1 / (1),7,sigurdvargdalnor,m,11/21/20 8:22,11/21/20 8:22
+535,Ok,Ho-gwang,KOR,22,3/23/98 0:00,91107,9320118,1 / (1),7,ho-gwangokkor,m,11/21/20 8:22,11/21/20 8:22
+536,Da Cruz Antequera,Mario,AND,,,92759,9020043,1 / (1),6.91,marioda cruz antequeraand,m,11/21/20 8:22,11/21/20 8:22
+537,Olafsson,Stefan Jon,ISL,,,100024,9250072,1 / (1),6.69,stefan jonolafssonisl,m,11/21/20 8:22,11/21/20 8:22
+538,Baumann,Moreno,SUI,,,93664,9510462,1 / (1),6.56,morenobaumannsui,m,11/21/20 8:22,11/21/20 8:22
+539,Asmundsson,Einar Agust,NOR,,,95134,,1 / (1),6.51,einar agustasmundssonnor,m,11/21/20 8:22,11/21/20 8:22
+540,He,Wei,CHN,,,99703,,1 / (1),6.15,weihechn,m,11/21/20 8:22,11/21/20 8:22
+541,Zverina,Petr,CZE,,,94191,,1 / (1),6.15,petrzverinacze,m,11/21/20 8:22,11/21/20 8:22
+542,Brown,Nayte,CAN,,,99362,,1 / (1),5.94,naytebrowncan,m,11/21/20 8:22,11/21/20 8:22
+543,Bottcher,Thore,NOR,,,100714,,1 / (1),5.89,thorebottchernor,m,11/21/20 8:22,11/21/20 8:22
+544,Matsumoto,Sota,JPN,,,99272,,1 / (1),5.87,sotamatsumotojpn,m,11/21/20 8:22,11/21/20 8:22
+545,Delignieres,Eliott,FRA,,,100071,,1 / (1),5.71,eliottdelignieresfra,m,11/21/20 8:22,11/21/20 8:22
+545,Martinez,Louis,FRA,,,100545,,1 / (1),5.71,louismartinezfra,m,11/21/20 8:22,11/21/20 8:22
+547,Sigfusson,Bjorn Andri,ISL,,,99032,,1 / (1),5.48,bjorn andrisigfussonisl,m,11/21/20 8:22,11/21/20 8:22
+548,Wang,Liwen,CHN,,,96903,1124984,1 / (1),5.43,liwenwangchn,m,11/21/20 8:22,11/21/20 8:22
+549,Lodjinovic,Veljko,SRB,,,100628,,1 / (1),5.37,veljkolodjinovicsrb,m,11/21/20 8:22,11/21/20 8:22
+550,Freitas,Jaden,USA,16,7/20/04 0:00,98018,,1 / (1),5.11,jadenfreitasusa,m,11/21/20 8:22,11/21/20 8:22
+551,Brunner,Pawel,SUI,,,99776,,1 / (1),4.92,pawelbrunnersui,m,11/21/20 8:22,11/21/20 8:22
+552,Brieze,Markuss,LAT,,,88865,,1 / (1),4.91,markussbriezelat,m,11/21/20 8:22,11/21/20 8:22
+553,Broadbent,Noel,SUI,,,98361,,1 / (1),4.8,noelbroadbentsui,m,11/21/20 8:22,11/21/20 8:22
+554,Gaulin Sorensen,Theodor,NOR,,,100716,,1 / (1),4.69,theodorgaulin sorensennor,m,11/21/20 8:22,11/21/20 8:22
+555,Nakai,Hiroto,JPN,,,98168,,1 / (1),4.67,hirotonakaijpn,m,11/21/20 8:22,11/21/20 8:22
+556,Barcons Antunes,Max,AND,,,100856,,1 / (1),4.55,maxbarcons antunesand,m,11/21/20 8:22,11/21/20 8:22
+557,Sigurdsson,Oddur Vilberg,ISL,,,95748,9250002,1 / (1),4.32,oddur vilbergsigurdssonisl,m,11/21/20 8:22,11/21/20 8:22
+558,MacAulay,Spencer,CAN,17,1/14/03 0:00,96170,9101034,1 / (1),4.18,spencermacaulaycan,m,11/21/20 8:22,11/21/20 8:22
+559,Hrstka,Ladislav,CZE,19,11/14/01 0:00,81043,9150165,2 / (2),3.83,ladislavhrstkacze,m,11/21/20 8:22,11/21/20 8:22
+560,Thieffenat,Tim,FRA,,,100073,,1 / (1),3.79,timthieffenatfra,m,11/21/20 8:22,11/21/20 8:22
+560,Naskov,Kiril,MKD,,,101043,,1 / (1),3.79,kirilnaskovmkd,m,11/21/20 8:22,11/21/20 8:22
+560,Leleu,Achille,FRA,,,100699,,1 / (1),3.79,achilleleleufra,m,11/21/20 8:22,11/21/20 8:22
+563,Arshinov,Platon,RUS,,,100238,,1 / (1),3.55,platonarshinovrus,m,11/21/20 8:22,11/21/20 8:22
+563,Avtaneev,Nikita,RUS,25,3/9/95 0:00,86316,9480374,1 / (1),3.55,nikitaavtaneevrus,m,11/21/20 8:22,11/21/20 8:22
+565,McHatten,Colton,CAN,,,100476,,1 / (1),3.45,coltonmchattencan,m,11/21/20 8:22,11/21/20 8:22
+566,Sjurseth Berg,Petter,NOR,,,88822,,1 / (1),3.43,pettersjurseth bergnor,m,11/21/20 8:22,11/21/20 8:22
+567,Pickard,Andrew,BEL,,,98309,,1 / (1),3.2,andrewpickardbel,m,11/21/20 8:22,11/21/20 8:22
+568,Haraldsson,Hlynur Atli,ISL,,,99044,,1 / (1),3.2,hlynur atliharaldssonisl,m,11/21/20 8:22,11/21/20 8:22
+569,Tomabechi,Shu,JPN,,,100598,,1 / (1),2.92,shutomabechijpn,m,11/21/20 8:22,11/21/20 8:22
+570,Layzell,Chase,CAN,19,11/7/01 0:00,92549,9100899,1 / (1),2.77,chaselayzellcan,m,11/21/20 8:22,11/21/20 8:22
+571,Seljenes,Liam,NOR,,,94622,,1 / (1),2.33,liamseljenesnor,m,11/21/20 8:22,11/21/20 8:22
+572,Gipiskis,Jonas,LTU,,,100094,1783075,1 / (1),2.32,jonasgipiskisltu,m,11/21/20 8:22,11/21/20 8:22
+573,Sandblom,Shayne,USA,,,97832,9531481,1 / (1),2.27,shaynesandblomusa,m,11/21/20 8:22,11/21/20 8:22
+574,Lopez Arruebo,Xavier,AND,,,92757,9020040,1 / (1),2.25,xavierlopez arrueboand,m,11/21/20 8:22,11/21/20 8:22
+575,Holzinger,Dominik,AUT,,,97724,9050175,1 / (1),2.17,dominikholzingeraut,m,11/21/20 8:22,11/21/20 8:22
+576,Marteinsson,Magnthor Oddur,ISL,,,98281,9250022,1 / (1),2.11,magnthor oddurmarteinssonisl,m,11/21/20 8:22,11/21/20 8:22
+577,Frey,Emil,GER,,,98658,,1 / (1),1.97,emilfreyger,m,11/21/20 8:22,11/21/20 8:22
+578,Rodriguez,Joaquin,ARG,,,94365,9030118,1 / (1),1.89,joaquinrodriguezarg,m,11/21/20 8:22,11/21/20 8:22
+579,Joensuu,Topias,FIN,,,96438,,1 / (1),1.78,topiasjoensuufin,m,11/21/20 8:22,11/21/20 8:22
+580,Schroeter,Gion,SUI,,,98363,,1 / (1),1.64,gionschroetersui,m,11/21/20 8:22,11/21/20 8:22
+581,Gustaffson,Tim Olof,NOR,,,99328,,1 / (1),1.54,tim olofgustaffsonnor,m,11/21/20 8:22,11/21/20 8:22
+582,Mukai,Kaito,JPN,,,95180,,1 / (1),1.46,kaitomukaijpn,m,11/21/20 8:22,11/21/20 8:22
+583,Lech-Hernes,Leonard,NOR,,,100437,,1 / (1),1.16,leonardlech-hernesnor,m,11/21/20 8:22,11/21/20 8:22
+584,Petursson,Ivan Otri,ISL,,,100023,,1 / (1),1.04,ivan otripeturssonisl,m,11/21/20 8:22,11/21/20 8:22
+585,Miskiman,Sean,CAN,20,5/3/00 0:00,87792,9100751,1 / (1),0.76,seanmiskimancan,m,11/21/20 8:22,11/21/20 8:22
