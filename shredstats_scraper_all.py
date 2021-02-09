@@ -325,6 +325,5 @@ for i in range(page_total): # for each page
         page_next = driver.find_element_by_class_name('next')
         page_next.click()
 
-
 f.close()  # Close the file
 driver.quit()
