@@ -1,3 +1,16 @@
+#########################################
+#########################################
+# 1. Activate pipenv shell
+# -- pipenv shell
+# 2. Run Python Script
+# -- python *filename*
+# 3. End python script
+# -- ctr c
+# 4. Exit pipenv shell
+# -- exit
+#########################################
+
+
 #imports
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -7,7 +20,6 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException as ex
 # import time
 from bs4 import BeautifulSoup
-# source venv/bin/activate
 # import pandas as pd
 # import re
 # import os
